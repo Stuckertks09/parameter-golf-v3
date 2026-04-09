@@ -1,0 +1,528 @@
+=== SUMMARY ===
+docs_analyzed: 10000
+baseline_total_tokens: 12402473
+custom_total_tokens: 12435473
+token_ratio_custom_over_baseline: 1.0026607596726878
+token_delta_total: 33000
+fallback_token_total: 3515202
+fallback_char_total: 3503509
+fallback_token_share_of_custom: 0.28267537551647615
+improved_doc_count: 3498
+worse_doc_count: 6011
+same_doc_count: 491
+improved_doc_share: 0.3498
+worse_doc_share: 0.6011
+mean_delta: 3.3
+median_delta: 3.0
+p95_delta: 29.0
+p99_delta: 75.01000000000022
+worst100_mean_delta: 171.25
+scalar_score_higher_is_better: -49429.75188622215
+
+=== TOP DOCS BY DELTA ===
+
+doc=1455 delta=1292 baseline=45797 custom=47089 ratio=1.028211 fallback_tokens=15189 fallback_chars=15179 fallback_spans=7692 fallback_token_share=0.322559
+preview=Santiago has run off, taking the lantern with him, leaving Nan in the darkness of the third floor hall, just outside the Sunset Room. The heavy, ragged breathing and shuffling footsteps have gone quiet. All that remains 
+
+doc=4976 delta=1057 baseline=19849 custom=20906 ratio=1.053252 fallback_tokens=8735 fallback_chars=8735 fallback_spans=4166 fallback_token_share=0.417823
+preview=Newspaper Page Text THE DAILY ARGUS I JOHN W. POTTER. Satcrdat. Jahcary 25, 18IK). The system of ballot reform advocated tj Got. Abbett. of New Jersey, provides for the registration of every voter; abso lute secrecy of t
+
+doc=4358 delta=682 baseline=10430 custom=11112 ratio=1.065388 fallback_tokens=4582 fallback_chars=4580 fallback_spans=2130 fallback_token_share=0.412347
+preview=Newspaper Page Text S.ip and think (1f this a itlnne. ut waii t I l use I_ l best Iuainl that yoV can It y: I we vant i I soi[ y , I the I .I I int made. The Important Thing to You Is Who Made the Paint? I itl I t \, Ilo
+
+doc=7255 delta=468 baseline=26647 custom=27115 ratio=1.017563 fallback_tokens=7338 fallback_chars=7334 fallback_spans=4257 fallback_token_share=0.270625
+preview=Driven to Desire Challenge Genre: Romance/ Drama Word Count: 12,621 Pairing: Edward and Bella Summary: My only love sprung from my only hate, but this is no Romeo and Juliet story. I discover that with Edward, there is a
+
+doc=71 delta=468 baseline=12386 custom=12854 ratio=1.037785 fallback_tokens=6184 fallback_chars=6181 fallback_spans=2196 fallback_token_share=0.481095
+preview=THE JOCKEY CLUB’S TERMS AND CONDITIONS OF USE FOR REGISTRY.JOCKEYCLUB.COM PLEASE READ THIS DOCUMENT CAREFULLY BEFORE ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM. BY ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM OR THOROUGHBR
+
+doc=9217 delta=432 baseline=13407 custom=13839 ratio=1.032222 fallback_tokens=5152 fallback_chars=5152 fallback_spans=2498 fallback_token_share=0.372281
+preview=DUMA HOLDS SECOND HEARING ON CHECHNYA. The State Duma commission investigating the causes of the Chechen war examined Dzhokhar Dudaev's fall 1991 rise to power, Interfax reported on 20 March. Sergei Bekov, Chechnya's for
+
+doc=2478 delta=389 baseline=10823 custom=11212 ratio=1.035942 fallback_tokens=3656 fallback_chars=3651 fallback_spans=1798 fallback_token_share=0.326079
+preview=1. Use of these Web Conditions 1.1. These general terms and conditions ('Web Conditions') set out Your rights and obligations, and those of the National Trust Group (as defined below) in relation to this website and its 
+
+doc=5201 delta=372 baseline=6658 custom=7030 ratio=1.055873 fallback_tokens=2406 fallback_chars=2406 fallback_spans=1311 fallback_token_share=0.342248
+preview=This reference-like tutorial is aimed at Emacs beginners and probably others too. If you know how to do some basic editing and navigation in Emacs and want to quickly go through more of its capabilities, then this tutori
+
+doc=6222 delta=360 baseline=7333 custom=7693 ratio=1.049093 fallback_tokens=3606 fallback_chars=3604 fallback_spans=1378 fallback_token_share=0.468738
+preview=Senior Otaku+ | Posted 01/11/11 | Reply Hello, captain kuchiki. I'm Kyori. It's a pleasure to finally meet you. I'm a big fan of you and I hope that your squad is doing well. Love Always, Kyori. Otakuite+ | Posted 09/18/
+
+doc=1979 delta=329 baseline=32096 custom=32425 ratio=1.010250 fallback_tokens=12021 fallback_chars=12021 fallback_spans=5768 fallback_token_share=0.370732
+preview=|Madhya-lila||Chapter 9: Lord Sri Caitanya Mahaprabhu's Travels to the Holy Places| Bhaktivedanta VedaBase: Sri Caitanya Caritamrita CC Madhya 9 Summary CC Madhya 9.1: Lord Sri Caitanya Mahaprabhu converted the inhabitan
+
+doc=8275 delta=292 baseline=3408 custom=3700 ratio=1.085681 fallback_tokens=2066 fallback_chars=2066 fallback_spans=517 fallback_token_share=0.558378
+preview=To send in your Neopets related poems or to find out more about the poetry contest, click here! The best poems get put on the site and earn 1,000 Neopoints, a RARE ITEM, and a Trophy for the author's trophy cabinet. You 
+
+doc=6598 delta=269 baseline=7744 custom=8013 ratio=1.034737 fallback_tokens=1827 fallback_chars=1827 fallback_spans=1283 fallback_token_share=0.228004
+preview=Steven and I had gone to a wedding on Saturday Dec. 10th where I was feeling very tired. I tried to have a drink but my stomach couldn’t take it. I felt “off”, so a couple days later on Dec. 12th we decided to do a pregn
+
+doc=5594 delta=267 baseline=13766 custom=14033 ratio=1.019396 fallback_tokens=4683 fallback_chars=4657 fallback_spans=2285 fallback_token_share=0.333713
+preview=John de Lancie (born March 20, 1948) is an American actor. He has been active in screen and television roles since 1977, though he is best known for his recurring role as Q on the various Star Trek series and as Frank Si
+
+doc=6843 delta=255 baseline=14608 custom=14863 ratio=1.017456 fallback_tokens=3809 fallback_chars=3808 fallback_spans=2379 fallback_token_share=0.256274
+preview=Maintaining Irrigation Pumps, Motors, and Engines This publication explains how to maintain irrigation pumps, motors, and engines for peak efficiency. The publication includes descriptions and diagrams of recommended ins
+
+doc=7078 delta=246 baseline=10947 custom=11193 ratio=1.022472 fallback_tokens=4407 fallback_chars=4407 fallback_spans=2280 fallback_token_share=0.393728
+preview=THE QUOTABLE FRED ASTAIRE Size: 16.82 x 26 cm 2000 Biographical Quotations by and about the world's greatest dancer: Dance Legend, Dancing Icon Ask George Balanchine. Ask Mikhail Baryshnikov. Ask James Cagney. Ask Bob Fo
+
+doc=286 delta=242 baseline=7676 custom=7918 ratio=1.031527 fallback_tokens=2407 fallback_chars=2389 fallback_spans=1540 fallback_token_share=0.303991
+preview=Sign Up | Log In BLUE SUN ROOM FAN FICTION - GENERAL Cameron explains things and begins to bond with River. CATEGORY: FICTION TIMES READ: 972 RATING: 9 SERIES: FIREFLY Fan fiction. Done for fun, not profit. The Plot Bunn
+
+doc=8211 delta=227 baseline=4967 custom=5194 ratio=1.045702 fallback_tokens=1376 fallback_chars=1376 fallback_spans=931 fallback_token_share=0.264921
+preview=far can a joke on Hip-Hop go? According to Ivan Matias, far enough. Matias is the wizard behind the invention and rhymes of Jason Caushun Herndon, Hip-Hops first openly gay rapper. Garnering media attention for an openly
+
+doc=2204 delta=212 baseline=3525 custom=3737 ratio=1.060142 fallback_tokens=1028 fallback_chars=1027 fallback_spans=653 fallback_token_share=0.275087
+preview=What is a veterinary dermatologist? Dermatological diseases are very commonplace accounting for many of the cases a small animal practitioner examines each day. Unfortunately, many of these dermatological disorders can l
+
+doc=3482 delta=205 baseline=5513 custom=5718 ratio=1.037185 fallback_tokens=1529 fallback_chars=1529 fallback_spans=924 fallback_token_share=0.267401
+preview=Police Internal Investigations Auditing Committee November 12, 1999 (Approved December 9, 1999) Citizen Advisors Present: Charles Ford, Presiding; Ric Alexander; Gene Bales; Leora Mahoney; Jose Martinez; Dapo Sobomehin; 
+
+doc=281 delta=198 baseline=5643 custom=5841 ratio=1.035088 fallback_tokens=3119 fallback_chars=3104 fallback_spans=1021 fallback_token_share=0.533984
+preview=|Navigation » Global Information Technology (UK) Ltd. » download EarthMediaCenter online music radio free| Multimedia > Video > Digital tv & radio EarthMediaCenter online music radio 1.0 EarthMediaCenter: 150 music radio
+
+doc=9839 delta=194 baseline=9820 custom=10014 ratio=1.019756 fallback_tokens=2740 fallback_chars=2740 fallback_spans=1757 fallback_token_share=0.273617
+preview=Stop and Reverse Hair Loss in Women Caused by Low Iron Levels vs Underactive Thyroid vs Insulin Resistance and Inflammation Edited by Donna, Eng, Doug Collins, Inukshuk - 1 Determine the Underlying Cause of Your Hair Los
+
+doc=4059 delta=186 baseline=4031 custom=4217 ratio=1.046142 fallback_tokens=2150 fallback_chars=2079 fallback_spans=841 fallback_token_share=0.509841
+preview=Sony 7.1 Channel Black 3D AV Receiver, Model STRDH720 Entertainment at its finest. Take full advantage of the STR-DH720's 7.1-channels of surround sound with a 3D A/V receiver capable of upscaling your media from analog 
+
+doc=6784 delta=183 baseline=18035 custom=18218 ratio=1.010147 fallback_tokens=5629 fallback_chars=5629 fallback_spans=3003 fallback_token_share=0.308980
+preview=Christian Church (Disciples of Christ) ||This article's lead section may not adequately summarize key points of its contents. (June 2015)| |Christian Church (Disciples of Christ)| Logo: The chalice with the Cross of St A
+
+doc=6979 delta=183 baseline=7807 custom=7990 ratio=1.023441 fallback_tokens=3014 fallback_chars=2995 fallback_spans=1183 fallback_token_share=0.377222
+preview=Pictured here is Blackrock Castle in Cork city, one of the most iconic and well known castles in Cork. It is built in an impressive position right on the banks of the River Lee a mere 2km from the city center. It dates b
+
+doc=8442 delta=182 baseline=7969 custom=8151 ratio=1.022838 fallback_tokens=2971 fallback_chars=2896 fallback_spans=1601 fallback_token_share=0.364495
+preview=AGNES f English, German, Dutch, Swedish, Norwegian, Danish, Icelandic, Ancient Greek (Latinized) Latinized form of the Greek name ‘Αγνη (Hagne) , derived from Greek ‘αγνος (hagnos) meaning "chaste". Saint Agnes was a vir
+
+doc=4807 delta=177 baseline=4155 custom=4332 ratio=1.042599 fallback_tokens=1182 fallback_chars=1179 fallback_spans=728 fallback_token_share=0.272853
+preview=Interview With Jontho from Ragnarok Interview By Anders Sandvall Here is an interview with Jontho, the drummer from the Norwegian black metal band Ragnarok, about their new album, Blackdoor Miracle and about their plans 
+
+doc=1860 delta=176 baseline=2790 custom=2966 ratio=1.063082 fallback_tokens=1024 fallback_chars=1020 fallback_spans=513 fallback_token_share=0.345246
+preview=Clinic Set for May 12 6 CE Credits • Howard County Fairgrounds • West Friendship, MD If you are a practitioner of small animal or equine veterinary medicine, this is a premier opportunity for continuing education, busine
+
+doc=1679 delta=172 baseline=8181 custom=8353 ratio=1.021024 fallback_tokens=2980 fallback_chars=2980 fallback_spans=1556 fallback_token_share=0.356758
+preview=Information for Researchers Scope and Content Title: Ella Sterling Mighels papers Date (inclusive): 1870-1934 Collection Number: MS 1470 Mighels, Ella Sterling, 1853-1934 California Historical Society 678 Mission Street 
+
+doc=1328 delta=172 baseline=1768 custom=1940 ratio=1.097285 fallback_tokens=579 fallback_chars=579 fallback_spans=355 fallback_token_share=0.298454
+preview=Mutual funds and other investment companies are often labeled by the objectives they hope to accomplish, such as current income or growth. Mutual fund families may have a number of different funds available to meet vario
+
+doc=3467 delta=148 baseline=3049 custom=3197 ratio=1.048541 fallback_tokens=817 fallback_chars=816 fallback_spans=528 fallback_token_share=0.255552
+preview=Terms & Conditions These booking terms and conditions are applicable to Tailor Made Holidays Holiday Deals 2 Go is a trading name of Broadway Travel who is an ABTA retail travel agent and as such acts as an intermediary 
+
+doc=4424 delta=146 baseline=3552 custom=3698 ratio=1.041104 fallback_tokens=1259 fallback_chars=1256 fallback_spans=716 fallback_token_share=0.340454
+preview=Book your room at Le Royal Meridien Beach Resort And Spa Please enter your travel dates. Dubai beach resort near The Emirates Golf Club With a stay at Le Royal Meridien Beach Resort And Spa in Dubai (Jumeirah Beach Resid
+
+doc=473 delta=146 baseline=3362 custom=3508 ratio=1.043427 fallback_tokens=1008 fallback_chars=1003 fallback_spans=629 fallback_token_share=0.287343
+preview=[ A.K.A SEKMINËS – Seventh Sunday after Easter In Lithuania and in neighboring countries, traditions of Pentecost are related with the end of sowing and the start of summer labors. This is a spring gathering and shepherd
+
+doc=1908 delta=142 baseline=2013 custom=2155 ratio=1.070541 fallback_tokens=646 fallback_chars=627 fallback_spans=349 fallback_token_share=0.299768
+preview=| Rubén Darío -Lo fatal- | jueves, 14 de septiembre de 2006 A René Pérez Dichoso el árbol, que es apenas sensitivo, y más la piedra dura porque esa ya no siente, pues no hay dolor más grande que el dolor de ser vivo, ni 
+
+doc=8859 delta=140 baseline=1745 custom=1885 ratio=1.080229 fallback_tokens=597 fallback_chars=595 fallback_spans=371 fallback_token_share=0.316711
+preview=Who the Heck Was Columbus? Italians have him, but other ethnic groups may want to stake a claim. Or maybe not. By Michael Aaron Rockland Each October, we celebrate Co- lumbus Day. Children celebrate because they have no 
+
+doc=7708 delta=137 baseline=9315 custom=9452 ratio=1.014707 fallback_tokens=3359 fallback_chars=3359 fallback_spans=1526 fallback_token_share=0.355375
+preview=Welcome to the City of Shawnee Oklahoma Online City Hall. If you are a City of Shawnee Citizen, be sure to visit the Citizens Guide for quick access to information you need. If you are not a Shawnee Citizen check out the
+
+doc=4665 delta=136 baseline=6745 custom=6881 ratio=1.020163 fallback_tokens=2456 fallback_chars=2433 fallback_spans=1543 fallback_token_share=0.356925
+preview=Food and Drink Food and Drink - 119 Pins Pumpkin Crunch Cake Desserts, Dump Cake, Recipe, Pumpkin Crunches Cake, Food, Yummy, Pumpkin Crunch Cake, Cake I, Pumpkin Pies Pumpkin Crunch Cake - Cook'n is Fun - Food Recipes, 
+
+doc=6161 delta=135 baseline=11514 custom=11649 ratio=1.011725 fallback_tokens=3807 fallback_chars=3806 fallback_spans=1880 fallback_token_share=0.326809
+preview=to beautiful Fernie, British Columbia and thank you for staying with Fernie Lodging Company. If there is anything we can do to make your stay more comfortable, please let us know. We invite you to enjoy our many amenitie
+
+doc=4619 delta=134 baseline=4782 custom=4916 ratio=1.028022 fallback_tokens=2212 fallback_chars=2212 fallback_spans=903 fallback_token_share=0.449959
+preview=The Titanium Dog Tag is one of our best selling products because it is lightweight, durable, and hypoallergenic. Titanium Dog Tag Red with Oval Chain Number of Reviews: 310, Reviewer: Ron L. Thu Feb 26, 2015: Necklace is
+
+doc=2338 delta=134 baseline=3724 custom=3858 ratio=1.035983 fallback_tokens=1079 fallback_chars=1074 fallback_spans=712 fallback_token_share=0.279679
+preview=Disease surveillance and control of vector to protect climate The Daily Star climate change is caused by the accumulation of "green-house" gases in the lower atmosphere. The concentration of these gases is increasing mai
+
+doc=5969 delta=132 baseline=23571 custom=23703 ratio=1.005600 fallback_tokens=6894 fallback_chars=6894 fallback_spans=4307 fallback_token_share=0.290849
+preview=The No. 10 player in the nation scheduled a visit to Akron's campus for April 18. Despite offers from the likes of Kentucky, Ohio State, Pitt and Tennessee, Akron's campus is Adriean Payne's only scheduled visit. Payne i
+
+doc=9867 delta=131 baseline=6732 custom=6863 ratio=1.019459 fallback_tokens=2490 fallback_chars=2477 fallback_spans=1299 fallback_token_share=0.362815
+preview=Tekken Fantasy Movie Castby kjcollinskc | created - 01 Dec 2015 | updated - 01 Dec 2015 | Public Actor | Shi mian mai fu The 1/2 Taiwanese and 1/2 Japanese Takeshi Kaneshiro may have started out as a puerile teen idol in
+
+doc=29 delta=129 baseline=6079 custom=6208 ratio=1.021221 fallback_tokens=2064 fallback_chars=2064 fallback_spans=1150 fallback_token_share=0.332474
+preview=Historic Sites in Journalism Postmark deadline for nominations: March 20 Download nomination form Click here to download the nomination form. Complete List of Historic Sites The Silverton Standard & the Miner Read press 
+
+doc=7385 delta=126 baseline=6124 custom=6250 ratio=1.020575 fallback_tokens=2245 fallback_chars=2244 fallback_spans=1052 fallback_token_share=0.359200
+preview=- The report contains detailed information about Matrix Composites & Engineering Limited that gives an unrivalled in-depth knowledge about internal business-environment of the company: data about the owners, senior execu
+
+doc=3010 delta=125 baseline=6217 custom=6342 ratio=1.020106 fallback_tokens=2350 fallback_chars=2348 fallback_spans=1358 fallback_token_share=0.370546
+preview=Places I’d Like to Go Places I’d Like to Go - 33 Pins Breckenridge HAS to be the prettiest place in Colorado in the winter! The village is so quaint and lovely to see!! Ski Resorts, Breckenridge Colorado, Mountain, Favor
+
+doc=6863 delta=121 baseline=6306 custom=6427 ratio=1.019188 fallback_tokens=1582 fallback_chars=1582 fallback_spans=998 fallback_token_share=0.246149
+preview=You yawn, sitting back in your chair and lazily contemplating finishing up the paperwork still due for the latest case you've been working on… and then instead you Accio the Daily Prophet, flip to the back page, and star
+
+doc=6370 delta=121 baseline=1989 custom=2110 ratio=1.060835 fallback_tokens=663 fallback_chars=661 fallback_spans=384 fallback_token_share=0.314218
+preview=How to use the highest part of something The tops of the mountains were still covered with snow. She could only just see over the tops of their heads. at the top (of) something He was standing at the top of the stairs. W
+
+doc=2695 delta=117 baseline=4149 custom=4266 ratio=1.028200 fallback_tokens=1466 fallback_chars=1466 fallback_spans=829 fallback_token_share=0.343647
+preview=Feb. 25, 2013 Around the Nation By Sean Ryan & Phil Stanton pitchers often are ahead of the hitters early in the season. Four staffs that entered the season as diverse as the other – Cal State Fullerton, Louisville, Vand
+
+doc=7435 delta=117 baseline=3075 custom=3192 ratio=1.038049 fallback_tokens=1072 fallback_chars=1072 fallback_spans=588 fallback_token_share=0.335840
+preview=in the 1970's weren't told to wear seat belts, let alone have their own special car seats. Quite a few seventies vehicles did come with seat belts fitted, but state laws didn't require you to use them until the 1980's or
+
+doc=2998 delta=116 baseline=4851 custom=4967 ratio=1.023913 fallback_tokens=1777 fallback_chars=1777 fallback_spans=893 fallback_token_share=0.357761
+preview=Being Mrs. Bella Black Bella Black is married to a hunky, beautiful man named Jacob. What happens when mysterious things start to threaten their marriage? Rating 0/5 Word Count 2094 Review this Chapter It was midnight, a
+
+doc=2541 delta=114 baseline=5021 custom=5135 ratio=1.022705 fallback_tokens=1650 fallback_chars=1630 fallback_spans=911 fallback_token_share=0.321324
+preview=I Love You Like A Fat Lady Loves Apples Happy Valentine's Day my love. I brought you some apples, eat until your heart's content. A collaboration between Geoffrey Lillemon & Random Studio. Activating Your Intuition There
+
+=== TOP DOCS BY FALLBACK TOKEN COUNT ===
+
+doc=9452 fallback_tokens=47147 delta=-1281 baseline=115821 custom=114540 fallback_chars=47147 fallback_spans=19802 fallback_token_share=0.411620
+preview=This item is only available as the following downloads: Serving Wakulla County For More Than A Century Our 118th Year, 28th Issue Thursday, July 11, 2013 T w o S e c t i o n s Two Sections 7 5 C e n t s 75 Cents kulla Co
+
+doc=1455 fallback_tokens=15189 delta=1292 baseline=45797 custom=47089 fallback_chars=15179 fallback_spans=7692 fallback_token_share=0.322559
+preview=Santiago has run off, taking the lantern with him, leaving Nan in the darkness of the third floor hall, just outside the Sunset Room. The heavy, ragged breathing and shuffling footsteps have gone quiet. All that remains 
+
+doc=2974 fallback_tokens=13348 delta=48 baseline=47156 custom=47204 fallback_chars=13330 fallback_spans=7618 fallback_token_share=0.282773
+preview=US 5396417 A A data collection device and method, particularly for point-of-sale systems used in the sales and rental of merchandise including video records, and more particularly for a revenue-sharing video record renta
+
+doc=2035 fallback_tokens=12023 delta=-548 baseline=42806 custom=42258 fallback_chars=12023 fallback_spans=7090 fallback_token_share=0.284514
+preview=PAYNE v. TENNESSEE CERTIORARI TO THE SUPREME COURT OF TENNESSEE Argued April 24, 1991 Decided June 27, 1991 Petitioner Payne was convicted by a Tennessee jury of the first-degree murders of Charisse Christopher and her 2
+
+doc=1979 fallback_tokens=12021 delta=329 baseline=32096 custom=32425 fallback_chars=12021 fallback_spans=5768 fallback_token_share=0.370732
+preview=|Madhya-lila||Chapter 9: Lord Sri Caitanya Mahaprabhu's Travels to the Holy Places| Bhaktivedanta VedaBase: Sri Caitanya Caritamrita CC Madhya 9 Summary CC Madhya 9.1: Lord Sri Caitanya Mahaprabhu converted the inhabitan
+
+doc=954 fallback_tokens=10345 delta=-359 baseline=35583 custom=35224 fallback_chars=10345 fallback_spans=5970 fallback_token_share=0.293692
+preview=1 Wednesday, 15 December 2004 2 [Open session] 3 [The accused entered court] 4 --- Upon commencing at 2.53 p.m. 5 JUDGE ORIE: Madam Registrar, would you please call the case. 6 THE REGISTRAR: Case number IT-00-39-T, the 
+
+doc=6893 fallback_tokens=9937 delta=-254 baseline=30619 custom=30365 fallback_chars=9935 fallback_spans=4560 fallback_token_share=0.327252
+preview=|Publication number||US7206844 B2| |Application number||US 10/875,905| |Publication date||Apr 17, 2007| |Filing date||Jun 24, 2004| |Priority date||Jun 29, 1998| |Also published as||US6446109, US6868448, US20010039565, U
+
+doc=6402 fallback_tokens=9598 delta=-268 baseline=31402 custom=31134 fallback_chars=9583 fallback_spans=5437 fallback_token_share=0.308280
+preview=Modeling the electric field and images in electric fish contributes to a better understanding of the pre-receptor conditioning of electric images. Although the boundary element method has been very successful for calcula
+
+doc=2186 fallback_tokens=8883 delta=-73 baseline=27012 custom=26939 fallback_chars=8778 fallback_spans=4908 fallback_token_share=0.329745
+preview=Leah A. BILYEU, Plaintiff-counter-defendant Appellant, v. MORGAN STANLEY LONG TERM DISABILITY PLAN; Morgan Stanley Long Term Disability Plan Administrator, Defendants–Appellees, First Unum Life Insurance Company, Defenda
+
+doc=4976 fallback_tokens=8735 delta=1057 baseline=19849 custom=20906 fallback_chars=8735 fallback_spans=4166 fallback_token_share=0.417823
+preview=Newspaper Page Text THE DAILY ARGUS I JOHN W. POTTER. Satcrdat. Jahcary 25, 18IK). The system of ballot reform advocated tj Got. Abbett. of New Jersey, provides for the registration of every voter; abso lute secrecy of t
+
+doc=3986 fallback_tokens=8609 delta=-138 baseline=30711 custom=30573 fallback_chars=8609 fallback_spans=5125 fallback_token_share=0.281588
+preview=Welcome Comrades to the 25th Edition of the ConquerClub Dispatch! Well it's been 1 year since the newsletter started and 25 editions of the newsletter have been pumped out. It's been interesting watching the newsletter e
+
+doc=4500 fallback_tokens=8555 delta=-267 baseline=27465 custom=27198 fallback_chars=8548 fallback_spans=4877 fallback_token_share=0.314545
+preview=Please, post suggestions and improvements only. "I can't understand line xxx could you improve it?" is acceptable and will be addressed if pointed out. Just don't turn this into a Q&A thread. ----------------------------
+
+doc=321 fallback_tokens=8225 delta=-143 baseline=18742 custom=18599 fallback_chars=8173 fallback_spans=3999 fallback_token_share=0.442228
+preview=Larry Kim, Founder and Chief Technology Officer Larry Kim founded WordStream in 2007. He bootstrapped the company by providing internet consulting services while funding/managing a team of engineers and marketers to deve
+
+doc=632 fallback_tokens=7597 delta=-143 baseline=26773 custom=26630 fallback_chars=7379 fallback_spans=4349 fallback_token_share=0.285280
+preview=Visible Minorities under the Canadian Employment Equity Act, 1987-1999 Harish C. Jain MGD School of Business, John J. Lawler Institute of Labour and Industrial Relations, University of Illinois at Urbana-Champaign, This 
+
+doc=8288 fallback_tokens=7438 delta=-64 baseline=32052 custom=31988 fallback_chars=7438 fallback_spans=5217 fallback_token_share=0.232525
+preview=Friday, December 22, 2006 Thursday, December 21, 2006 But after having a brief conversation with a fellow Catholic (who lives in Alberta), I feel compelled to tell the whole story. So here it is. When my friend was study
+
+doc=7255 fallback_tokens=7338 delta=468 baseline=26647 custom=27115 fallback_chars=7334 fallback_spans=4257 fallback_token_share=0.270625
+preview=Driven to Desire Challenge Genre: Romance/ Drama Word Count: 12,621 Pairing: Edward and Bella Summary: My only love sprung from my only hate, but this is no Romeo and Juliet story. I discover that with Edward, there is a
+
+doc=5969 fallback_tokens=6894 delta=132 baseline=23571 custom=23703 fallback_chars=6894 fallback_spans=4307 fallback_token_share=0.290849
+preview=The No. 10 player in the nation scheduled a visit to Akron's campus for April 18. Despite offers from the likes of Kentucky, Ohio State, Pitt and Tennessee, Akron's campus is Adriean Payne's only scheduled visit. Payne i
+
+doc=1669 fallback_tokens=6887 delta=53 baseline=28874 custom=28927 fallback_chars=6885 fallback_spans=4990 fallback_token_share=0.238082
+preview=A/N: AHHH!!! it's finally done! this monster of a chapter is FINALLY done! i am so so sorry that it took so long. i won't even list the excuses i could give. i'm tired of typing. 12,710 freaking words. i didn't think tha
+
+doc=3966 fallback_tokens=6560 delta=-195 baseline=24331 custom=24136 fallback_chars=6552 fallback_spans=4001 fallback_token_share=0.271793
+preview=Not Completely Worthless Reviewed by Barry R. Bickmore When Stephen Robinson and Craig Blomberg wrote How Wide the Divide? A Mormon and an Evangelical in Conversation, they covered a lot of ground and were obviously limi
+
+doc=1258 fallback_tokens=6438 delta=84 baseline=16177 custom=16261 fallback_chars=6429 fallback_spans=2788 fallback_token_share=0.395917
+preview=|1 ||A disgrace.| |Posted on Saturday May 11, 2013, 17:03 by Sir N.Paul Hills| |Er... a curious absence of Malle, Pasolini, Straub-Huillet, Carne, Rohmer, Rivette, Fassbinder, Hou, Kiarostami, Tarr... the list goes on. I
+
+doc=2571 fallback_tokens=6256 delta=113 baseline=19586 custom=19699 fallback_chars=6234 fallback_spans=3496 fallback_token_share=0.317580
+preview=Kimberley, Northern Cape City centre seen over the Big Hole |• Total||164.3 km2 (63.4 sq mi)| |Elevation||1,184 m (3,885 ft)| |• Density||1,400/km2 (3,500/sq mi)| |Racial makeup (2011)| |• Black African||63.1%| |First la
+
+doc=71 fallback_tokens=6184 delta=468 baseline=12386 custom=12854 fallback_chars=6181 fallback_spans=2196 fallback_token_share=0.481095
+preview=THE JOCKEY CLUB’S TERMS AND CONDITIONS OF USE FOR REGISTRY.JOCKEYCLUB.COM PLEASE READ THIS DOCUMENT CAREFULLY BEFORE ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM. BY ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM OR THOROUGHBR
+
+doc=4414 fallback_tokens=5775 delta=-237 baseline=26661 custom=26424 fallback_chars=5775 fallback_spans=3861 fallback_token_share=0.218551
+preview=Part IV: Faster Than Light Travel--Concepts and Their "Problems" This is Part IV of the "Relativity and FTL Travel" FAQ. It discusses the various problems involved with FTL travel and how they apply to particular FTL con
+
+doc=6784 fallback_tokens=5629 delta=183 baseline=18035 custom=18218 fallback_chars=5629 fallback_spans=3003 fallback_token_share=0.308980
+preview=Christian Church (Disciples of Christ) ||This article's lead section may not adequately summarize key points of its contents. (June 2015)| |Christian Church (Disciples of Christ)| Logo: The chalice with the Cross of St A
+
+doc=6266 fallback_tokens=5563 delta=56 baseline=15334 custom=15390 fallback_chars=5419 fallback_spans=2788 fallback_token_share=0.361468
+preview=Sociedade Esportiva Palmeiras |This article needs additional citations for verification. (January 2016) (Learn how and when to remove this template message)| |Full name||Sociedade Esportiva Palmeiras| |Nickname(s)||Alviv
+
+doc=4032 fallback_tokens=5524 delta=-147 baseline=24103 custom=23956 fallback_chars=5505 fallback_spans=3829 fallback_token_share=0.230589
+preview=Revolutionary History, Vol.1 No.2, Summer 1988. Used by permission. Commencing with a slander campaign the Stalinists did not hesitate to move into action for the physical destruction of the revolutionaries. We wish to t
+
+doc=3165 fallback_tokens=5389 delta=23 baseline=10913 custom=10936 fallback_chars=5387 fallback_spans=1828 fallback_token_share=0.492776
+preview=Talk:Problems with SATA and Linux - 1 I did everything and system drive still does not respond to hdparm -i or hdparm -d1 - 2 updated libata_passthru.patch - 3 ATA_ENABLE_PATA PCI IDs - 4 DVD DMA with ide/sata as module 
+
+doc=9217 fallback_tokens=5152 delta=432 baseline=13407 custom=13839 fallback_chars=5152 fallback_spans=2498 fallback_token_share=0.372281
+preview=DUMA HOLDS SECOND HEARING ON CHECHNYA. The State Duma commission investigating the causes of the Chechen war examined Dzhokhar Dudaev's fall 1991 rise to power, Interfax reported on 20 March. Sergei Bekov, Chechnya's for
+
+doc=4211 fallback_tokens=5075 delta=35 baseline=15507 custom=15542 fallback_chars=5070 fallback_spans=2878 fallback_token_share=0.326535
+preview=Utopia, Limited; or, The Flowers of Progress, is a Savoy Opera, with music by Arthur Sullivan and libretto by W. S. Gilbert. It was the second-to-last of Gilbert and Sullivan's fourteen collaborations, premiering on 7 Oc
+
+doc=6341 fallback_tokens=5072 delta=-117 baseline=17666 custom=17549 fallback_chars=5069 fallback_spans=2980 fallback_token_share=0.289019
+preview=Ring distributions leading to species formation: a global topographic analysis of geographic barriers associated with ring species © Monahan et al; licensee BioMed Central Ltd. 2012 Received: 16 November 2011 Accepted: 1
+
+doc=1857 fallback_tokens=4888 delta=18 baseline=12378 custom=12396 fallback_chars=4888 fallback_spans=2232 fallback_token_share=0.394321
+preview=rbldnsd is a small DNS-protocol daemon which is designed to handle queries to DNS-based IP-listing or NAME-listing services. Such services are a simple way to share/publish a list of IP addresses or (domain) names which 
+
+doc=5594 fallback_tokens=4683 delta=267 baseline=13766 custom=14033 fallback_chars=4657 fallback_spans=2285 fallback_token_share=0.333713
+preview=John de Lancie (born March 20, 1948) is an American actor. He has been active in screen and television roles since 1977, though he is best known for his recurring role as Q on the various Star Trek series and as Frank Si
+
+doc=7724 fallback_tokens=4660 delta=-26 baseline=11897 custom=11871 fallback_chars=4634 fallback_spans=1923 fallback_token_share=0.392553
+preview=Please provide an official email address. Please provide the name of the company that owns the rights to this video. We will call to confirm the DMCA request. Please tell us more about your DMCA request. Which company ow
+
+doc=8530 fallback_tokens=4631 delta=-103 baseline=19977 custom=19874 fallback_chars=4621 fallback_spans=3104 fallback_token_share=0.233018
+preview=Almost seventy years have passed since the events of chapter 1 of Daniel. Nebuchadnezzar himself had died in 562 B.C. Daniel does not record his immediate successors, and extrabiblical literature is somewhat confused. A 
+
+doc=4358 fallback_tokens=4582 delta=682 baseline=10430 custom=11112 fallback_chars=4580 fallback_spans=2130 fallback_token_share=0.412347
+preview=Newspaper Page Text S.ip and think (1f this a itlnne. ut waii t I l use I_ l best Iuainl that yoV can It y: I we vant i I soi[ y , I the I .I I int made. The Important Thing to You Is Who Made the Paint? I itl I t \, Ilo
+
+doc=1352 fallback_tokens=4572 delta=83 baseline=15642 custom=15725 fallback_chars=4572 fallback_spans=2615 fallback_token_share=0.290747
+preview=Well; now that the bailout appears to have flamed out we see the stock market dropping faster than Larry Craig's boxers in airport men's room (what? hey, it's just an analogy!). In conversations over the weekend ( I was 
+
+doc=6468 fallback_tokens=4546 delta=-143 baseline=17044 custom=16901 fallback_chars=4502 fallback_spans=2788 fallback_token_share=0.268978
+preview=“Global hegemony” might be defined as a situation in which one nation-state plays a predominant role in organizing, regulating, and stabilizing the world political economy. The use of armed force has always been an insep
+
+doc=5250 fallback_tokens=4543 delta=67 baseline=20861 custom=20928 fallback_chars=4542 fallback_spans=3396 fallback_token_share=0.217078
+preview=After sixteen hours on the bus, I arrived in Tulsa, Oklahoma just before noon on a hot July day determined to find Charlie, actually Charlotte, but that’s not what I called her. I flew into Chicago and then took the long
+
+doc=5179 fallback_tokens=4522 delta=-133 baseline=16466 custom=16333 fallback_chars=4376 fallback_spans=2619 fallback_token_share=0.276863
+preview=This action might not be possible to undo. Are you sure you want to continue? Introduction Health examination is not complete without the oral health assessment. Regular assessment of dental diseases have been seen to be
+
+doc=5775 fallback_tokens=4482 delta=-1 baseline=18984 custom=18983 fallback_chars=4479 fallback_spans=2951 fallback_token_share=0.236106
+preview=On August 12, 2002 the Bishops Committee for Ecumenical and Interreligious Affairs, USCCB and the National Council of Synagogues published a document, Reflections on Covenant and Mission, consisting of separate Roman Cat
+
+doc=2931 fallback_tokens=4421 delta=-40 baseline=12731 custom=12691 fallback_chars=4421 fallback_spans=2333 fallback_token_share=0.348357
+preview=Latest Team Rankings Free Rivals Alerts |ShopMobileRadio RSSRivals.com Yahoo! Sports| |College Teams||High Schools| February 6, 2013 Bulldogs sign 20 prospects Mississippi State added 20 members to its 2013 football team
+
+doc=7078 fallback_tokens=4407 delta=246 baseline=10947 custom=11193 fallback_chars=4407 fallback_spans=2280 fallback_token_share=0.393728
+preview=THE QUOTABLE FRED ASTAIRE Size: 16.82 x 26 cm 2000 Biographical Quotations by and about the world's greatest dancer: Dance Legend, Dancing Icon Ask George Balanchine. Ask Mikhail Baryshnikov. Ask James Cagney. Ask Bob Fo
+
+doc=5283 fallback_tokens=4124 delta=-176 baseline=18789 custom=18613 fallback_chars=4120 fallback_spans=2901 fallback_token_share=0.221566
+preview=Given at a conference of cardinals and bishops held in Rome, December 17, 2010. The author is auxiliary bishop of Karaganda, Kazakhstan. The primacy of the worship of God as the basis of all true pastoral theology. I. Th
+
+doc=4860 fallback_tokens=4101 delta=38 baseline=12307 custom=12345 fallback_chars=4044 fallback_spans=2042 fallback_token_share=0.332199
+preview=Effect of CPAP on insulin resistance and HbA1c in men with obstructive sleep apnoea and type 2 diabetes - 1Sleep Unit, Oxford Centre for Respiratory Medicine, Churchill Hospital, Oxford, UK - 2Oxford Centre for Diabetes,
+
+doc=1898 fallback_tokens=4096 delta=5 baseline=11564 custom=11569 fallback_chars=3990 fallback_spans=1904 fallback_token_share=0.354050
+preview=UEFA Euro 2012 |Mistrzostwa Europy w Piłce Nożnej 2012 Чемпіонат Європи з футболу 2012 UEFA Euro 2012 official logo |Dates||8 June – 1 July| |Venue(s)||8 (in 8 host cities)| |Champions||Spain (3rd title)| |Goals scored||
+
+doc=4459 fallback_tokens=4065 delta=-21 baseline=14795 custom=14774 fallback_chars=4059 fallback_spans=2617 fallback_token_share=0.275146
+preview=Brette Barrouquere (AP) reports the latest on Steven D. Green accused of being the ringleader, murderer and gang-rapist in the slaying of 14-year-old Abeer Qassim al-Janabi. The prosecution and the defense will do their 
+
+doc=5999 fallback_tokens=4009 delta=-153 baseline=14711 custom=14558 fallback_chars=3996 fallback_spans=2411 fallback_token_share=0.275381
+preview=Both blunted osteocytic production of the Wnt inhibitor sclerostin (Scl) and increased T-cell production of the Wnt ligand Wnt10b contribute to the bone anabolic activity of intermittent parathyroid hormone (iPTH) treatm
+
+doc=9515 fallback_tokens=3990 delta=-78 baseline=15788 custom=15710 fallback_chars=3986 fallback_spans=2630 fallback_token_share=0.253978
+preview=Applying mild electrical currents to your head could take away pain, help memory and improve attention – and the US military is very interested. Emma Young reports. In the summer of 2010, Ryan Clark twisted his ankle dur
+
+doc=6937 fallback_tokens=3983 delta=-129 baseline=16677 custom=16548 fallback_chars=3983 fallback_spans=2588 fallback_token_share=0.240694
+preview=Cat PDA Vs. Human PDA, And Other Animal Behavior Explained From feisty kittens to pacing cheetahs, Vint Virga knows animal behavior. A veterinarian who specializes in behavioral medicine, Virga has treated many household
+
+doc=1214 fallback_tokens=3951 delta=-77 baseline=10961 custom=10884 fallback_chars=3951 fallback_spans=1684 fallback_token_share=0.363010
+preview=NO PURCHASE NECESSARY TO ENTER OR WIN. MAKING A PURCHASE DOES NOT INCREASE YOUR CHANCES OF WINNING. ODDS OF WINNING WILL DEPEND ON THE TOTAL NUMBER OF ENTRIES RECEIVED. VOID WHERE PROHIBITED BY LAW. ONLINE ENTRY ONLY AND
+
+=== TOP FALLBACK SPANS ===
+count=178405 span='s' sample_doc_ids=[0, 0, 0, 0, 0]
+count=89465 span='d' sample_doc_ids=[0, 0, 0, 1, 1]
+count=87005 span='e' sample_doc_ids=[0, 0, 0, 0, 0]
+count=81188 span='t' sample_doc_ids=[0, 0, 0, 0, 1]
+count=69060 span=' ' sample_doc_ids=[0, 0, 1, 1, 1]
+count=63581 span=',' sample_doc_ids=[0, 0, 0, 0, 0]
+count=63371 span='y' sample_doc_ids=[0, 0, 0, 1, 1]
+count=57324 span='m' sample_doc_ids=[0, 1, 1, 1, 1]
+count=56525 span='n' sample_doc_ids=[0, 0, 0, 0, 0]
+count=52355 span='l' sample_doc_ids=[0, 1, 1, 1, 3]
+count=49298 span='r' sample_doc_ids=[0, 1, 2, 3, 3]
+count=42239 span='p' sample_doc_ids=[0, 0, 0, 1, 1]
+count=41859 span='.' sample_doc_ids=[0, 0, 0, 0, 1]
+count=40310 span='a' sample_doc_ids=[0, 0, 0, 1, 1]
+count=38870 span='c' sample_doc_ids=[1, 1, 1, 1, 1]
+count=29594 span='b' sample_doc_ids=[2, 2, 3, 3, 3]
+count=28528 span='o' sample_doc_ids=[0, 0, 1, 1, 1]
+count=26442 span='h' sample_doc_ids=[0, 0, 0, 1, 1]
+count=25812 span='g' sample_doc_ids=[1, 1, 2, 3, 4]
+count=22169 span='f' sample_doc_ids=[0, 0, 0, 1, 3]
+count=20528 span='v' sample_doc_ids=[1, 1, 3, 3, 3]
+count=19605 span='w' sample_doc_ids=[0, 3, 3, 3, 3]
+count=18024 span='i' sample_doc_ids=[6, 6, 8, 9, 11]
+count=16808 span='I' sample_doc_ids=[0, 0, 1, 1, 1]
+count=16775 span='k' sample_doc_ids=[1, 3, 8, 8, 8]
+count=15115 span="'s" sample_doc_ids=[1, 1, 1, 1, 1]
+count=13896 span='u' sample_doc_ids=[3, 3, 3, 5, 6]
+count=13282 span='-' sample_doc_ids=[0, 1, 1, 1, 1]
+count=10323 span='S' sample_doc_ids=[1, 3, 3, 4, 8]
+count=8710 span='M' sample_doc_ids=[1, 5, 8, 10, 11]
+count=8237 span='B' sample_doc_ids=[0, 1, 3, 3, 3]
+count=7997 span='A' sample_doc_ids=[6, 8, 12, 12, 12]
+count=7959 span='.\n' sample_doc_ids=[0, 1, 1, 3, 6]
+count=7265 span='C' sample_doc_ids=[3, 10, 10, 12, 12]
+count=6723 span='s,' sample_doc_ids=[1, 2, 6, 12, 12]
+count=6578 span='W' sample_doc_ids=[1, 5, 6, 6, 6]
+count=6129 span='H' sample_doc_ids=[5, 12, 12, 12, 12]
+count=6066 span=')' sample_doc_ids=[3, 3, 5, 12, 12]
+count=6003 span="'" sample_doc_ids=[1, 1, 1, 1, 1]
+count=5908 span='P' sample_doc_ids=[0, 9, 11, 12, 12]
+count=5569 span='\n' sample_doc_ids=[4, 7, 7, 12, 12]
+count=5357 span='F' sample_doc_ids=[0, 2, 6, 12, 12]
+count=5133 span='D' sample_doc_ids=[6, 8, 9, 11, 12]
+count=4461 span='x' sample_doc_ids=[12, 12, 12, 12, 12]
+count=4411 span='s.' sample_doc_ids=[2, 2, 3, 3, 5]
+count=4356 span='L' sample_doc_ids=[7, 12, 12, 12, 12]
+count=4320 span='T' sample_doc_ids=[3, 8, 11, 12, 12]
+count=4266 span="n't" sample_doc_ids=[1, 2, 5, 6, 6]
+count=4139 span='O' sample_doc_ids=[11, 11, 12, 12, 12]
+count=4108 span='"' sample_doc_ids=[1, 8, 9, 11, 19]
+count=4086 span='N' sample_doc_ids=[7, 12, 12, 12, 12]
+count=3966 span='R' sample_doc_ids=[1, 1, 3, 3, 6]
+count=3823 span='j' sample_doc_ids=[6, 6, 12, 12, 14]
+count=3781 span='\n-' sample_doc_ids=[12, 12, 38, 38, 48]
+count=3774 span="'t" sample_doc_ids=[1, 1, 2, 6, 8]
+count=3748 span='G' sample_doc_ids=[1, 6, 8, 12, 16]
+count=3647 span='J' sample_doc_ids=[8, 19, 24, 24, 29]
+count=3545 span='z' sample_doc_ids=[3, 6, 12, 12, 29]
+count=3156 span='ms' sample_doc_ids=[3, 3, 3, 19, 22]
+count=3050 span='E' sample_doc_ids=[3, 6, 8, 12, 12]
+count=2741 span='ys' sample_doc_ids=[21, 22, 24, 24, 24]
+count=2600 span='ey' sample_doc_ids=[12, 12, 12, 12, 15]
+count=2495 span=',"' sample_doc_ids=[8, 51, 96, 102, 133]
+count=2481 span=':' sample_doc_ids=[9, 12, 12, 12, 12]
+count=2401 span='ix' sample_doc_ids=[0, 6, 6, 8, 12]
+count=2326 span='.\n-' sample_doc_ids=[26, 26, 26, 26, 26]
+count=2265 span='rm' sample_doc_ids=[3, 3, 12, 12, 15]
+count=2262 span='?' sample_doc_ids=[0, 6, 11, 11, 11]
+count=2198 span='V' sample_doc_ids=[6, 8, 8, 8, 8]
+count=2109 span='ex' sample_doc_ids=[3, 12, 12, 19, 19]
+count=2066 span='.\nA' sample_doc_ids=[8, 15, 25, 29, 32]
+count=2056 span='ng' sample_doc_ids=[6, 12, 24, 25, 27]
+count=2046 span='au' sample_doc_ids=[1, 8, 12, 12, 12]
+count=2034 span='ee' sample_doc_ids=[29, 29, 34, 44, 44]
+count=1997 span='sp' sample_doc_ids=[1, 6, 12, 12, 12]
+count=1976 span='s ' sample_doc_ids=[11, 12, 33, 42, 54]
+count=1953 span='io' sample_doc_ids=[1, 3, 5, 21, 29]
+count=1952 span='ax' sample_doc_ids=[19, 41, 68, 69, 85]
+count=1928 span='K' sample_doc_ids=[6, 12, 13, 19, 21]
+count=1879 span='be' sample_doc_ids=[1, 1, 10, 11, 11]
+count=1858 span='ds' sample_doc_ids=[1, 3, 8, 11, 12]
+count=1825 span='!' sample_doc_ids=[12, 12, 12, 12, 12]
+count=1823 span='Y' sample_doc_ids=[3, 12, 12, 12, 12]
+count=1823 span='sc' sample_doc_ids=[18, 36, 41, 44, 44]
+count=1801 span='aj' sample_doc_ids=[8, 12, 24, 29, 29]
+count=1705 span='ew' sample_doc_ids=[12, 12, 12, 12, 40]
+count=1690 span='sh' sample_doc_ids=[12, 13, 13, 13, 28]
+count=1669 span='lo' sample_doc_ids=[8, 22, 25, 29, 29]
+count=1659 span='ps' sample_doc_ids=[1, 21, 25, 28, 82]
+count=1565 span='az' sample_doc_ids=[5, 6, 12, 12, 12]
+count=1527 span='.\nI' sample_doc_ids=[1, 15, 29, 32, 35]
+count=1519 span='y,' sample_doc_ids=[12, 12, 12, 15, 19]
+count=1509 span='.\nS' sample_doc_ids=[1, 19, 29, 29, 29]
+count=1507 span='e,' sample_doc_ids=[12, 12, 12, 12, 26]
+count=1496 span='gy' sample_doc_ids=[58, 63, 63, 63, 97]
+count=1471 span='/' sample_doc_ids=[17, 24, 54, 54, 71]
+count=1469 span=' 2' sample_doc_ids=[19, 85, 85, 101, 112]
+count=1453 span='ec' sample_doc_ids=[3, 3, 3, 8, 8]
+count=1448 span=';' sample_doc_ids=[12, 12, 12, 12, 12]
+count=1446 span='.\nF' sample_doc_ids=[1, 6, 22, 30, 43]
+
+=== TOP FALLBACK CHARS ===
+count=273229 char='s' ord=115
+count=173200 char=' ' ord=32
+count=162570 char='.' ord=46
+count=149861 char='e' ord=101
+count=149722 char='\n' ord=10
+count=120711 char='t' ord=116
+count=116615 char='d' ord=100
+count=110908 char='y' ord=121
+count=100018 char=',' ord=44
+count=97101 char='n' ord=110
+count=91088 char='m' ord=109
+count=83304 char='l' ord=108
+count=78939 char='a' ord=97
+count=74372 char='r' ord=114
+count=73683 char='-' ord=45
+count=70684 char='0' ord=48
+count=66989 char='o' ord=111
+count=66553 char='1' ord=49
+count=63108 char='p' ord=112
+count=62831 char='c' ord=99
+count=59478 char='h' ord=104
+count=53259 char='b' ord=98
+count=52646 char='2' ord=50
+count=49423 char='I' ord=73
+count=48325 char='g' ord=103
+count=46391 char="'" ord=39
+count=45338 char='A' ord=65
+count=43374 char='S' ord=83
+count=41872 char='i' ord=105
+count=37497 char='f' ord=102
+count=35242 char='w' ord=119
+count=32457 char='u' ord=117
+count=29852 char='T' ord=84
+count=29501 char='k' ord=107
+count=28976 char='C' ord=67
+count=28704 char='E' ord=69
+count=27762 char='v' ord=118
+count=26917 char='3' ord=51
+count=26537 char='M' ord=77
+count=26164 char='O' ord=79
+count=24428 char=')' ord=41
+count=24181 char='5' ord=53
+count=23523 char='"' ord=34
+count=22762 char='B' ord=66
+count=22697 char='9' ord=57
+count=22492 char='N' ord=78
+count=22420 char='P' ord=80
+count=22252 char='R' ord=82
+count=21777 char='4' ord=52
+count=21647 char='x' ord=120
+count=21454 char='D' ord=68
+count=19525 char='W' ord=87
+count=19363 char='L' ord=76
+count=18093 char='H' ord=72
+count=17760 char='8' ord=56
+count=17515 char='6' ord=54
+count=16526 char='F' ord=70
+count=16080 char='7' ord=55
+count=14831 char=':' ord=58
+count=14217 char='/' ord=47
+count=13848 char='z' ord=122
+count=12302 char='G' ord=71
+count=9320 char='U' ord=85
+count=8627 char='!' ord=33
+count=8379 char='?' ord=63
+count=8332 char='j' ord=106
+count=7934 char='J' ord=74
+count=7844 char='V' ord=86
+count=7547 char='Y' ord=89
+count=7111 char='|' ord=124
+count=6441 char='K' ord=75
+count=4499 char='(' ord=40
+count=3271 char='Q' ord=81
+count=3012 char=';' ord=59
+count=2942 char='X' ord=88
+count=2623 char='_' ord=95
+count=2573 char='Z' ord=90
+count=2521 char='*' ord=42
+count=2433 char='%' ord=37
+count=2086 char=']' ord=93
+count=2075 char='[' ord=91
+count=1382 char='>' ord=62
+count=1264 char='#' ord=35
+count=1202 char='=' ord=61
+count=1134 char='+' ord=43
+count=1097 char='@' ord=64
+count=1032 char='$' ord=36
+count=967 char='é' ord=233
+count=899 char='•' ord=8226
+count=821 char='q' ord=113
+count=748 char='&' ord=38
+count=477 char='<' ord=60
+count=398 char='®' ord=174
+count=394 char='£' ord=163
+count=384 char='©' ord=169
+count=292 char='`' ord=96
+count=289 char='»' ord=187
+count=231 char='~' ord=126
+count=230 char='™' ord=8482
+count=200 char='\\' ord=92

@@ -1,0 +1,6 @@
+rank,text,normalized_text,freq,class,ids
+1,n’t,n't,2442714,keep_contraction,"[945, 983, 941]"
+2,it’s,it's,1606051,keep_full_word,"[353, 983, 946]"
+3,don’t,don't,1373216,keep_full_word,"[876, 983, 941]"
+4,I’m,i'm,958050,keep_contraction,"[309, 983, 953]"
+5,you’re,you're,835677,keep_full_word,"[318, 983, 264]"

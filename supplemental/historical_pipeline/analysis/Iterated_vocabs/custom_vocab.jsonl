@@ -1,0 +1,130 @@
+{"piece": "of the", "kind": "phrase", "priority": 1000}
+{"piece": "in the", "kind": "phrase", "priority": 999}
+{"piece": "to the", "kind": "phrase", "priority": 998}
+{"piece": "on the", "kind": "phrase", "priority": 997}
+{"piece": "and the", "kind": "phrase", "priority": 996}
+{"piece": "for the", "kind": "phrase", "priority": 995}
+{"piece": "from the", "kind": "phrase", "priority": 994}
+{"piece": "by the", "kind": "phrase", "priority": 993}
+{"piece": "with the", "kind": "phrase", "priority": 992}
+{"piece": "that the", "kind": "phrase", "priority": 991}
+{"piece": "is a", "kind": "phrase", "priority": 990}
+{"piece": "it is", "kind": "phrase", "priority": 989}
+{"piece": "to be", "kind": "phrase", "priority": 988}
+{"piece": "will be", "kind": "phrase", "priority": 987}
+{"piece": "can be", "kind": "phrase", "priority": 986}
+{"piece": "such as", "kind": "phrase", "priority": 985}
+{"piece": "as well as", "kind": "phrase", "priority": 984}
+{"piece": "the same", "kind": "phrase", "priority": 983}
+{"piece": "one of the", "kind": "phrase", "priority": 982}
+{"piece": "going to", "kind": "phrase", "priority": 981}
+{"piece": "different", "kind": "word", "priority": 900}
+{"piece": "between", "kind": "word", "priority": 899}
+{"piece": "program", "kind": "word", "priority": 898}
+{"piece": "important", "kind": "word", "priority": 897}
+{"piece": "number", "kind": "word", "priority": 896}
+{"piece": "problem", "kind": "word", "priority": 895}
+{"piece": "public", "kind": "word", "priority": 894}
+{"piece": "market", "kind": "word", "priority": 893}
+{"piece": "custom", "kind": "word", "priority": 892}
+{"piece": "available", "kind": "word", "priority": 891}
+{"piece": "effect", "kind": "word", "priority": 890}
+{"piece": "direct", "kind": "word", "priority": 889}
+{"piece": "system", "kind": "word", "priority": 888}
+{"piece": "process", "kind": "word", "priority": 887}
+{"piece": "health", "kind": "word", "priority": 886}
+{"piece": "ing", "kind": "subword", "priority": 800}
+{"piece": "tion", "kind": "subword", "priority": 799}
+{"piece": "ment", "kind": "subword", "priority": 798}
+{"piece": "able", "kind": "subword", "priority": 797}
+{"piece": "inter", "kind": "subword", "priority": 796}
+{"piece": "pro", "kind": "subword", "priority": 795}
+{"piece": "con", "kind": "subword", "priority": 794}
+{"piece": "ly", "kind": "subword", "priority": 793}
+{"piece": "ed", "kind": "subword", "priority": 792}
+{"piece": "er", "kind": "subword", "priority": 791}
+{"piece": "est", "kind": "subword", "priority": 790}
+{"piece": "al", "kind": "subword", "priority": 789}
+{"piece": "ity", "kind": "subword", "priority": 788}
+{"piece": "ous", "kind": "subword", "priority": 787}
+{"piece": "a", "kind": "char", "priority": 500}
+{"piece": "b", "kind": "char", "priority": 499}
+{"piece": "c", "kind": "char", "priority": 498}
+{"piece": "d", "kind": "char", "priority": 497}
+{"piece": "e", "kind": "char", "priority": 496}
+{"piece": "f", "kind": "char", "priority": 495}
+{"piece": "g", "kind": "char", "priority": 494}
+{"piece": "h", "kind": "char", "priority": 493}
+{"piece": "i", "kind": "char", "priority": 492}
+{"piece": "j", "kind": "char", "priority": 491}
+{"piece": "k", "kind": "char", "priority": 490}
+{"piece": "l", "kind": "char", "priority": 489}
+{"piece": "m", "kind": "char", "priority": 488}
+{"piece": "n", "kind": "char", "priority": 487}
+{"piece": "o", "kind": "char", "priority": 486}
+{"piece": "p", "kind": "char", "priority": 485}
+{"piece": "q", "kind": "char", "priority": 484}
+{"piece": "r", "kind": "char", "priority": 483}
+{"piece": "s", "kind": "char", "priority": 482}
+{"piece": "t", "kind": "char", "priority": 481}
+{"piece": "u", "kind": "char", "priority": 480}
+{"piece": "v", "kind": "char", "priority": 479}
+{"piece": "w", "kind": "char", "priority": 478}
+{"piece": "x", "kind": "char", "priority": 477}
+{"piece": "y", "kind": "char", "priority": 476}
+{"piece": "z", "kind": "char", "priority": 475}
+{"piece": "A", "kind": "char", "priority": 474}
+{"piece": "B", "kind": "char", "priority": 473}
+{"piece": "C", "kind": "char", "priority": 472}
+{"piece": "D", "kind": "char", "priority": 471}
+{"piece": "E", "kind": "char", "priority": 470}
+{"piece": "F", "kind": "char", "priority": 469}
+{"piece": "G", "kind": "char", "priority": 468}
+{"piece": "H", "kind": "char", "priority": 467}
+{"piece": "I", "kind": "char", "priority": 466}
+{"piece": "J", "kind": "char", "priority": 465}
+{"piece": "K", "kind": "char", "priority": 464}
+{"piece": "L", "kind": "char", "priority": 463}
+{"piece": "M", "kind": "char", "priority": 462}
+{"piece": "N", "kind": "char", "priority": 461}
+{"piece": "O", "kind": "char", "priority": 460}
+{"piece": "P", "kind": "char", "priority": 459}
+{"piece": "Q", "kind": "char", "priority": 458}
+{"piece": "R", "kind": "char", "priority": 457}
+{"piece": "S", "kind": "char", "priority": 456}
+{"piece": "T", "kind": "char", "priority": 455}
+{"piece": "U", "kind": "char", "priority": 454}
+{"piece": "V", "kind": "char", "priority": 453}
+{"piece": "W", "kind": "char", "priority": 452}
+{"piece": "X", "kind": "char", "priority": 451}
+{"piece": "Y", "kind": "char", "priority": 450}
+{"piece": "Z", "kind": "char", "priority": 449}
+{"piece": "0", "kind": "char", "priority": 448}
+{"piece": "1", "kind": "char", "priority": 447}
+{"piece": "2", "kind": "char", "priority": 446}
+{"piece": "3", "kind": "char", "priority": 445}
+{"piece": "4", "kind": "char", "priority": 444}
+{"piece": "5", "kind": "char", "priority": 443}
+{"piece": "6", "kind": "char", "priority": 442}
+{"piece": "7", "kind": "char", "priority": 441}
+{"piece": "8", "kind": "char", "priority": 440}
+{"piece": "9", "kind": "char", "priority": 439}
+{"piece": " ", "kind": "punct", "priority": 400}
+{"piece": ".", "kind": "punct", "priority": 399}
+{"piece": ",", "kind": "punct", "priority": 398}
+{"piece": ":", "kind": "punct", "priority": 397}
+{"piece": ";", "kind": "punct", "priority": 396}
+{"piece": "?", "kind": "punct", "priority": 395}
+{"piece": "!", "kind": "punct", "priority": 394}
+{"piece": "-", "kind": "punct", "priority": 393}
+{"piece": "(", "kind": "punct", "priority": 392}
+{"piece": ")", "kind": "punct", "priority": 391}
+{"piece": "[", "kind": "punct", "priority": 390}
+{"piece": "]", "kind": "punct", "priority": 389}
+{"piece": "{", "kind": "punct", "priority": 388}
+{"piece": "}", "kind": "punct", "priority": 387}
+{"piece": "'", "kind": "punct", "priority": 386}
+{"piece": "\"", "kind": "punct", "priority": 385}
+{"piece": "/", "kind": "punct", "priority": 384}
+{"piece": "\\", "kind": "punct", "priority": 383}
+{"piece": "\n", "kind": "punct", "priority": 382}

@@ -1,0 +1,233 @@
+{
+  "dataset_dir": "data/datasets/fineweb10B_sp1024",
+  "num_shards": 1,
+  "top_n_candidates": 20,
+  "total_tokens_scanned": 100000000,
+  "naive_tokens_saved": 495596,
+  "naive_percent_saved": 0.495596,
+  "greedy_tokens_saved": 474006,
+  "greedy_percent_saved": 0.474006,
+  "greedy_merge_occurrences": 237003,
+  "top_candidates_by_sample_savings": [
+    {
+      "ids": [
+        267,
+        268,
+        526
+      ],
+      "text": "the same",
+      "candidate_freq_rank_source": 1521922,
+      "occurrences_in_sample": 18891,
+      "naive_tokens_saved": 37782
+    },
+    {
+      "ids": [
+        454,
+        350,
+        366
+      ],
+      "text": "such as",
+      "candidate_freq_rank_source": 1247950,
+      "occurrences_in_sample": 15342,
+      "naive_tokens_saved": 30684
+    },
+    {
+      "ids": [
+        455,
+        294,
+        287
+      ],
+      "text": "able to",
+      "candidate_freq_rank_source": 1233618,
+      "occurrences_in_sample": 15154,
+      "naive_tokens_saved": 30308
+    },
+    {
+      "ids": [
+        566,
+        280,
+        287
+      ],
+      "text": "going to",
+      "candidate_freq_rank_source": 1188103,
+      "occurrences_in_sample": 15119,
+      "naive_tokens_saved": 30238
+    },
+    {
+      "ids": [
+        267,
+        458,
+        401
+      ],
+      "text": "the world",
+      "candidate_freq_rank_source": 1190895,
+      "occurrences_in_sample": 14515,
+      "naive_tokens_saved": 29030
+    },
+    {
+      "ids": [
+        261,
+        304,
+        327
+      ],
+      "text": "a lot",
+      "candidate_freq_rank_source": 1156810,
+      "occurrences_in_sample": 14411,
+      "naive_tokens_saved": 28822
+    },
+    {
+      "ids": [
+        533,
+        292,
+        267
+      ],
+      "text": "one of the",
+      "candidate_freq_rank_source": 1149141,
+      "occurrences_in_sample": 14235,
+      "naive_tokens_saved": 28470
+    },
+    {
+      "ids": [
+        261,
+        557,
+        958
+      ],
+      "text": "a few",
+      "candidate_freq_rank_source": 1105439,
+      "occurrences_in_sample": 13856,
+      "naive_tokens_saved": 27712
+    },
+    {
+      "ids": [
+        366,
+        747,
+        366
+      ],
+      "text": "as well as",
+      "candidate_freq_rank_source": 1072668,
+      "occurrences_in_sample": 13380,
+      "naive_tokens_saved": 26760
+    },
+    {
+      "ids": [
+        285,
+        291,
+        267
+      ],
+      "text": "ed in the",
+      "candidate_freq_rank_source": 960402,
+      "occurrences_in_sample": 12054,
+      "naive_tokens_saved": 24108
+    },
+    {
+      "ids": [
+        285,
+        437,
+        267
+      ],
+      "text": "ed by the",
+      "candidate_freq_rank_source": 950998,
+      "occurrences_in_sample": 11774,
+      "naive_tokens_saved": 23548
+    },
+    {
+      "ids": [
+        421,
+        528,
+        292
+      ],
+      "text": "umber of",
+      "candidate_freq_rank_source": 889350,
+      "occurrences_in_sample": 10891,
+      "naive_tokens_saved": 21782
+    },
+    {
+      "ids": [
+        304,
+        327,
+        292
+      ],
+      "text": "lot of",
+      "candidate_freq_rank_source": 855244,
+      "occurrences_in_sample": 10846,
+      "naive_tokens_saved": 21692
+    },
+    {
+      "ids": [
+        642,
+        280,
+        287
+      ],
+      "text": "ording to",
+      "candidate_freq_rank_source": 840902,
+      "occurrences_in_sample": 10641,
+      "naive_tokens_saved": 21282
+    },
+    {
+      "ids": [
+        946,
+        292,
+        267
+      ],
+      "text": "s of the",
+      "candidate_freq_rank_source": 850790,
+      "occurrences_in_sample": 10398,
+      "naive_tokens_saved": 20796
+    },
+    {
+      "ids": [
+        946,
+        291,
+        267
+      ],
+      "text": "s in the",
+      "candidate_freq_rank_source": 794379,
+      "occurrences_in_sample": 9952,
+      "naive_tokens_saved": 19904
+    },
+    {
+      "ids": [
+        261,
+        304,
+        685
+      ],
+      "text": "a litt",
+      "candidate_freq_rank_source": 772513,
+      "occurrences_in_sample": 9914,
+      "naive_tokens_saved": 19828
+    },
+    {
+      "ids": [
+        309,
+        300,
+        630
+      ],
+      "text": "I think",
+      "candidate_freq_rank_source": 706231,
+      "occurrences_in_sample": 9266,
+      "naive_tokens_saved": 18532
+    },
+    {
+      "ids": [
+        352,
+        264,
+        370
+      ],
+      "text": "There are",
+      "candidate_freq_rank_source": 708338,
+      "occurrences_in_sample": 8913,
+      "naive_tokens_saved": 17826
+    },
+    {
+      "ids": [
+        267,
+        310,
+        272
+      ],
+      "text": "the end",
+      "candidate_freq_rank_source": 666277,
+      "occurrences_in_sample": 8246,
+      "naive_tokens_saved": 16492
+    }
+  ]
+}

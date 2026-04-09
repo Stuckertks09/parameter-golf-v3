@@ -1,0 +1,68 @@
+{
+  "dataset_dir": "data/datasets/fineweb10B_sp1024",
+  "num_shards": 1,
+  "top_n_candidates": 5,
+  "total_tokens_scanned": 100000000,
+  "naive_tokens_saved": 176030,
+  "naive_percent_saved": 0.17603,
+  "greedy_tokens_saved": 176030,
+  "greedy_percent_saved": 0.17603,
+  "greedy_merge_occurrences": 88015,
+  "top_candidates_by_sample_savings": [
+    {
+      "ids": [
+        945,
+        983,
+        941
+      ],
+      "text": "n\u2019t",
+      "candidate_freq_rank_source": 2442714,
+      "occurrences_in_sample": 30440,
+      "naive_tokens_saved": 60880
+    },
+    {
+      "ids": [
+        353,
+        983,
+        946
+      ],
+      "text": "it\u2019s",
+      "candidate_freq_rank_source": 1606051,
+      "occurrences_in_sample": 19274,
+      "naive_tokens_saved": 38548
+    },
+    {
+      "ids": [
+        876,
+        983,
+        941
+      ],
+      "text": "don\u2019t",
+      "candidate_freq_rank_source": 1373216,
+      "occurrences_in_sample": 16970,
+      "naive_tokens_saved": 33940
+    },
+    {
+      "ids": [
+        309,
+        983,
+        953
+      ],
+      "text": "I\u2019m",
+      "candidate_freq_rank_source": 958050,
+      "occurrences_in_sample": 11665,
+      "naive_tokens_saved": 23330
+    },
+    {
+      "ids": [
+        318,
+        983,
+        264
+      ],
+      "text": "you\u2019re",
+      "candidate_freq_rank_source": 835677,
+      "occurrences_in_sample": 9666,
+      "naive_tokens_saved": 19332
+    }
+  ]
+}

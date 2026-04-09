@@ -1,0 +1,40 @@
+{
+  "tokenizer": "data/tokenizers/fineweb_1024_bpe.model",
+  "candidates": "ngram/merge_candidates_final_v1.jsonl",
+  "num_candidates_loaded": 111,
+  "text_file": "sample_text.txt",
+  "num_samples": 3,
+  "total_tokens_before": 73,
+  "total_tokens_after": 51,
+  "total_tokens_saved": 22,
+  "percent_saved": 30.136986301369863,
+  "average_tokens_before": 24.333333333333332,
+  "average_tokens_after": 17.0,
+  "total_merge_hits": 11,
+  "examples": [
+    {
+      "text": "The government is going to support the program in the future.",
+      "before_len": 21,
+      "after_len": 15,
+      "merge_hits": 3,
+      "before_preview": "The government is going to support the program in the future.",
+      "after_preview": "The[govern]mentis[going to]supportthe[program]inthefuture."
+    },
+    {
+      "text": "It’s important to consider the different ways people use technology.",
+      "before_len": 25,
+      "after_len": 19,
+      "merge_hits": 3,
+      "before_preview": "It’s important to consider the different ways people use technology.",
+      "after_preview": "It’s[important]toconsiderthe[different]wayspeopleuse[techn]ology."
+    },
+    {
+      "text": "The market is open, and the same questions come up between customers.",
+      "before_len": 27,
+      "after_len": 17,
+      "merge_hits": 5,
+      "before_preview": "The market is open, and the same questions come up between customers.",
+      "after_preview": "The[market]is[open],and[the same]questionscomeup[between][custom]ers."
+    }
+  ]
+}

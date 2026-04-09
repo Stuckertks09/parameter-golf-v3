@@ -1,0 +1,108 @@
+{
+  "input_vocab": "workspace/parameter-golf/vocab/vocab_best_v3.jsonl",
+  "input_worst_docs_csv": "workspace/parameter-golf/analysis/full_val_worst_20260405_005155.csv",
+  "top_k_docs": 300,
+  "num_swaps": 10,
+  "min_piece_len": 4,
+  "max_piece_len": 24,
+  "min_doc_hits": 3,
+  "num_candidates_scored": 48205,
+  "outputs": {
+    "add_candidates_csv": "workspace/parameter-golf/analysis/worst_docs_add_candidates_20260405_005420.csv",
+    "remove_candidates_csv": "workspace/parameter-golf/analysis/worst_docs_remove_candidates_20260405_005420.csv",
+    "swaps_csv": "workspace/parameter-golf/analysis/worst_docs_vocab_swaps_20260405_005420.csv",
+    "proposed_vocab_jsonl": "workspace/parameter-golf/analysis/vocab_best_worstdocs_fix_20260405_005420.jsonl"
+  },
+  "swaps_preview": [
+    {
+      "id": 1010,
+      "old_piece": "the first",
+      "new_piece": "has been",
+      "doc_hits": 136,
+      "raw_count": 8914,
+      "est_savings": 6239,
+      "weighted_score": 6582.64
+    },
+    {
+      "id": 1018,
+      "old_piece": "should be",
+      "new_piece": "one of the",
+      "doc_hits": 102,
+      "raw_count": 6816,
+      "est_savings": 6134,
+      "weighted_score": 6392.8
+    },
+    {
+      "id": 1021,
+      "old_piece": "about the",
+      "new_piece": ", however",
+      "doc_hits": 58,
+      "raw_count": 7706,
+      "est_savings": 6164,
+      "weighted_score": 6314.72
+    },
+    {
+      "id": 1023,
+      "old_piece": ", and the",
+      "new_piece": "is not",
+      "doc_hits": 149,
+      "raw_count": 11498,
+      "est_savings": 5749,
+      "weighted_score": 6124.98
+    },
+    {
+      "id": 1003,
+      "old_piece": "with the",
+      "new_piece": "United States",
+      "doc_hits": 46,
+      "raw_count": 4881,
+      "est_savings": 5857,
+      "weighted_score": 5977.04
+    },
+    {
+      "id": 1005,
+      "old_piece": "from the",
+      "new_piece": "I don't",
+      "doc_hits": 58,
+      "raw_count": 9655,
+      "est_savings": 5793,
+      "weighted_score": 5944.56
+    },
+    {
+      "id": 1006,
+      "old_piece": "that the",
+      "new_piece": "of this",
+      "doc_hits": 115,
+      "raw_count": 9399,
+      "est_savings": 5639,
+      "weighted_score": 5930.06
+    },
+    {
+      "id": 1007,
+      "old_piece": "going to",
+      "new_piece": "and a",
+      "doc_hits": 154,
+      "raw_count": 13809,
+      "est_savings": 5523,
+      "weighted_score": 5911.4
+    },
+    {
+      "id": 1008,
+      "old_piece": "the same",
+      "new_piece": "as the",
+      "doc_hits": 150,
+      "raw_count": 11053,
+      "est_savings": 5526,
+      "weighted_score": 5904.48
+    },
+    {
+      "id": 1009,
+      "old_piece": "you have",
+      "new_piece": "there is",
+      "doc_hits": 98,
+      "raw_count": 8064,
+      "est_savings": 5644,
+      "weighted_score": 5892.64
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{"rank": 1, "n": 3, "ids": [268, 297, 315], "freq": 1875116, "text": "somet", "normalized_text": "somet", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 6, "n": 3, "ids": [314, 279, 266], "freq": 1578672, "text": "gener", "normalized_text": "gener", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 10, "n": 3, "ids": [297, 315, 820], "freq": 1544825, "text": "omething", "normalized_text": "omething", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 11, "n": 3, "ids": [307, 946, 946], "freq": 1538575, "text": "ross", "normalized_text": "ross", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 14, "n": 3, "ids": [468, 264, 308], "freq": 1508975, "text": "terest", "normalized_text": "terest", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 34, "n": 3, "ids": [350, 945, 877], "freq": 1160814, "text": "chnolog", "normalized_text": "chnolog", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 40, "n": 3, "ids": [338, 945, 391], "freq": 1103425, "text": "vernment", "normalized_text": "vernment", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 56, "n": 3, "ids": [413, 278, 275], "freq": 1006945, "text": "visit", "normalized_text": "visit", "score": 3, "action": "drop", "reasons": ["clean_alpha", "plausible_vowel_ratio", "short_ambiguous_fragment"]}
+{"rank": 76, "n": 3, "ids": [298, 273, 371], "freq": 954265, "text": "house", "normalized_text": "house", "score": 3, "action": "drop", "reasons": ["clean_alpha", "plausible_vowel_ratio", "short_ambiguous_fragment"]}
+{"rank": 82, "n": 3, "ids": [328, 940, 338], "freq": 942156, "text": "owever", "normalized_text": "owever", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}
+{"rank": 85, "n": 3, "ids": [640, 295, 284], "freq": 937126, "text": "merican", "normalized_text": "merican", "score": 0, "action": "drop", "reasons": ["clean_alpha", "plausible_vowel_ratio", "good_length", "bad_start_shape"]}
+{"rank": 87, "n": 3, "ids": [943, 948, 945], "freq": 933209, "text": "ohn", "normalized_text": "ohn", "score": -999, "action": "drop", "reasons": ["too_short"]}
+{"rank": 88, "n": 3, "ids": [362, 328, 940], "freq": 932334, "text": "Howe", "normalized_text": "howe", "score": 3, "action": "drop", "reasons": ["clean_alpha", "plausible_vowel_ratio", "short_ambiguous_fragment"]}
+{"rank": 100, "n": 3, "ids": [357, 264, 335], "freq": 904540, "text": "alread", "normalized_text": "alread", "score": -999, "action": "drop", "reasons": ["explicit_bad_fragment"]}

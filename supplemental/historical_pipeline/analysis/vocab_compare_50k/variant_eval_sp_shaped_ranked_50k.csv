@@ -1,0 +1,3 @@
+variant,docs,sp_tokens,custom_tokens,token_delta_sp_minus_custom,ratio_custom_over_sp,custom_fallback_tokens,custom_fallback_share,docs_custom_beats_sp,docs_sp_beats_custom,docs_tied,biggest_sp_win_delta,biggest_sp_win_doc_id,biggest_custom_win_delta,biggest_custom_win_doc_id
+vocab_sp_shaped_ranked_swap10.jsonl,50000,61971846,62301186,-329340,1.0053143487124783,966915,0.015520009522772167,11971,35170,2859,2557,38634,837,9452
+vocab_sp_shaped_ranked_swap20.jsonl,50000,61971846,62302398,-330552,1.0053339059804673,966915,0.015519707604192056,12368,34882,2750,2594,38634,820,9452

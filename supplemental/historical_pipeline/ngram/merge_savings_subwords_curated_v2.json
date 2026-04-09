@@ -1,0 +1,959 @@
+{
+  "dataset_dir": "data/datasets/fineweb10B_sp1024",
+  "num_shards": 1,
+  "top_n_candidates": 86,
+  "total_tokens_scanned": 100000000,
+  "naive_tokens_saved": 2414072,
+  "naive_percent_saved": 2.414072,
+  "greedy_tokens_saved": 2303378,
+  "greedy_percent_saved": 2.303378,
+  "greedy_merge_occurrences": 1151689,
+  "top_candidates_by_sample_savings": [
+    {
+      "ids": [
+        826,
+        482,
+        726
+      ],
+      "text": "different",
+      "candidate_freq_rank_source": 1854344,
+      "occurrences_in_sample": 23338,
+      "naive_tokens_saved": 46676
+    },
+    {
+      "ids": [
+        752,
+        749,
+        279
+      ],
+      "text": "between",
+      "candidate_freq_rank_source": 1758302,
+      "occurrences_in_sample": 21886,
+      "naive_tokens_saved": 43772
+    },
+    {
+      "ids": [
+        367,
+        715,
+        330
+      ],
+      "text": "program",
+      "candidate_freq_rank_source": 1682442,
+      "occurrences_in_sample": 20571,
+      "naive_tokens_saved": 41142
+    },
+    {
+      "ids": [
+        304,
+        685,
+        294
+      ],
+      "text": "little",
+      "candidate_freq_rank_source": 1576720,
+      "occurrences_in_sample": 20185,
+      "naive_tokens_saved": 40370
+    },
+    {
+      "ids": [
+        288,
+        584,
+        315
+      ],
+      "text": "market",
+      "candidate_freq_rank_source": 1744585,
+      "occurrences_in_sample": 20142,
+      "naive_tokens_saved": 40284
+    },
+    {
+      "ids": [
+        283,
+        954,
+        279
+      ],
+      "text": "open",
+      "candidate_freq_rank_source": 1531343,
+      "occurrences_in_sample": 19567,
+      "naive_tokens_saved": 39134
+    },
+    {
+      "ids": [
+        317,
+        640,
+        295
+      ],
+      "text": "Americ",
+      "candidate_freq_rank_source": 1547979,
+      "occurrences_in_sample": 19225,
+      "naive_tokens_saved": 38450
+    },
+    {
+      "ids": [
+        532,
+        350,
+        945
+      ],
+      "text": "techn",
+      "candidate_freq_rank_source": 1558028,
+      "occurrences_in_sample": 18636,
+      "naive_tokens_saved": 37272
+    },
+    {
+      "ids": [
+        357,
+        958,
+        575
+      ],
+      "text": "always",
+      "candidate_freq_rank_source": 1436629,
+      "occurrences_in_sample": 18074,
+      "naive_tokens_saved": 36148
+    },
+    {
+      "ids": [
+        906,
+        508,
+        501
+      ],
+      "text": "available",
+      "candidate_freq_rank_source": 1411117,
+      "occurrences_in_sample": 17739,
+      "naive_tokens_saved": 35478
+    },
+    {
+      "ids": [
+        944,
+        334,
+        950
+      ],
+      "text": "ield",
+      "candidate_freq_rank_source": 1415120,
+      "occurrences_in_sample": 17661,
+      "naive_tokens_saved": 35322
+    },
+    {
+      "ids": [
+        291,
+        468,
+        264
+      ],
+      "text": "intere",
+      "candidate_freq_rank_source": 1440781,
+      "occurrences_in_sample": 17646,
+      "naive_tokens_saved": 35292
+    },
+    {
+      "ids": [
+        310,
+        956,
+        771
+      ],
+      "text": "effect",
+      "candidate_freq_rank_source": 1402261,
+      "occurrences_in_sample": 17495,
+      "naive_tokens_saved": 34990
+    },
+    {
+      "ids": [
+        274,
+        419,
+        297
+      ],
+      "text": "custom",
+      "candidate_freq_rank_source": 1526107,
+      "occurrences_in_sample": 17491,
+      "naive_tokens_saved": 34982
+    },
+    {
+      "ids": [
+        545,
+        631,
+        415
+      ],
+      "text": "important",
+      "candidate_freq_rank_source": 1379593,
+      "occurrences_in_sample": 17231,
+      "naive_tokens_saved": 34462
+    },
+    {
+      "ids": [
+        268,
+        262,
+        351
+      ],
+      "text": "since",
+      "candidate_freq_rank_source": 1336485,
+      "occurrences_in_sample": 17087,
+      "naive_tokens_saved": 34174
+    },
+    {
+      "ids": [
+        314,
+        462,
+        954
+      ],
+      "text": "group",
+      "candidate_freq_rank_source": 1395358,
+      "occurrences_in_sample": 17072,
+      "naive_tokens_saved": 34144
+    },
+    {
+      "ids": [
+        293,
+        553,
+        316
+      ],
+      "text": "direct",
+      "candidate_freq_rank_source": 1345850,
+      "occurrences_in_sample": 16981,
+      "naive_tokens_saved": 33962
+    },
+    {
+      "ids": [
+        367,
+        890,
+        953
+      ],
+      "text": "problem",
+      "candidate_freq_rank_source": 1317806,
+      "occurrences_in_sample": 16690,
+      "naive_tokens_saved": 33380
+    },
+    {
+      "ids": [
+        312,
+        421,
+        528
+      ],
+      "text": "number",
+      "candidate_freq_rank_source": 1338712,
+      "occurrences_in_sample": 16466,
+      "naive_tokens_saved": 32932
+    },
+    {
+      "ids": [
+        293,
+        271,
+        942
+      ],
+      "text": "data",
+      "candidate_freq_rank_source": 1345054,
+      "occurrences_in_sample": 16226,
+      "naive_tokens_saved": 32452
+    },
+    {
+      "ids": [
+        282,
+        328,
+        266
+      ],
+      "text": "power",
+      "candidate_freq_rank_source": 1277738,
+      "occurrences_in_sample": 15906,
+      "naive_tokens_saved": 31812
+    },
+    {
+      "ids": [
+        282,
+        563,
+        692
+      ],
+      "text": "public",
+      "candidate_freq_rank_source": 1283034,
+      "occurrences_in_sample": 15747,
+      "naive_tokens_saved": 31494
+    },
+    {
+      "ids": [
+        632,
+        430,
+        308
+      ],
+      "text": "against",
+      "candidate_freq_rank_source": 1230981,
+      "occurrences_in_sample": 15226,
+      "naive_tokens_saved": 30452
+    },
+    {
+      "ids": [
+        944,
+        667,
+        409
+      ],
+      "text": "iversity",
+      "candidate_freq_rank_source": 1246414,
+      "occurrences_in_sample": 15096,
+      "naive_tokens_saved": 30192
+    },
+    {
+      "ids": [
+        268,
+        336,
+        954
+      ],
+      "text": "simp",
+      "candidate_freq_rank_source": 1197576,
+      "occurrences_in_sample": 14878,
+      "naive_tokens_saved": 29756
+    },
+    {
+      "ids": [
+        326,
+        949,
+        441
+      ],
+      "text": "belie",
+      "candidate_freq_rank_source": 1196708,
+      "occurrences_in_sample": 14835,
+      "naive_tokens_saved": 29670
+    },
+    {
+      "ids": [
+        386,
+        950,
+        266
+      ],
+      "text": "order",
+      "candidate_freq_rank_source": 1188234,
+      "occurrences_in_sample": 14672,
+      "naive_tokens_saved": 29344
+    },
+    {
+      "ids": [
+        274,
+        343,
+        726
+      ],
+      "text": "current",
+      "candidate_freq_rank_source": 1157159,
+      "occurrences_in_sample": 14222,
+      "naive_tokens_saved": 28444
+    },
+    {
+      "ids": [
+        435,
+        628,
+        660
+      ],
+      "text": "children",
+      "candidate_freq_rank_source": 1106013,
+      "occurrences_in_sample": 14218,
+      "naive_tokens_saved": 28436
+    },
+    {
+      "ids": [
+        405,
+        959,
+        340
+      ],
+      "text": "ribut",
+      "candidate_freq_rank_source": 1160228,
+      "occurrences_in_sample": 14069,
+      "naive_tokens_saved": 28138
+    },
+    {
+      "ids": [
+        482,
+        660,
+        351
+      ],
+      "text": "ference",
+      "candidate_freq_rank_source": 1075382,
+      "occurrences_in_sample": 13903,
+      "naive_tokens_saved": 27806
+    },
+    {
+      "ids": [
+        261,
+        958,
+        324
+      ],
+      "text": "away",
+      "candidate_freq_rank_source": 1107988,
+      "occurrences_in_sample": 13817,
+      "naive_tokens_saved": 27634
+    },
+    {
+      "ids": [
+        282,
+        448,
+        303
+      ],
+      "text": "present",
+      "candidate_freq_rank_source": 1080347,
+      "occurrences_in_sample": 13763,
+      "naive_tokens_saved": 27526
+    },
+    {
+      "ids": [
+        552,
+        941,
+        301
+      ],
+      "text": "until",
+      "candidate_freq_rank_source": 1046266,
+      "occurrences_in_sample": 13496,
+      "naive_tokens_saved": 26992
+    },
+    {
+      "ids": [
+        274,
+        378,
+        371
+      ],
+      "text": "course",
+      "candidate_freq_rank_source": 1046468,
+      "occurrences_in_sample": 13328,
+      "naive_tokens_saved": 26656
+    },
+    {
+      "ids": [
+        288,
+        503,
+        957
+      ],
+      "text": "money",
+      "candidate_freq_rank_source": 1067343,
+      "occurrences_in_sample": 13213,
+      "naive_tokens_saved": 26426
+    },
+    {
+      "ids": [
+        566,
+        338,
+        945
+      ],
+      "text": "govern",
+      "candidate_freq_rank_source": 1107164,
+      "occurrences_in_sample": 13097,
+      "naive_tokens_saved": 26194
+    },
+    {
+      "ids": [
+        814,
+        308,
+        436
+      ],
+      "text": "understand",
+      "candidate_freq_rank_source": 1057764,
+      "occurrences_in_sample": 13050,
+      "naive_tokens_saved": 26100
+    },
+    {
+      "ids": [
+        411,
+        959,
+        356
+      ],
+      "text": "embers",
+      "candidate_freq_rank_source": 1054534,
+      "occurrences_in_sample": 12909,
+      "naive_tokens_saved": 25818
+    },
+    {
+      "ids": [
+        956,
+        382,
+        299
+      ],
+      "text": "fession",
+      "candidate_freq_rank_source": 1051491,
+      "occurrences_in_sample": 12852,
+      "naive_tokens_saved": 25704
+    },
+    {
+      "ids": [
+        942,
+        952,
+        464
+      ],
+      "text": "augh",
+      "candidate_freq_rank_source": 996185,
+      "occurrences_in_sample": 12817,
+      "naive_tokens_saved": 25634
+    },
+    {
+      "ids": [
+        367,
+        956,
+        382
+      ],
+      "text": "profess",
+      "candidate_freq_rank_source": 1039938,
+      "occurrences_in_sample": 12762,
+      "naive_tokens_saved": 25524
+    },
+    {
+      "ids": [
+        577,
+        947,
+        404
+      ],
+      "text": "Christ",
+      "candidate_freq_rank_source": 1052496,
+      "occurrences_in_sample": 12677,
+      "naive_tokens_saved": 25354
+    },
+    {
+      "ids": [
+        304,
+        289,
+        376
+      ],
+      "text": "large",
+      "candidate_freq_rank_source": 1030703,
+      "occurrences_in_sample": 12674,
+      "naive_tokens_saved": 25348
+    },
+    {
+      "ids": [
+        293,
+        322,
+        945
+      ],
+      "text": "didn",
+      "candidate_freq_rank_source": 960152,
+      "occurrences_in_sample": 12612,
+      "naive_tokens_saved": 25224
+    },
+    {
+      "ids": [
+        287,
+        823,
+        389
+      ],
+      "text": "together",
+      "candidate_freq_rank_source": 1001093,
+      "occurrences_in_sample": 12553,
+      "naive_tokens_saved": 25106
+    },
+    {
+      "ids": [
+        727,
+        538,
+        643
+      ],
+      "text": "employ",
+      "candidate_freq_rank_source": 1033136,
+      "occurrences_in_sample": 12550,
+      "naive_tokens_saved": 25100
+    },
+    {
+      "ids": [
+        260,
+        336,
+        276
+      ],
+      "text": "times",
+      "candidate_freq_rank_source": 997203,
+      "occurrences_in_sample": 12547,
+      "naive_tokens_saved": 25094
+    },
+    {
+      "ids": [
+        944,
+        315,
+        957
+      ],
+      "text": "iety",
+      "candidate_freq_rank_source": 1039730,
+      "occurrences_in_sample": 12520,
+      "naive_tokens_saved": 25040
+    },
+    {
+      "ids": [
+        454,
+        516,
+        382
+      ],
+      "text": "success",
+      "candidate_freq_rank_source": 1016343,
+      "occurrences_in_sample": 12516,
+      "naive_tokens_saved": 25032
+    },
+    {
+      "ids": [
+        377,
+        961,
+        280
+      ],
+      "text": "having",
+      "candidate_freq_rank_source": 998398,
+      "occurrences_in_sample": 12498,
+      "naive_tokens_saved": 24996
+    },
+    {
+      "ids": [
+        282,
+        827,
+        286
+      ],
+      "text": "personal",
+      "candidate_freq_rank_source": 1006273,
+      "occurrences_in_sample": 12444,
+      "naive_tokens_saved": 24888
+    },
+    {
+      "ids": [
+        292,
+        941,
+        279
+      ],
+      "text": "often",
+      "candidate_freq_rank_source": 1017690,
+      "occurrences_in_sample": 12414,
+      "naive_tokens_saved": 24828
+    },
+    {
+      "ids": [
+        449,
+        289,
+        945
+      ],
+      "text": "learn",
+      "candidate_freq_rank_source": 998584,
+      "occurrences_in_sample": 12369,
+      "naive_tokens_saved": 24738
+    },
+    {
+      "ids": [
+        951,
+        265,
+        297
+      ],
+      "text": "conom",
+      "candidate_freq_rank_source": 977500,
+      "occurrences_in_sample": 12258,
+      "naive_tokens_saved": 24516
+    },
+    {
+      "ids": [
+        699,
+        358,
+        409
+      ],
+      "text": "community",
+      "candidate_freq_rank_source": 964868,
+      "occurrences_in_sample": 12195,
+      "naive_tokens_saved": 24390
+    },
+    {
+      "ids": [
+        488,
+        294,
+        468
+      ],
+      "text": "complete",
+      "candidate_freq_rank_source": 981103,
+      "occurrences_in_sample": 12191,
+      "naive_tokens_saved": 24382
+    },
+    {
+      "ids": [
+        269,
+        297,
+        279
+      ],
+      "text": "women",
+      "candidate_freq_rank_source": 923845,
+      "occurrences_in_sample": 12183,
+      "naive_tokens_saved": 24366
+    },
+    {
+      "ids": [
+        798,
+        944,
+        667
+      ],
+      "text": "Univers",
+      "candidate_freq_rank_source": 996654,
+      "occurrences_in_sample": 12116,
+      "naive_tokens_saved": 24232
+    },
+    {
+      "ids": [
+        260,
+        286,
+        963
+      ],
+      "text": "talk",
+      "candidate_freq_rank_source": 955600,
+      "occurrences_in_sample": 12071,
+      "naive_tokens_saved": 24142
+    },
+    {
+      "ids": [
+        279,
+        940,
+        956
+      ],
+      "text": "enef",
+      "candidate_freq_rank_source": 1004579,
+      "occurrences_in_sample": 12055,
+      "naive_tokens_saved": 24110
+    },
+    {
+      "ids": [
+        273,
+        945,
+        951
+      ],
+      "text": "ounc",
+      "candidate_freq_rank_source": 942227,
+      "occurrences_in_sample": 12021,
+      "naive_tokens_saved": 24042
+    },
+    {
+      "ids": [
+        264,
+        335,
+        957
+      ],
+      "text": "ready",
+      "candidate_freq_rank_source": 950369,
+      "occurrences_in_sample": 12011,
+      "naive_tokens_saved": 24022
+    },
+    {
+      "ids": [
+        506,
+        990,
+        643
+      ],
+      "text": "enjoy",
+      "candidate_freq_rank_source": 961763,
+      "occurrences_in_sample": 11944,
+      "naive_tokens_saved": 23888
+    },
+    {
+      "ids": [
+        456,
+        322,
+        711
+      ],
+      "text": "ividual",
+      "candidate_freq_rank_source": 975633,
+      "occurrences_in_sample": 11931,
+      "naive_tokens_saved": 23862
+    },
+    {
+      "ids": [
+        949,
+        943,
+        335
+      ],
+      "text": "load",
+      "candidate_freq_rank_source": 938144,
+      "occurrences_in_sample": 11800,
+      "naive_tokens_saved": 23600
+    },
+    {
+      "ids": [
+        281,
+        279,
+        940
+      ],
+      "text": "bene",
+      "candidate_freq_rank_source": 984337,
+      "occurrences_in_sample": 11754,
+      "naive_tokens_saved": 23508
+    },
+    {
+      "ids": [
+        753,
+        456,
+        322
+      ],
+      "text": "individ",
+      "candidate_freq_rank_source": 957996,
+      "occurrences_in_sample": 11744,
+      "naive_tokens_saved": 23488
+    },
+    {
+      "ids": [
+        721,
+        316,
+        946
+      ],
+      "text": "products",
+      "candidate_freq_rank_source": 952596,
+      "occurrences_in_sample": 11647,
+      "naive_tokens_saved": 23294
+    },
+    {
+      "ids": [
+        288,
+        411,
+        959
+      ],
+      "text": "memb",
+      "candidate_freq_rank_source": 952694,
+      "occurrences_in_sample": 11645,
+      "naive_tokens_saved": 23290
+    },
+    {
+      "ids": [
+        310,
+        296,
+        957
+      ],
+      "text": "easy",
+      "candidate_freq_rank_source": 907512,
+      "occurrences_in_sample": 11600,
+      "naive_tokens_saved": 23200
+    },
+    {
+      "ids": [
+        281,
+        466,
+        957
+      ],
+      "text": "body",
+      "candidate_freq_rank_source": 956947,
+      "occurrences_in_sample": 11595,
+      "naive_tokens_saved": 23190
+    },
+    {
+      "ids": [
+        340,
+        948,
+        270
+      ],
+      "text": "uthor",
+      "candidate_freq_rank_source": 954434,
+      "occurrences_in_sample": 11565,
+      "naive_tokens_saved": 23130
+    },
+    {
+      "ids": [
+        942,
+        990,
+        270
+      ],
+      "text": "ajor",
+      "candidate_freq_rank_source": 944437,
+      "occurrences_in_sample": 11507,
+      "naive_tokens_saved": 23014
+    },
+    {
+      "ids": [
+        288,
+        467,
+        276
+      ],
+      "text": "makes",
+      "candidate_freq_rank_source": 916921,
+      "occurrences_in_sample": 11474,
+      "naive_tokens_saved": 22948
+    },
+    {
+      "ids": [
+        326,
+        955,
+        262
+      ],
+      "text": "begin",
+      "candidate_freq_rank_source": 914326,
+      "occurrences_in_sample": 11383,
+      "naive_tokens_saved": 22766
+    },
+    {
+      "ids": [
+        311,
+        371,
+        897
+      ],
+      "text": "research",
+      "candidate_freq_rank_source": 911448,
+      "occurrences_in_sample": 11367,
+      "naive_tokens_saved": 22734
+    },
+    {
+      "ids": [
+        282,
+        847,
+        845
+      ],
+      "text": "possible",
+      "candidate_freq_rank_source": 915780,
+      "occurrences_in_sample": 11332,
+      "naive_tokens_saved": 22664
+    },
+    {
+      "ids": [
+        277,
+        427,
+        333
+      ],
+      "text": "focus",
+      "candidate_freq_rank_source": 910735,
+      "occurrences_in_sample": 11249,
+      "naive_tokens_saved": 22498
+    },
+    {
+      "ids": [
+        386,
+        910,
+        527
+      ],
+      "text": "organiz",
+      "candidate_freq_rank_source": 937781,
+      "occurrences_in_sample": 11225,
+      "naive_tokens_saved": 22450
+    },
+    {
+      "ids": [
+        274,
+        787,
+        430
+      ],
+      "text": "certain",
+      "candidate_freq_rank_source": 908063,
+      "occurrences_in_sample": 11222,
+      "naive_tokens_saved": 22444
+    },
+    {
+      "ids": [
+        373,
+        804,
+        509
+      ],
+      "text": "website",
+      "candidate_freq_rank_source": 921116,
+      "occurrences_in_sample": 11189,
+      "naive_tokens_saved": 22378
+    },
+    {
+      "ids": [
+        587,
+        286,
+        409
+      ],
+      "text": "quality",
+      "candidate_freq_rank_source": 916955,
+      "occurrences_in_sample": 11126,
+      "naive_tokens_saved": 22252
+    },
+    {
+      "ids": [
+        285,
+        952,
+        951
+      ],
+      "text": "educ",
+      "candidate_freq_rank_source": 919061,
+      "occurrences_in_sample": 11012,
+      "naive_tokens_saved": 22024
+    },
+    {
+      "ids": [
+        268,
+        427,
+        461
+      ],
+      "text": "social",
+      "candidate_freq_rank_source": 933572,
+      "occurrences_in_sample": 10965,
+      "naive_tokens_saved": 21930
+    }
+  ]
+}

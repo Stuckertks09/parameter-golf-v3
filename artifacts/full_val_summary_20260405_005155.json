@@ -1,0 +1,14 @@
+{
+  "docs": 50000,
+  "bytes": 151080645,
+  "sp_tokens": 61971846,
+  "custom_tokens": 61939697,
+  "sp_tokens_per_byte": 0.41019050454808426,
+  "custom_tokens_per_byte": 0.40997771091061996,
+  "delta_tokens": -32149,
+  "delta_tpb": -0.00021279363746429247,
+  "sp_avg_bytes_per_token": 2.437891635501708,
+  "custom_avg_bytes_per_token": 2.4391569916785354,
+  "custom_fallback_tokens": 15057908,
+  "custom_fallback_runs": 8674710
+}

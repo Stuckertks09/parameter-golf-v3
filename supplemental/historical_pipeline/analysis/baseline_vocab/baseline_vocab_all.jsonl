@@ -1,0 +1,1024 @@
+{"id": 0, "raw_piece": "<pad>", "piece": "<pad>", "is_special_or_byte": true}
+{"id": 1, "raw_piece": "<s>", "piece": "<s>", "is_special_or_byte": true}
+{"id": 2, "raw_piece": "</s>", "piece": "</s>", "is_special_or_byte": true}
+{"id": 3, "raw_piece": "<unk>", "piece": "<unk>", "is_special_or_byte": true}
+{"id": 4, "raw_piece": "<0x00>", "piece": "<0x00>", "is_special_or_byte": true}
+{"id": 5, "raw_piece": "<0x01>", "piece": "<0x01>", "is_special_or_byte": true}
+{"id": 6, "raw_piece": "<0x02>", "piece": "<0x02>", "is_special_or_byte": true}
+{"id": 7, "raw_piece": "<0x03>", "piece": "<0x03>", "is_special_or_byte": true}
+{"id": 8, "raw_piece": "<0x04>", "piece": "<0x04>", "is_special_or_byte": true}
+{"id": 9, "raw_piece": "<0x05>", "piece": "<0x05>", "is_special_or_byte": true}
+{"id": 10, "raw_piece": "<0x06>", "piece": "<0x06>", "is_special_or_byte": true}
+{"id": 11, "raw_piece": "<0x07>", "piece": "<0x07>", "is_special_or_byte": true}
+{"id": 12, "raw_piece": "<0x08>", "piece": "<0x08>", "is_special_or_byte": true}
+{"id": 13, "raw_piece": "<0x09>", "piece": "<0x09>", "is_special_or_byte": true}
+{"id": 14, "raw_piece": "<0x0A>", "piece": "<0x0A>", "is_special_or_byte": true}
+{"id": 15, "raw_piece": "<0x0B>", "piece": "<0x0B>", "is_special_or_byte": true}
+{"id": 16, "raw_piece": "<0x0C>", "piece": "<0x0C>", "is_special_or_byte": true}
+{"id": 17, "raw_piece": "<0x0D>", "piece": "<0x0D>", "is_special_or_byte": true}
+{"id": 18, "raw_piece": "<0x0E>", "piece": "<0x0E>", "is_special_or_byte": true}
+{"id": 19, "raw_piece": "<0x0F>", "piece": "<0x0F>", "is_special_or_byte": true}
+{"id": 20, "raw_piece": "<0x10>", "piece": "<0x10>", "is_special_or_byte": true}
+{"id": 21, "raw_piece": "<0x11>", "piece": "<0x11>", "is_special_or_byte": true}
+{"id": 22, "raw_piece": "<0x12>", "piece": "<0x12>", "is_special_or_byte": true}
+{"id": 23, "raw_piece": "<0x13>", "piece": "<0x13>", "is_special_or_byte": true}
+{"id": 24, "raw_piece": "<0x14>", "piece": "<0x14>", "is_special_or_byte": true}
+{"id": 25, "raw_piece": "<0x15>", "piece": "<0x15>", "is_special_or_byte": true}
+{"id": 26, "raw_piece": "<0x16>", "piece": "<0x16>", "is_special_or_byte": true}
+{"id": 27, "raw_piece": "<0x17>", "piece": "<0x17>", "is_special_or_byte": true}
+{"id": 28, "raw_piece": "<0x18>", "piece": "<0x18>", "is_special_or_byte": true}
+{"id": 29, "raw_piece": "<0x19>", "piece": "<0x19>", "is_special_or_byte": true}
+{"id": 30, "raw_piece": "<0x1A>", "piece": "<0x1A>", "is_special_or_byte": true}
+{"id": 31, "raw_piece": "<0x1B>", "piece": "<0x1B>", "is_special_or_byte": true}
+{"id": 32, "raw_piece": "<0x1C>", "piece": "<0x1C>", "is_special_or_byte": true}
+{"id": 33, "raw_piece": "<0x1D>", "piece": "<0x1D>", "is_special_or_byte": true}
+{"id": 34, "raw_piece": "<0x1E>", "piece": "<0x1E>", "is_special_or_byte": true}
+{"id": 35, "raw_piece": "<0x1F>", "piece": "<0x1F>", "is_special_or_byte": true}
+{"id": 36, "raw_piece": "<0x20>", "piece": "<0x20>", "is_special_or_byte": true}
+{"id": 37, "raw_piece": "<0x21>", "piece": "<0x21>", "is_special_or_byte": true}
+{"id": 38, "raw_piece": "<0x22>", "piece": "<0x22>", "is_special_or_byte": true}
+{"id": 39, "raw_piece": "<0x23>", "piece": "<0x23>", "is_special_or_byte": true}
+{"id": 40, "raw_piece": "<0x24>", "piece": "<0x24>", "is_special_or_byte": true}
+{"id": 41, "raw_piece": "<0x25>", "piece": "<0x25>", "is_special_or_byte": true}
+{"id": 42, "raw_piece": "<0x26>", "piece": "<0x26>", "is_special_or_byte": true}
+{"id": 43, "raw_piece": "<0x27>", "piece": "<0x27>", "is_special_or_byte": true}
+{"id": 44, "raw_piece": "<0x28>", "piece": "<0x28>", "is_special_or_byte": true}
+{"id": 45, "raw_piece": "<0x29>", "piece": "<0x29>", "is_special_or_byte": true}
+{"id": 46, "raw_piece": "<0x2A>", "piece": "<0x2A>", "is_special_or_byte": true}
+{"id": 47, "raw_piece": "<0x2B>", "piece": "<0x2B>", "is_special_or_byte": true}
+{"id": 48, "raw_piece": "<0x2C>", "piece": "<0x2C>", "is_special_or_byte": true}
+{"id": 49, "raw_piece": "<0x2D>", "piece": "<0x2D>", "is_special_or_byte": true}
+{"id": 50, "raw_piece": "<0x2E>", "piece": "<0x2E>", "is_special_or_byte": true}
+{"id": 51, "raw_piece": "<0x2F>", "piece": "<0x2F>", "is_special_or_byte": true}
+{"id": 52, "raw_piece": "<0x30>", "piece": "<0x30>", "is_special_or_byte": true}
+{"id": 53, "raw_piece": "<0x31>", "piece": "<0x31>", "is_special_or_byte": true}
+{"id": 54, "raw_piece": "<0x32>", "piece": "<0x32>", "is_special_or_byte": true}
+{"id": 55, "raw_piece": "<0x33>", "piece": "<0x33>", "is_special_or_byte": true}
+{"id": 56, "raw_piece": "<0x34>", "piece": "<0x34>", "is_special_or_byte": true}
+{"id": 57, "raw_piece": "<0x35>", "piece": "<0x35>", "is_special_or_byte": true}
+{"id": 58, "raw_piece": "<0x36>", "piece": "<0x36>", "is_special_or_byte": true}
+{"id": 59, "raw_piece": "<0x37>", "piece": "<0x37>", "is_special_or_byte": true}
+{"id": 60, "raw_piece": "<0x38>", "piece": "<0x38>", "is_special_or_byte": true}
+{"id": 61, "raw_piece": "<0x39>", "piece": "<0x39>", "is_special_or_byte": true}
+{"id": 62, "raw_piece": "<0x3A>", "piece": "<0x3A>", "is_special_or_byte": true}
+{"id": 63, "raw_piece": "<0x3B>", "piece": "<0x3B>", "is_special_or_byte": true}
+{"id": 64, "raw_piece": "<0x3C>", "piece": "<0x3C>", "is_special_or_byte": true}
+{"id": 65, "raw_piece": "<0x3D>", "piece": "<0x3D>", "is_special_or_byte": true}
+{"id": 66, "raw_piece": "<0x3E>", "piece": "<0x3E>", "is_special_or_byte": true}
+{"id": 67, "raw_piece": "<0x3F>", "piece": "<0x3F>", "is_special_or_byte": true}
+{"id": 68, "raw_piece": "<0x40>", "piece": "<0x40>", "is_special_or_byte": true}
+{"id": 69, "raw_piece": "<0x41>", "piece": "<0x41>", "is_special_or_byte": true}
+{"id": 70, "raw_piece": "<0x42>", "piece": "<0x42>", "is_special_or_byte": true}
+{"id": 71, "raw_piece": "<0x43>", "piece": "<0x43>", "is_special_or_byte": true}
+{"id": 72, "raw_piece": "<0x44>", "piece": "<0x44>", "is_special_or_byte": true}
+{"id": 73, "raw_piece": "<0x45>", "piece": "<0x45>", "is_special_or_byte": true}
+{"id": 74, "raw_piece": "<0x46>", "piece": "<0x46>", "is_special_or_byte": true}
+{"id": 75, "raw_piece": "<0x47>", "piece": "<0x47>", "is_special_or_byte": true}
+{"id": 76, "raw_piece": "<0x48>", "piece": "<0x48>", "is_special_or_byte": true}
+{"id": 77, "raw_piece": "<0x49>", "piece": "<0x49>", "is_special_or_byte": true}
+{"id": 78, "raw_piece": "<0x4A>", "piece": "<0x4A>", "is_special_or_byte": true}
+{"id": 79, "raw_piece": "<0x4B>", "piece": "<0x4B>", "is_special_or_byte": true}
+{"id": 80, "raw_piece": "<0x4C>", "piece": "<0x4C>", "is_special_or_byte": true}
+{"id": 81, "raw_piece": "<0x4D>", "piece": "<0x4D>", "is_special_or_byte": true}
+{"id": 82, "raw_piece": "<0x4E>", "piece": "<0x4E>", "is_special_or_byte": true}
+{"id": 83, "raw_piece": "<0x4F>", "piece": "<0x4F>", "is_special_or_byte": true}
+{"id": 84, "raw_piece": "<0x50>", "piece": "<0x50>", "is_special_or_byte": true}
+{"id": 85, "raw_piece": "<0x51>", "piece": "<0x51>", "is_special_or_byte": true}
+{"id": 86, "raw_piece": "<0x52>", "piece": "<0x52>", "is_special_or_byte": true}
+{"id": 87, "raw_piece": "<0x53>", "piece": "<0x53>", "is_special_or_byte": true}
+{"id": 88, "raw_piece": "<0x54>", "piece": "<0x54>", "is_special_or_byte": true}
+{"id": 89, "raw_piece": "<0x55>", "piece": "<0x55>", "is_special_or_byte": true}
+{"id": 90, "raw_piece": "<0x56>", "piece": "<0x56>", "is_special_or_byte": true}
+{"id": 91, "raw_piece": "<0x57>", "piece": "<0x57>", "is_special_or_byte": true}
+{"id": 92, "raw_piece": "<0x58>", "piece": "<0x58>", "is_special_or_byte": true}
+{"id": 93, "raw_piece": "<0x59>", "piece": "<0x59>", "is_special_or_byte": true}
+{"id": 94, "raw_piece": "<0x5A>", "piece": "<0x5A>", "is_special_or_byte": true}
+{"id": 95, "raw_piece": "<0x5B>", "piece": "<0x5B>", "is_special_or_byte": true}
+{"id": 96, "raw_piece": "<0x5C>", "piece": "<0x5C>", "is_special_or_byte": true}
+{"id": 97, "raw_piece": "<0x5D>", "piece": "<0x5D>", "is_special_or_byte": true}
+{"id": 98, "raw_piece": "<0x5E>", "piece": "<0x5E>", "is_special_or_byte": true}
+{"id": 99, "raw_piece": "<0x5F>", "piece": "<0x5F>", "is_special_or_byte": true}
+{"id": 100, "raw_piece": "<0x60>", "piece": "<0x60>", "is_special_or_byte": true}
+{"id": 101, "raw_piece": "<0x61>", "piece": "<0x61>", "is_special_or_byte": true}
+{"id": 102, "raw_piece": "<0x62>", "piece": "<0x62>", "is_special_or_byte": true}
+{"id": 103, "raw_piece": "<0x63>", "piece": "<0x63>", "is_special_or_byte": true}
+{"id": 104, "raw_piece": "<0x64>", "piece": "<0x64>", "is_special_or_byte": true}
+{"id": 105, "raw_piece": "<0x65>", "piece": "<0x65>", "is_special_or_byte": true}
+{"id": 106, "raw_piece": "<0x66>", "piece": "<0x66>", "is_special_or_byte": true}
+{"id": 107, "raw_piece": "<0x67>", "piece": "<0x67>", "is_special_or_byte": true}
+{"id": 108, "raw_piece": "<0x68>", "piece": "<0x68>", "is_special_or_byte": true}
+{"id": 109, "raw_piece": "<0x69>", "piece": "<0x69>", "is_special_or_byte": true}
+{"id": 110, "raw_piece": "<0x6A>", "piece": "<0x6A>", "is_special_or_byte": true}
+{"id": 111, "raw_piece": "<0x6B>", "piece": "<0x6B>", "is_special_or_byte": true}
+{"id": 112, "raw_piece": "<0x6C>", "piece": "<0x6C>", "is_special_or_byte": true}
+{"id": 113, "raw_piece": "<0x6D>", "piece": "<0x6D>", "is_special_or_byte": true}
+{"id": 114, "raw_piece": "<0x6E>", "piece": "<0x6E>", "is_special_or_byte": true}
+{"id": 115, "raw_piece": "<0x6F>", "piece": "<0x6F>", "is_special_or_byte": true}
+{"id": 116, "raw_piece": "<0x70>", "piece": "<0x70>", "is_special_or_byte": true}
+{"id": 117, "raw_piece": "<0x71>", "piece": "<0x71>", "is_special_or_byte": true}
+{"id": 118, "raw_piece": "<0x72>", "piece": "<0x72>", "is_special_or_byte": true}
+{"id": 119, "raw_piece": "<0x73>", "piece": "<0x73>", "is_special_or_byte": true}
+{"id": 120, "raw_piece": "<0x74>", "piece": "<0x74>", "is_special_or_byte": true}
+{"id": 121, "raw_piece": "<0x75>", "piece": "<0x75>", "is_special_or_byte": true}
+{"id": 122, "raw_piece": "<0x76>", "piece": "<0x76>", "is_special_or_byte": true}
+{"id": 123, "raw_piece": "<0x77>", "piece": "<0x77>", "is_special_or_byte": true}
+{"id": 124, "raw_piece": "<0x78>", "piece": "<0x78>", "is_special_or_byte": true}
+{"id": 125, "raw_piece": "<0x79>", "piece": "<0x79>", "is_special_or_byte": true}
+{"id": 126, "raw_piece": "<0x7A>", "piece": "<0x7A>", "is_special_or_byte": true}
+{"id": 127, "raw_piece": "<0x7B>", "piece": "<0x7B>", "is_special_or_byte": true}
+{"id": 128, "raw_piece": "<0x7C>", "piece": "<0x7C>", "is_special_or_byte": true}
+{"id": 129, "raw_piece": "<0x7D>", "piece": "<0x7D>", "is_special_or_byte": true}
+{"id": 130, "raw_piece": "<0x7E>", "piece": "<0x7E>", "is_special_or_byte": true}
+{"id": 131, "raw_piece": "<0x7F>", "piece": "<0x7F>", "is_special_or_byte": true}
+{"id": 132, "raw_piece": "<0x80>", "piece": "<0x80>", "is_special_or_byte": true}
+{"id": 133, "raw_piece": "<0x81>", "piece": "<0x81>", "is_special_or_byte": true}
+{"id": 134, "raw_piece": "<0x82>", "piece": "<0x82>", "is_special_or_byte": true}
+{"id": 135, "raw_piece": "<0x83>", "piece": "<0x83>", "is_special_or_byte": true}
+{"id": 136, "raw_piece": "<0x84>", "piece": "<0x84>", "is_special_or_byte": true}
+{"id": 137, "raw_piece": "<0x85>", "piece": "<0x85>", "is_special_or_byte": true}
+{"id": 138, "raw_piece": "<0x86>", "piece": "<0x86>", "is_special_or_byte": true}
+{"id": 139, "raw_piece": "<0x87>", "piece": "<0x87>", "is_special_or_byte": true}
+{"id": 140, "raw_piece": "<0x88>", "piece": "<0x88>", "is_special_or_byte": true}
+{"id": 141, "raw_piece": "<0x89>", "piece": "<0x89>", "is_special_or_byte": true}
+{"id": 142, "raw_piece": "<0x8A>", "piece": "<0x8A>", "is_special_or_byte": true}
+{"id": 143, "raw_piece": "<0x8B>", "piece": "<0x8B>", "is_special_or_byte": true}
+{"id": 144, "raw_piece": "<0x8C>", "piece": "<0x8C>", "is_special_or_byte": true}
+{"id": 145, "raw_piece": "<0x8D>", "piece": "<0x8D>", "is_special_or_byte": true}
+{"id": 146, "raw_piece": "<0x8E>", "piece": "<0x8E>", "is_special_or_byte": true}
+{"id": 147, "raw_piece": "<0x8F>", "piece": "<0x8F>", "is_special_or_byte": true}
+{"id": 148, "raw_piece": "<0x90>", "piece": "<0x90>", "is_special_or_byte": true}
+{"id": 149, "raw_piece": "<0x91>", "piece": "<0x91>", "is_special_or_byte": true}
+{"id": 150, "raw_piece": "<0x92>", "piece": "<0x92>", "is_special_or_byte": true}
+{"id": 151, "raw_piece": "<0x93>", "piece": "<0x93>", "is_special_or_byte": true}
+{"id": 152, "raw_piece": "<0x94>", "piece": "<0x94>", "is_special_or_byte": true}
+{"id": 153, "raw_piece": "<0x95>", "piece": "<0x95>", "is_special_or_byte": true}
+{"id": 154, "raw_piece": "<0x96>", "piece": "<0x96>", "is_special_or_byte": true}
+{"id": 155, "raw_piece": "<0x97>", "piece": "<0x97>", "is_special_or_byte": true}
+{"id": 156, "raw_piece": "<0x98>", "piece": "<0x98>", "is_special_or_byte": true}
+{"id": 157, "raw_piece": "<0x99>", "piece": "<0x99>", "is_special_or_byte": true}
+{"id": 158, "raw_piece": "<0x9A>", "piece": "<0x9A>", "is_special_or_byte": true}
+{"id": 159, "raw_piece": "<0x9B>", "piece": "<0x9B>", "is_special_or_byte": true}
+{"id": 160, "raw_piece": "<0x9C>", "piece": "<0x9C>", "is_special_or_byte": true}
+{"id": 161, "raw_piece": "<0x9D>", "piece": "<0x9D>", "is_special_or_byte": true}
+{"id": 162, "raw_piece": "<0x9E>", "piece": "<0x9E>", "is_special_or_byte": true}
+{"id": 163, "raw_piece": "<0x9F>", "piece": "<0x9F>", "is_special_or_byte": true}
+{"id": 164, "raw_piece": "<0xA0>", "piece": "<0xA0>", "is_special_or_byte": true}
+{"id": 165, "raw_piece": "<0xA1>", "piece": "<0xA1>", "is_special_or_byte": true}
+{"id": 166, "raw_piece": "<0xA2>", "piece": "<0xA2>", "is_special_or_byte": true}
+{"id": 167, "raw_piece": "<0xA3>", "piece": "<0xA3>", "is_special_or_byte": true}
+{"id": 168, "raw_piece": "<0xA4>", "piece": "<0xA4>", "is_special_or_byte": true}
+{"id": 169, "raw_piece": "<0xA5>", "piece": "<0xA5>", "is_special_or_byte": true}
+{"id": 170, "raw_piece": "<0xA6>", "piece": "<0xA6>", "is_special_or_byte": true}
+{"id": 171, "raw_piece": "<0xA7>", "piece": "<0xA7>", "is_special_or_byte": true}
+{"id": 172, "raw_piece": "<0xA8>", "piece": "<0xA8>", "is_special_or_byte": true}
+{"id": 173, "raw_piece": "<0xA9>", "piece": "<0xA9>", "is_special_or_byte": true}
+{"id": 174, "raw_piece": "<0xAA>", "piece": "<0xAA>", "is_special_or_byte": true}
+{"id": 175, "raw_piece": "<0xAB>", "piece": "<0xAB>", "is_special_or_byte": true}
+{"id": 176, "raw_piece": "<0xAC>", "piece": "<0xAC>", "is_special_or_byte": true}
+{"id": 177, "raw_piece": "<0xAD>", "piece": "<0xAD>", "is_special_or_byte": true}
+{"id": 178, "raw_piece": "<0xAE>", "piece": "<0xAE>", "is_special_or_byte": true}
+{"id": 179, "raw_piece": "<0xAF>", "piece": "<0xAF>", "is_special_or_byte": true}
+{"id": 180, "raw_piece": "<0xB0>", "piece": "<0xB0>", "is_special_or_byte": true}
+{"id": 181, "raw_piece": "<0xB1>", "piece": "<0xB1>", "is_special_or_byte": true}
+{"id": 182, "raw_piece": "<0xB2>", "piece": "<0xB2>", "is_special_or_byte": true}
+{"id": 183, "raw_piece": "<0xB3>", "piece": "<0xB3>", "is_special_or_byte": true}
+{"id": 184, "raw_piece": "<0xB4>", "piece": "<0xB4>", "is_special_or_byte": true}
+{"id": 185, "raw_piece": "<0xB5>", "piece": "<0xB5>", "is_special_or_byte": true}
+{"id": 186, "raw_piece": "<0xB6>", "piece": "<0xB6>", "is_special_or_byte": true}
+{"id": 187, "raw_piece": "<0xB7>", "piece": "<0xB7>", "is_special_or_byte": true}
+{"id": 188, "raw_piece": "<0xB8>", "piece": "<0xB8>", "is_special_or_byte": true}
+{"id": 189, "raw_piece": "<0xB9>", "piece": "<0xB9>", "is_special_or_byte": true}
+{"id": 190, "raw_piece": "<0xBA>", "piece": "<0xBA>", "is_special_or_byte": true}
+{"id": 191, "raw_piece": "<0xBB>", "piece": "<0xBB>", "is_special_or_byte": true}
+{"id": 192, "raw_piece": "<0xBC>", "piece": "<0xBC>", "is_special_or_byte": true}
+{"id": 193, "raw_piece": "<0xBD>", "piece": "<0xBD>", "is_special_or_byte": true}
+{"id": 194, "raw_piece": "<0xBE>", "piece": "<0xBE>", "is_special_or_byte": true}
+{"id": 195, "raw_piece": "<0xBF>", "piece": "<0xBF>", "is_special_or_byte": true}
+{"id": 196, "raw_piece": "<0xC0>", "piece": "<0xC0>", "is_special_or_byte": true}
+{"id": 197, "raw_piece": "<0xC1>", "piece": "<0xC1>", "is_special_or_byte": true}
+{"id": 198, "raw_piece": "<0xC2>", "piece": "<0xC2>", "is_special_or_byte": true}
+{"id": 199, "raw_piece": "<0xC3>", "piece": "<0xC3>", "is_special_or_byte": true}
+{"id": 200, "raw_piece": "<0xC4>", "piece": "<0xC4>", "is_special_or_byte": true}
+{"id": 201, "raw_piece": "<0xC5>", "piece": "<0xC5>", "is_special_or_byte": true}
+{"id": 202, "raw_piece": "<0xC6>", "piece": "<0xC6>", "is_special_or_byte": true}
+{"id": 203, "raw_piece": "<0xC7>", "piece": "<0xC7>", "is_special_or_byte": true}
+{"id": 204, "raw_piece": "<0xC8>", "piece": "<0xC8>", "is_special_or_byte": true}
+{"id": 205, "raw_piece": "<0xC9>", "piece": "<0xC9>", "is_special_or_byte": true}
+{"id": 206, "raw_piece": "<0xCA>", "piece": "<0xCA>", "is_special_or_byte": true}
+{"id": 207, "raw_piece": "<0xCB>", "piece": "<0xCB>", "is_special_or_byte": true}
+{"id": 208, "raw_piece": "<0xCC>", "piece": "<0xCC>", "is_special_or_byte": true}
+{"id": 209, "raw_piece": "<0xCD>", "piece": "<0xCD>", "is_special_or_byte": true}
+{"id": 210, "raw_piece": "<0xCE>", "piece": "<0xCE>", "is_special_or_byte": true}
+{"id": 211, "raw_piece": "<0xCF>", "piece": "<0xCF>", "is_special_or_byte": true}
+{"id": 212, "raw_piece": "<0xD0>", "piece": "<0xD0>", "is_special_or_byte": true}
+{"id": 213, "raw_piece": "<0xD1>", "piece": "<0xD1>", "is_special_or_byte": true}
+{"id": 214, "raw_piece": "<0xD2>", "piece": "<0xD2>", "is_special_or_byte": true}
+{"id": 215, "raw_piece": "<0xD3>", "piece": "<0xD3>", "is_special_or_byte": true}
+{"id": 216, "raw_piece": "<0xD4>", "piece": "<0xD4>", "is_special_or_byte": true}
+{"id": 217, "raw_piece": "<0xD5>", "piece": "<0xD5>", "is_special_or_byte": true}
+{"id": 218, "raw_piece": "<0xD6>", "piece": "<0xD6>", "is_special_or_byte": true}
+{"id": 219, "raw_piece": "<0xD7>", "piece": "<0xD7>", "is_special_or_byte": true}
+{"id": 220, "raw_piece": "<0xD8>", "piece": "<0xD8>", "is_special_or_byte": true}
+{"id": 221, "raw_piece": "<0xD9>", "piece": "<0xD9>", "is_special_or_byte": true}
+{"id": 222, "raw_piece": "<0xDA>", "piece": "<0xDA>", "is_special_or_byte": true}
+{"id": 223, "raw_piece": "<0xDB>", "piece": "<0xDB>", "is_special_or_byte": true}
+{"id": 224, "raw_piece": "<0xDC>", "piece": "<0xDC>", "is_special_or_byte": true}
+{"id": 225, "raw_piece": "<0xDD>", "piece": "<0xDD>", "is_special_or_byte": true}
+{"id": 226, "raw_piece": "<0xDE>", "piece": "<0xDE>", "is_special_or_byte": true}
+{"id": 227, "raw_piece": "<0xDF>", "piece": "<0xDF>", "is_special_or_byte": true}
+{"id": 228, "raw_piece": "<0xE0>", "piece": "<0xE0>", "is_special_or_byte": true}
+{"id": 229, "raw_piece": "<0xE1>", "piece": "<0xE1>", "is_special_or_byte": true}
+{"id": 230, "raw_piece": "<0xE2>", "piece": "<0xE2>", "is_special_or_byte": true}
+{"id": 231, "raw_piece": "<0xE3>", "piece": "<0xE3>", "is_special_or_byte": true}
+{"id": 232, "raw_piece": "<0xE4>", "piece": "<0xE4>", "is_special_or_byte": true}
+{"id": 233, "raw_piece": "<0xE5>", "piece": "<0xE5>", "is_special_or_byte": true}
+{"id": 234, "raw_piece": "<0xE6>", "piece": "<0xE6>", "is_special_or_byte": true}
+{"id": 235, "raw_piece": "<0xE7>", "piece": "<0xE7>", "is_special_or_byte": true}
+{"id": 236, "raw_piece": "<0xE8>", "piece": "<0xE8>", "is_special_or_byte": true}
+{"id": 237, "raw_piece": "<0xE9>", "piece": "<0xE9>", "is_special_or_byte": true}
+{"id": 238, "raw_piece": "<0xEA>", "piece": "<0xEA>", "is_special_or_byte": true}
+{"id": 239, "raw_piece": "<0xEB>", "piece": "<0xEB>", "is_special_or_byte": true}
+{"id": 240, "raw_piece": "<0xEC>", "piece": "<0xEC>", "is_special_or_byte": true}
+{"id": 241, "raw_piece": "<0xED>", "piece": "<0xED>", "is_special_or_byte": true}
+{"id": 242, "raw_piece": "<0xEE>", "piece": "<0xEE>", "is_special_or_byte": true}
+{"id": 243, "raw_piece": "<0xEF>", "piece": "<0xEF>", "is_special_or_byte": true}
+{"id": 244, "raw_piece": "<0xF0>", "piece": "<0xF0>", "is_special_or_byte": true}
+{"id": 245, "raw_piece": "<0xF1>", "piece": "<0xF1>", "is_special_or_byte": true}
+{"id": 246, "raw_piece": "<0xF2>", "piece": "<0xF2>", "is_special_or_byte": true}
+{"id": 247, "raw_piece": "<0xF3>", "piece": "<0xF3>", "is_special_or_byte": true}
+{"id": 248, "raw_piece": "<0xF4>", "piece": "<0xF4>", "is_special_or_byte": true}
+{"id": 249, "raw_piece": "<0xF5>", "piece": "<0xF5>", "is_special_or_byte": true}
+{"id": 250, "raw_piece": "<0xF6>", "piece": "<0xF6>", "is_special_or_byte": true}
+{"id": 251, "raw_piece": "<0xF7>", "piece": "<0xF7>", "is_special_or_byte": true}
+{"id": 252, "raw_piece": "<0xF8>", "piece": "<0xF8>", "is_special_or_byte": true}
+{"id": 253, "raw_piece": "<0xF9>", "piece": "<0xF9>", "is_special_or_byte": true}
+{"id": 254, "raw_piece": "<0xFA>", "piece": "<0xFA>", "is_special_or_byte": true}
+{"id": 255, "raw_piece": "<0xFB>", "piece": "<0xFB>", "is_special_or_byte": true}
+{"id": 256, "raw_piece": "<0xFC>", "piece": "<0xFC>", "is_special_or_byte": true}
+{"id": 257, "raw_piece": "<0xFD>", "piece": "<0xFD>", "is_special_or_byte": true}
+{"id": 258, "raw_piece": "<0xFE>", "piece": "<0xFE>", "is_special_or_byte": true}
+{"id": 259, "raw_piece": "<0xFF>", "piece": "<0xFF>", "is_special_or_byte": true}
+{"id": 260, "raw_piece": "▁t", "piece": " t", "is_special_or_byte": false}
+{"id": 261, "raw_piece": "▁a", "piece": " a", "is_special_or_byte": false}
+{"id": 262, "raw_piece": "in", "piece": "in", "is_special_or_byte": false}
+{"id": 263, "raw_piece": "he", "piece": "he", "is_special_or_byte": false}
+{"id": 264, "raw_piece": "re", "piece": "re", "is_special_or_byte": false}
+{"id": 265, "raw_piece": "on", "piece": "on", "is_special_or_byte": false}
+{"id": 266, "raw_piece": "er", "piece": "er", "is_special_or_byte": false}
+{"id": 267, "raw_piece": "▁the", "piece": " the", "is_special_or_byte": false}
+{"id": 268, "raw_piece": "▁s", "piece": " s", "is_special_or_byte": false}
+{"id": 269, "raw_piece": "▁w", "piece": " w", "is_special_or_byte": false}
+{"id": 270, "raw_piece": "or", "piece": "or", "is_special_or_byte": false}
+{"id": 271, "raw_piece": "at", "piece": "at", "is_special_or_byte": false}
+{"id": 272, "raw_piece": "nd", "piece": "nd", "is_special_or_byte": false}
+{"id": 273, "raw_piece": "ou", "piece": "ou", "is_special_or_byte": false}
+{"id": 274, "raw_piece": "▁c", "piece": " c", "is_special_or_byte": false}
+{"id": 275, "raw_piece": "it", "piece": "it", "is_special_or_byte": false}
+{"id": 276, "raw_piece": "es", "piece": "es", "is_special_or_byte": false}
+{"id": 277, "raw_piece": "▁f", "piece": " f", "is_special_or_byte": false}
+{"id": 278, "raw_piece": "is", "piece": "is", "is_special_or_byte": false}
+{"id": 279, "raw_piece": "en", "piece": "en", "is_special_or_byte": false}
+{"id": 280, "raw_piece": "ing", "piece": "ing", "is_special_or_byte": false}
+{"id": 281, "raw_piece": "▁b", "piece": " b", "is_special_or_byte": false}
+{"id": 282, "raw_piece": "▁p", "piece": " p", "is_special_or_byte": false}
+{"id": 283, "raw_piece": "▁o", "piece": " o", "is_special_or_byte": false}
+{"id": 284, "raw_piece": "an", "piece": "an", "is_special_or_byte": false}
+{"id": 285, "raw_piece": "ed", "piece": "ed", "is_special_or_byte": false}
+{"id": 286, "raw_piece": "al", "piece": "al", "is_special_or_byte": false}
+{"id": 287, "raw_piece": "▁to", "piece": " to", "is_special_or_byte": false}
+{"id": 288, "raw_piece": "▁m", "piece": " m", "is_special_or_byte": false}
+{"id": 289, "raw_piece": "ar", "piece": "ar", "is_special_or_byte": false}
+{"id": 290, "raw_piece": "▁and", "piece": " and", "is_special_or_byte": false}
+{"id": 291, "raw_piece": "▁in", "piece": " in", "is_special_or_byte": false}
+{"id": 292, "raw_piece": "▁of", "piece": " of", "is_special_or_byte": false}
+{"id": 293, "raw_piece": "▁d", "piece": " d", "is_special_or_byte": false}
+{"id": 294, "raw_piece": "le", "piece": "le", "is_special_or_byte": false}
+{"id": 295, "raw_piece": "ic", "piece": "ic", "is_special_or_byte": false}
+{"id": 296, "raw_piece": "as", "piece": "as", "is_special_or_byte": false}
+{"id": 297, "raw_piece": "om", "piece": "om", "is_special_or_byte": false}
+{"id": 298, "raw_piece": "▁h", "piece": " h", "is_special_or_byte": false}
+{"id": 299, "raw_piece": "ion", "piece": "ion", "is_special_or_byte": false}
+{"id": 300, "raw_piece": "▁th", "piece": " th", "is_special_or_byte": false}
+{"id": 301, "raw_piece": "il", "piece": "il", "is_special_or_byte": false}
+{"id": 302, "raw_piece": "▁T", "piece": " T", "is_special_or_byte": false}
+{"id": 303, "raw_piece": "ent", "piece": "ent", "is_special_or_byte": false}
+{"id": 304, "raw_piece": "▁l", "piece": " l", "is_special_or_byte": false}
+{"id": 305, "raw_piece": "ve", "piece": "ve", "is_special_or_byte": false}
+{"id": 306, "raw_piece": "▁y", "piece": " y", "is_special_or_byte": false}
+{"id": 307, "raw_piece": "ro", "piece": "ro", "is_special_or_byte": false}
+{"id": 308, "raw_piece": "st", "piece": "st", "is_special_or_byte": false}
+{"id": 309, "raw_piece": "▁I", "piece": " I", "is_special_or_byte": false}
+{"id": 310, "raw_piece": "▁e", "piece": " e", "is_special_or_byte": false}
+{"id": 311, "raw_piece": "▁re", "piece": " re", "is_special_or_byte": false}
+{"id": 312, "raw_piece": "▁n", "piece": " n", "is_special_or_byte": false}
+{"id": 313, "raw_piece": "▁S", "piece": " S", "is_special_or_byte": false}
+{"id": 314, "raw_piece": "▁g", "piece": " g", "is_special_or_byte": false}
+{"id": 315, "raw_piece": "et", "piece": "et", "is_special_or_byte": false}
+{"id": 316, "raw_piece": "ct", "piece": "ct", "is_special_or_byte": false}
+{"id": 317, "raw_piece": "▁A", "piece": " A", "is_special_or_byte": false}
+{"id": 318, "raw_piece": "▁you", "piece": " you", "is_special_or_byte": false}
+{"id": 319, "raw_piece": "▁C", "piece": " C", "is_special_or_byte": false}
+{"id": 320, "raw_piece": "ly", "piece": "ly", "is_special_or_byte": false}
+{"id": 321, "raw_piece": "▁for", "piece": " for", "is_special_or_byte": false}
+{"id": 322, "raw_piece": "id", "piece": "id", "is_special_or_byte": false}
+{"id": 323, "raw_piece": "▁is", "piece": " is", "is_special_or_byte": false}
+{"id": 324, "raw_piece": "ay", "piece": "ay", "is_special_or_byte": false}
+{"id": 325, "raw_piece": "▁on", "piece": " on", "is_special_or_byte": false}
+{"id": 326, "raw_piece": "▁be", "piece": " be", "is_special_or_byte": false}
+{"id": 327, "raw_piece": "ot", "piece": "ot", "is_special_or_byte": false}
+{"id": 328, "raw_piece": "ow", "piece": "ow", "is_special_or_byte": false}
+{"id": 329, "raw_piece": "ol", "piece": "ol", "is_special_or_byte": false}
+{"id": 330, "raw_piece": "am", "piece": "am", "is_special_or_byte": false}
+{"id": 331, "raw_piece": "ac", "piece": "ac", "is_special_or_byte": false}
+{"id": 332, "raw_piece": "ig", "piece": "ig", "is_special_or_byte": false}
+{"id": 333, "raw_piece": "us", "piece": "us", "is_special_or_byte": false}
+{"id": 334, "raw_piece": "el", "piece": "el", "is_special_or_byte": false}
+{"id": 335, "raw_piece": "ad", "piece": "ad", "is_special_or_byte": false}
+{"id": 336, "raw_piece": "im", "piece": "im", "is_special_or_byte": false}
+{"id": 337, "raw_piece": "▁M", "piece": " M", "is_special_or_byte": false}
+{"id": 338, "raw_piece": "ver", "piece": "ver", "is_special_or_byte": false}
+{"id": 339, "raw_piece": "ith", "piece": "ith", "is_special_or_byte": false}
+{"id": 340, "raw_piece": "ut", "piece": "ut", "is_special_or_byte": false}
+{"id": 341, "raw_piece": "▁st", "piece": " st", "is_special_or_byte": false}
+{"id": 342, "raw_piece": "ation", "piece": "ation", "is_special_or_byte": false}
+{"id": 343, "raw_piece": "ur", "piece": "ur", "is_special_or_byte": false}
+{"id": 344, "raw_piece": "▁P", "piece": " P", "is_special_or_byte": false}
+{"id": 345, "raw_piece": "▁with", "piece": " with", "is_special_or_byte": false}
+{"id": 346, "raw_piece": "▁that", "piece": " that", "is_special_or_byte": false}
+{"id": 347, "raw_piece": "ir", "piece": "ir", "is_special_or_byte": false}
+{"id": 348, "raw_piece": "▁B", "piece": " B", "is_special_or_byte": false}
+{"id": 349, "raw_piece": "▁W", "piece": " W", "is_special_or_byte": false}
+{"id": 350, "raw_piece": "ch", "piece": "ch", "is_special_or_byte": false}
+{"id": 351, "raw_piece": "ce", "piece": "ce", "is_special_or_byte": false}
+{"id": 352, "raw_piece": "▁The", "piece": " The", "is_special_or_byte": false}
+{"id": 353, "raw_piece": "▁it", "piece": " it", "is_special_or_byte": false}
+{"id": 354, "raw_piece": "▁he", "piece": " he", "is_special_or_byte": false}
+{"id": 355, "raw_piece": "ill", "piece": "ill", "is_special_or_byte": false}
+{"id": 356, "raw_piece": "ers", "piece": "ers", "is_special_or_byte": false}
+{"id": 357, "raw_piece": "▁al", "piece": " al", "is_special_or_byte": false}
+{"id": 358, "raw_piece": "un", "piece": "un", "is_special_or_byte": false}
+{"id": 359, "raw_piece": "ul", "piece": "ul", "is_special_or_byte": false}
+{"id": 360, "raw_piece": "▁an", "piece": " an", "is_special_or_byte": false}
+{"id": 361, "raw_piece": "▁D", "piece": " D", "is_special_or_byte": false}
+{"id": 362, "raw_piece": "▁H", "piece": " H", "is_special_or_byte": false}
+{"id": 363, "raw_piece": "▁F", "piece": " F", "is_special_or_byte": false}
+{"id": 364, "raw_piece": "ra", "piece": "ra", "is_special_or_byte": false}
+{"id": 365, "raw_piece": "out", "piece": "out", "is_special_or_byte": false}
+{"id": 366, "raw_piece": "▁as", "piece": " as", "is_special_or_byte": false}
+{"id": 367, "raw_piece": "▁pro", "piece": " pro", "is_special_or_byte": false}
+{"id": 368, "raw_piece": "▁wh", "piece": " wh", "is_special_or_byte": false}
+{"id": 369, "raw_piece": "ke", "piece": "ke", "is_special_or_byte": false}
+{"id": 370, "raw_piece": "▁are", "piece": " are", "is_special_or_byte": false}
+{"id": 371, "raw_piece": "se", "piece": "se", "is_special_or_byte": false}
+{"id": 372, "raw_piece": "ter", "piece": "ter", "is_special_or_byte": false}
+{"id": 373, "raw_piece": "▁we", "piece": " we", "is_special_or_byte": false}
+{"id": 374, "raw_piece": "if", "piece": "if", "is_special_or_byte": false}
+{"id": 375, "raw_piece": "oo", "piece": "oo", "is_special_or_byte": false}
+{"id": 376, "raw_piece": "ge", "piece": "ge", "is_special_or_byte": false}
+{"id": 377, "raw_piece": "▁ha", "piece": " ha", "is_special_or_byte": false}
+{"id": 378, "raw_piece": "our", "piece": "our", "is_special_or_byte": false}
+{"id": 379, "raw_piece": "▁R", "piece": " R", "is_special_or_byte": false}
+{"id": 380, "raw_piece": "pp", "piece": "pp", "is_special_or_byte": false}
+{"id": 381, "raw_piece": "ate", "piece": "ate", "is_special_or_byte": false}
+{"id": 382, "raw_piece": "ess", "piece": "ess", "is_special_or_byte": false}
+{"id": 383, "raw_piece": "▁at", "piece": " at", "is_special_or_byte": false}
+{"id": 384, "raw_piece": "▁con", "piece": " con", "is_special_or_byte": false}
+{"id": 385, "raw_piece": "▁com", "piece": " com", "is_special_or_byte": false}
+{"id": 386, "raw_piece": "▁or", "piece": " or", "is_special_or_byte": false}
+{"id": 387, "raw_piece": "▁L", "piece": " L", "is_special_or_byte": false}
+{"id": 388, "raw_piece": "est", "piece": "est", "is_special_or_byte": false}
+{"id": 389, "raw_piece": "her", "piece": "her", "is_special_or_byte": false}
+{"id": 390, "raw_piece": "ore", "piece": "ore", "is_special_or_byte": false}
+{"id": 391, "raw_piece": "ment", "piece": "ment", "is_special_or_byte": false}
+{"id": 392, "raw_piece": "▁fr", "piece": " fr", "is_special_or_byte": false}
+{"id": 393, "raw_piece": "ab", "piece": "ab", "is_special_or_byte": false}
+{"id": 394, "raw_piece": "igh", "piece": "igh", "is_special_or_byte": false}
+{"id": 395, "raw_piece": "▁-", "piece": " -", "is_special_or_byte": false}
+{"id": 396, "raw_piece": "▁ne", "piece": " ne", "is_special_or_byte": false}
+{"id": 397, "raw_piece": "▁N", "piece": " N", "is_special_or_byte": false}
+{"id": 398, "raw_piece": "▁se", "piece": " se", "is_special_or_byte": false}
+{"id": 399, "raw_piece": "ort", "piece": "ort", "is_special_or_byte": false}
+{"id": 400, "raw_piece": "▁G", "piece": " G", "is_special_or_byte": false}
+{"id": 401, "raw_piece": "ld", "piece": "ld", "is_special_or_byte": false}
+{"id": 402, "raw_piece": "▁your", "piece": " your", "is_special_or_byte": false}
+{"id": 403, "raw_piece": "▁E", "piece": " E", "is_special_or_byte": false}
+{"id": 404, "raw_piece": "ist", "piece": "ist", "is_special_or_byte": false}
+{"id": 405, "raw_piece": "ri", "piece": "ri", "is_special_or_byte": false}
+{"id": 406, "raw_piece": "op", "piece": "op", "is_special_or_byte": false}
+{"id": 407, "raw_piece": "▁(", "piece": " (", "is_special_or_byte": false}
+{"id": 408, "raw_piece": "▁ex", "piece": " ex", "is_special_or_byte": false}
+{"id": 409, "raw_piece": "ity", "piece": "ity", "is_special_or_byte": false}
+{"id": 410, "raw_piece": "ure", "piece": "ure", "is_special_or_byte": false}
+{"id": 411, "raw_piece": "em", "piece": "em", "is_special_or_byte": false}
+{"id": 412, "raw_piece": "▁O", "piece": " O", "is_special_or_byte": false}
+{"id": 413, "raw_piece": "▁v", "piece": " v", "is_special_or_byte": false}
+{"id": 414, "raw_piece": "qu", "piece": "qu", "is_special_or_byte": false}
+{"id": 415, "raw_piece": "ant", "piece": "ant", "is_special_or_byte": false}
+{"id": 416, "raw_piece": "art", "piece": "art", "is_special_or_byte": false}
+{"id": 417, "raw_piece": "ive", "piece": "ive", "is_special_or_byte": false}
+{"id": 418, "raw_piece": "▁r", "piece": " r", "is_special_or_byte": false}
+{"id": 419, "raw_piece": "ust", "piece": "ust", "is_special_or_byte": false}
+{"id": 420, "raw_piece": "▁was", "piece": " was", "is_special_or_byte": false}
+{"id": 421, "raw_piece": "um", "piece": "um", "is_special_or_byte": false}
+{"id": 422, "raw_piece": "▁have", "piece": " have", "is_special_or_byte": false}
+{"id": 423, "raw_piece": "pe", "piece": "pe", "is_special_or_byte": false}
+{"id": 424, "raw_piece": "▁from", "piece": " from", "is_special_or_byte": false}
+{"id": 425, "raw_piece": "▁this", "piece": " this", "is_special_or_byte": false}
+{"id": 426, "raw_piece": "▁de", "piece": " de", "is_special_or_byte": false}
+{"id": 427, "raw_piece": "oc", "piece": "oc", "is_special_or_byte": false}
+{"id": 428, "raw_piece": "▁sh", "piece": " sh", "is_special_or_byte": false}
+{"id": 429, "raw_piece": "th", "piece": "th", "is_special_or_byte": false}
+{"id": 430, "raw_piece": "ain", "piece": "ain", "is_special_or_byte": false}
+{"id": 431, "raw_piece": "ies", "piece": "ies", "is_special_or_byte": false}
+{"id": 432, "raw_piece": "▁can", "piece": " can", "is_special_or_byte": false}
+{"id": 433, "raw_piece": "up", "piece": "up", "is_special_or_byte": false}
+{"id": 434, "raw_piece": "▁will", "piece": " will", "is_special_or_byte": false}
+{"id": 435, "raw_piece": "▁ch", "piece": " ch", "is_special_or_byte": false}
+{"id": 436, "raw_piece": "and", "piece": "and", "is_special_or_byte": false}
+{"id": 437, "raw_piece": "▁by", "piece": " by", "is_special_or_byte": false}
+{"id": 438, "raw_piece": "os", "piece": "os", "is_special_or_byte": false}
+{"id": 439, "raw_piece": "ight", "piece": "ight", "is_special_or_byte": false}
+{"id": 440, "raw_piece": "nt", "piece": "nt", "is_special_or_byte": false}
+{"id": 441, "raw_piece": "ie", "piece": "ie", "is_special_or_byte": false}
+{"id": 442, "raw_piece": "▁us", "piece": " us", "is_special_or_byte": false}
+{"id": 443, "raw_piece": "ome", "piece": "ome", "is_special_or_byte": false}
+{"id": 444, "raw_piece": "all", "piece": "all", "is_special_or_byte": false}
+{"id": 445, "raw_piece": "ard", "piece": "ard", "is_special_or_byte": false}
+{"id": 446, "raw_piece": "▁not", "piece": " not", "is_special_or_byte": false}
+{"id": 447, "raw_piece": "ud", "piece": "ud", "is_special_or_byte": false}
+{"id": 448, "raw_piece": "res", "piece": "res", "is_special_or_byte": false}
+{"id": 449, "raw_piece": "▁le", "piece": " le", "is_special_or_byte": false}
+{"id": 450, "raw_piece": "▁J", "piece": " J", "is_special_or_byte": false}
+{"id": 451, "raw_piece": "ast", "piece": "ast", "is_special_or_byte": false}
+{"id": 452, "raw_piece": "▁pl", "piece": " pl", "is_special_or_byte": false}
+{"id": 453, "raw_piece": "ost", "piece": "ost", "is_special_or_byte": false}
+{"id": 454, "raw_piece": "▁su", "piece": " su", "is_special_or_byte": false}
+{"id": 455, "raw_piece": "▁ab", "piece": " ab", "is_special_or_byte": false}
+{"id": 456, "raw_piece": "iv", "piece": "iv", "is_special_or_byte": false}
+{"id": 457, "raw_piece": "ear", "piece": "ear", "is_special_or_byte": false}
+{"id": 458, "raw_piece": "▁wor", "piece": " wor", "is_special_or_byte": false}
+{"id": 459, "raw_piece": "ide", "piece": "ide", "is_special_or_byte": false}
+{"id": 460, "raw_piece": "ack", "piece": "ack", "is_special_or_byte": false}
+{"id": 461, "raw_piece": "ial", "piece": "ial", "is_special_or_byte": false}
+{"id": 462, "raw_piece": "rou", "piece": "rou", "is_special_or_byte": false}
+{"id": 463, "raw_piece": "▁all", "piece": " all", "is_special_or_byte": false}
+{"id": 464, "raw_piece": "gh", "piece": "gh", "is_special_or_byte": false}
+{"id": 465, "raw_piece": "ell", "piece": "ell", "is_special_or_byte": false}
+{"id": 466, "raw_piece": "od", "piece": "od", "is_special_or_byte": false}
+{"id": 467, "raw_piece": "ak", "piece": "ak", "is_special_or_byte": false}
+{"id": 468, "raw_piece": "te", "piece": "te", "is_special_or_byte": false}
+{"id": 469, "raw_piece": "ine", "piece": "ine", "is_special_or_byte": false}
+{"id": 470, "raw_piece": "ould", "piece": "ould", "is_special_or_byte": false}
+{"id": 471, "raw_piece": "▁j", "piece": " j", "is_special_or_byte": false}
+{"id": 472, "raw_piece": "ag", "piece": "ag", "is_special_or_byte": false}
+{"id": 473, "raw_piece": "red", "piece": "red", "is_special_or_byte": false}
+{"id": 474, "raw_piece": "▁has", "piece": " has", "is_special_or_byte": false}
+{"id": 475, "raw_piece": "..", "piece": "..", "is_special_or_byte": false}
+{"id": 476, "raw_piece": "ice", "piece": "ice", "is_special_or_byte": false}
+{"id": 477, "raw_piece": "▁Th", "piece": " Th", "is_special_or_byte": false}
+{"id": 478, "raw_piece": "▁U", "piece": " U", "is_special_or_byte": false}
+{"id": 479, "raw_piece": "age", "piece": "age", "is_special_or_byte": false}
+{"id": 480, "raw_piece": "▁do", "piece": " do", "is_special_or_byte": false}
+{"id": 481, "raw_piece": "▁k", "piece": " k", "is_special_or_byte": false}
+{"id": 482, "raw_piece": "fe", "piece": "fe", "is_special_or_byte": false}
+{"id": 483, "raw_piece": "ook", "piece": "ook", "is_special_or_byte": false}
+{"id": 484, "raw_piece": "▁ad", "piece": " ad", "is_special_or_byte": false}
+{"id": 485, "raw_piece": "per", "piece": "per", "is_special_or_byte": false}
+{"id": 486, "raw_piece": "▁In", "piece": " In", "is_special_or_byte": false}
+{"id": 487, "raw_piece": "ip", "piece": "ip", "is_special_or_byte": false}
+{"id": 488, "raw_piece": "▁comp", "piece": " comp", "is_special_or_byte": false}
+{"id": 489, "raw_piece": "ake", "piece": "ake", "is_special_or_byte": false}
+{"id": 490, "raw_piece": "▁out", "piece": " out", "is_special_or_byte": false}
+{"id": 491, "raw_piece": "ally", "piece": "ally", "is_special_or_byte": false}
+{"id": 492, "raw_piece": "ions", "piece": "ions", "is_special_or_byte": false}
+{"id": 493, "raw_piece": "▁up", "piece": " up", "is_special_or_byte": false}
+{"id": 494, "raw_piece": "are", "piece": "are", "is_special_or_byte": false}
+{"id": 495, "raw_piece": "▁but", "piece": " but", "is_special_or_byte": false}
+{"id": 496, "raw_piece": "▁me", "piece": " me", "is_special_or_byte": false}
+{"id": 497, "raw_piece": "▁whe", "piece": " whe", "is_special_or_byte": false}
+{"id": 498, "raw_piece": "pt", "piece": "pt", "is_special_or_byte": false}
+{"id": 499, "raw_piece": "ry", "piece": "ry", "is_special_or_byte": false}
+{"id": 500, "raw_piece": "▁our", "piece": " our", "is_special_or_byte": false}
+{"id": 501, "raw_piece": "able", "piece": "able", "is_special_or_byte": false}
+{"id": 502, "raw_piece": "▁“", "piece": " “", "is_special_or_byte": false}
+{"id": 503, "raw_piece": "one", "piece": "one", "is_special_or_byte": false}
+{"id": 504, "raw_piece": "ind", "piece": "ind", "is_special_or_byte": false}
+{"id": 505, "raw_piece": "og", "piece": "og", "is_special_or_byte": false}
+{"id": 506, "raw_piece": "▁en", "piece": " en", "is_special_or_byte": false}
+{"id": 507, "raw_piece": "▁more", "piece": " more", "is_special_or_byte": false}
+{"id": 508, "raw_piece": "ail", "piece": "ail", "is_special_or_byte": false}
+{"id": 509, "raw_piece": "ite", "piece": "ite", "is_special_or_byte": false}
+{"id": 510, "raw_piece": "ther", "piece": "ther", "is_special_or_byte": false}
+{"id": 511, "raw_piece": "▁their", "piece": " their", "is_special_or_byte": false}
+{"id": 512, "raw_piece": "▁Y", "piece": " Y", "is_special_or_byte": false}
+{"id": 513, "raw_piece": "ich", "piece": "ich", "is_special_or_byte": false}
+{"id": 514, "raw_piece": "ime", "piece": "ime", "is_special_or_byte": false}
+{"id": 515, "raw_piece": "very", "piece": "very", "is_special_or_byte": false}
+{"id": 516, "raw_piece": "cc", "piece": "cc", "is_special_or_byte": false}
+{"id": 517, "raw_piece": "▁so", "piece": " so", "is_special_or_byte": false}
+{"id": 518, "raw_piece": "▁cl", "piece": " cl", "is_special_or_byte": false}
+{"id": 519, "raw_piece": "ood", "piece": "ood", "is_special_or_byte": false}
+{"id": 520, "raw_piece": "ong", "piece": "ong", "is_special_or_byte": false}
+{"id": 521, "raw_piece": "ated", "piece": "ated", "is_special_or_byte": false}
+{"id": 522, "raw_piece": "▁K", "piece": " K", "is_special_or_byte": false}
+{"id": 523, "raw_piece": "▁my", "piece": " my", "is_special_or_byte": false}
+{"id": 524, "raw_piece": "▁sa", "piece": " sa", "is_special_or_byte": false}
+{"id": 525, "raw_piece": "for", "piece": "for", "is_special_or_byte": false}
+{"id": 526, "raw_piece": "ame", "piece": "ame", "is_special_or_byte": false}
+{"id": 527, "raw_piece": "iz", "piece": "iz", "is_special_or_byte": false}
+{"id": 528, "raw_piece": "ber", "piece": "ber", "is_special_or_byte": false}
+{"id": 529, "raw_piece": "▁they", "piece": " they", "is_special_or_byte": false}
+{"id": 530, "raw_piece": "▁St", "piece": " St", "is_special_or_byte": false}
+{"id": 531, "raw_piece": "ace", "piece": "ace", "is_special_or_byte": false}
+{"id": 532, "raw_piece": "▁te", "piece": " te", "is_special_or_byte": false}
+{"id": 533, "raw_piece": "▁one", "piece": " one", "is_special_or_byte": false}
+{"id": 534, "raw_piece": "so", "piece": "so", "is_special_or_byte": false}
+{"id": 535, "raw_piece": "ous", "piece": "ous", "is_special_or_byte": false}
+{"id": 536, "raw_piece": "ans", "piece": "ans", "is_special_or_byte": false}
+{"id": 537, "raw_piece": "act", "piece": "act", "is_special_or_byte": false}
+{"id": 538, "raw_piece": "pl", "piece": "pl", "is_special_or_byte": false}
+{"id": 539, "raw_piece": "▁about", "piece": " about", "is_special_or_byte": false}
+{"id": 540, "raw_piece": "ike", "piece": "ike", "is_special_or_byte": false}
+{"id": 541, "raw_piece": "du", "piece": "du", "is_special_or_byte": false}
+{"id": 542, "raw_piece": "▁cont", "piece": " cont", "is_special_or_byte": false}
+{"id": 543, "raw_piece": "ase", "piece": "ase", "is_special_or_byte": false}
+{"id": 544, "raw_piece": "▁V", "piece": " V", "is_special_or_byte": false}
+{"id": 545, "raw_piece": "▁im", "piece": " im", "is_special_or_byte": false}
+{"id": 546, "raw_piece": "ick", "piece": "ick", "is_special_or_byte": false}
+{"id": 547, "raw_piece": "ia", "piece": "ia", "is_special_or_byte": false}
+{"id": 548, "raw_piece": "▁work", "piece": " work", "is_special_or_byte": false}
+{"id": 549, "raw_piece": "▁inc", "piece": " inc", "is_special_or_byte": false}
+{"id": 550, "raw_piece": "ign", "piece": "ign", "is_special_or_byte": false}
+{"id": 551, "raw_piece": "ance", "piece": "ance", "is_special_or_byte": false}
+{"id": 552, "raw_piece": "▁un", "piece": " un", "is_special_or_byte": false}
+{"id": 553, "raw_piece": "ire", "piece": "ire", "is_special_or_byte": false}
+{"id": 554, "raw_piece": "▁off", "piece": " off", "is_special_or_byte": false}
+{"id": 555, "raw_piece": "ree", "piece": "ree", "is_special_or_byte": false}
+{"id": 556, "raw_piece": "▁who", "piece": " who", "is_special_or_byte": false}
+{"id": 557, "raw_piece": "▁fe", "piece": " fe", "is_special_or_byte": false}
+{"id": 558, "raw_piece": "▁man", "piece": " man", "is_special_or_byte": false}
+{"id": 559, "raw_piece": "ue", "piece": "ue", "is_special_or_byte": false}
+{"id": 560, "raw_piece": "ach", "piece": "ach", "is_special_or_byte": false}
+{"id": 561, "raw_piece": "▁tr", "piece": " tr", "is_special_or_byte": false}
+{"id": 562, "raw_piece": "reat", "piece": "reat", "is_special_or_byte": false}
+{"id": 563, "raw_piece": "ub", "piece": "ub", "is_special_or_byte": false}
+{"id": 564, "raw_piece": "▁It", "piece": " It", "is_special_or_byte": false}
+{"id": 565, "raw_piece": "ll", "piece": "ll", "is_special_or_byte": false}
+{"id": 566, "raw_piece": "▁go", "piece": " go", "is_special_or_byte": false}
+{"id": 567, "raw_piece": "ction", "piece": "ction", "is_special_or_byte": false}
+{"id": 568, "raw_piece": "ne", "piece": "ne", "is_special_or_byte": false}
+{"id": 569, "raw_piece": "▁new", "piece": " new", "is_special_or_byte": false}
+{"id": 570, "raw_piece": "▁year", "piece": " year", "is_special_or_byte": false}
+{"id": 571, "raw_piece": "▁app", "piece": " app", "is_special_or_byte": false}
+{"id": 572, "raw_piece": "ult", "piece": "ult", "is_special_or_byte": false}
+{"id": 573, "raw_piece": "▁his", "piece": " his", "is_special_or_byte": false}
+{"id": 574, "raw_piece": "ib", "piece": "ib", "is_special_or_byte": false}
+{"id": 575, "raw_piece": "ays", "piece": "ays", "is_special_or_byte": false}
+{"id": 576, "raw_piece": "▁\"", "piece": " \"", "is_special_or_byte": false}
+{"id": 577, "raw_piece": "▁Ch", "piece": " Ch", "is_special_or_byte": false}
+{"id": 578, "raw_piece": "erv", "piece": "erv", "is_special_or_byte": false}
+{"id": 579, "raw_piece": "▁We", "piece": " We", "is_special_or_byte": false}
+{"id": 580, "raw_piece": "und", "piece": "und", "is_special_or_byte": false}
+{"id": 581, "raw_piece": "▁res", "piece": " res", "is_special_or_byte": false}
+{"id": 582, "raw_piece": "ap", "piece": "ap", "is_special_or_byte": false}
+{"id": 583, "raw_piece": "ass", "piece": "ass", "is_special_or_byte": false}
+{"id": 584, "raw_piece": "ark", "piece": "ark", "is_special_or_byte": false}
+{"id": 585, "raw_piece": "ep", "piece": "ep", "is_special_or_byte": false}
+{"id": 586, "raw_piece": "ff", "piece": "ff", "is_special_or_byte": false}
+{"id": 587, "raw_piece": "▁qu", "piece": " qu", "is_special_or_byte": false}
+{"id": 588, "raw_piece": "ations", "piece": "ations", "is_special_or_byte": false}
+{"id": 589, "raw_piece": "ary", "piece": "ary", "is_special_or_byte": false}
+{"id": 590, "raw_piece": "▁per", "piece": " per", "is_special_or_byte": false}
+{"id": 591, "raw_piece": "▁also", "piece": " also", "is_special_or_byte": false}
+{"id": 592, "raw_piece": "▁sp", "piece": " sp", "is_special_or_byte": false}
+{"id": 593, "raw_piece": "ile", "piece": "ile", "is_special_or_byte": false}
+{"id": 594, "raw_piece": "ove", "piece": "ove", "is_special_or_byte": false}
+{"id": 595, "raw_piece": "▁int", "piece": " int", "is_special_or_byte": false}
+{"id": 596, "raw_piece": "▁which", "piece": " which", "is_special_or_byte": false}
+{"id": 597, "raw_piece": "▁time", "piece": " time", "is_special_or_byte": false}
+{"id": 598, "raw_piece": "ven", "piece": "ven", "is_special_or_byte": false}
+{"id": 599, "raw_piece": "form", "piece": "form", "is_special_or_byte": false}
+{"id": 600, "raw_piece": "▁get", "piece": " get", "is_special_or_byte": false}
+{"id": 601, "raw_piece": "ount", "piece": "ount", "is_special_or_byte": false}
+{"id": 602, "raw_piece": "own", "piece": "own", "is_special_or_byte": false}
+{"id": 603, "raw_piece": "▁like", "piece": " like", "is_special_or_byte": false}
+{"id": 604, "raw_piece": "▁some", "piece": " some", "is_special_or_byte": false}
+{"id": 605, "raw_piece": "▁other", "piece": " other", "is_special_or_byte": false}
+{"id": 606, "raw_piece": "ond", "piece": "ond", "is_special_or_byte": false}
+{"id": 607, "raw_piece": "ings", "piece": "ings", "is_special_or_byte": false}
+{"id": 608, "raw_piece": "ents", "piece": "ents", "is_special_or_byte": false}
+{"id": 609, "raw_piece": "vel", "piece": "vel", "is_special_or_byte": false}
+{"id": 610, "raw_piece": "▁any", "piece": " any", "is_special_or_byte": false}
+{"id": 611, "raw_piece": "ical", "piece": "ical", "is_special_or_byte": false}
+{"id": 612, "raw_piece": "ence", "piece": "ence", "is_special_or_byte": false}
+{"id": 613, "raw_piece": "▁part", "piece": " part", "is_special_or_byte": false}
+{"id": 614, "raw_piece": "av", "piece": "av", "is_special_or_byte": false}
+{"id": 615, "raw_piece": "▁been", "piece": " been", "is_special_or_byte": false}
+{"id": 616, "raw_piece": "▁dis", "piece": " dis", "is_special_or_byte": false}
+{"id": 617, "raw_piece": "▁This", "piece": " This", "is_special_or_byte": false}
+{"id": 618, "raw_piece": "▁over", "piece": " over", "is_special_or_byte": false}
+{"id": 619, "raw_piece": "ition", "piece": "ition", "is_special_or_byte": false}
+{"id": 620, "raw_piece": "ress", "piece": "ress", "is_special_or_byte": false}
+{"id": 621, "raw_piece": "ors", "piece": "ors", "is_special_or_byte": false}
+{"id": 622, "raw_piece": "▁rec", "piece": " rec", "is_special_or_byte": false}
+{"id": 623, "raw_piece": "▁them", "piece": " them", "is_special_or_byte": false}
+{"id": 624, "raw_piece": "ck", "piece": "ck", "is_special_or_byte": false}
+{"id": 625, "raw_piece": "▁He", "piece": " He", "is_special_or_byte": false}
+{"id": 626, "raw_piece": "▁ar", "piece": " ar", "is_special_or_byte": false}
+{"id": 627, "raw_piece": "▁sc", "piece": " sc", "is_special_or_byte": false}
+{"id": 628, "raw_piece": "ild", "piece": "ild", "is_special_or_byte": false}
+{"id": 629, "raw_piece": "▁pe", "piece": " pe", "is_special_or_byte": false}
+{"id": 630, "raw_piece": "ink", "piece": "ink", "is_special_or_byte": false}
+{"id": 631, "raw_piece": "port", "piece": "port", "is_special_or_byte": false}
+{"id": 632, "raw_piece": "▁ag", "piece": " ag", "is_special_or_byte": false}
+{"id": 633, "raw_piece": "low", "piece": "low", "is_special_or_byte": false}
+{"id": 634, "raw_piece": "▁ro", "piece": " ro", "is_special_or_byte": false}
+{"id": 635, "raw_piece": "▁her", "piece": " her", "is_special_or_byte": false}
+{"id": 636, "raw_piece": "▁when", "piece": " when", "is_special_or_byte": false}
+{"id": 637, "raw_piece": "ound", "piece": "ound", "is_special_or_byte": false}
+{"id": 638, "raw_piece": "ose", "piece": "ose", "is_special_or_byte": false}
+{"id": 639, "raw_piece": "▁kn", "piece": " kn", "is_special_or_byte": false}
+{"id": 640, "raw_piece": "mer", "piece": "mer", "is_special_or_byte": false}
+{"id": 641, "raw_piece": "int", "piece": "int", "is_special_or_byte": false}
+{"id": 642, "raw_piece": "ord", "piece": "ord", "is_special_or_byte": false}
+{"id": 643, "raw_piece": "oy", "piece": "oy", "is_special_or_byte": false}
+{"id": 644, "raw_piece": "ish", "piece": "ish", "is_special_or_byte": false}
+{"id": 645, "raw_piece": "ob", "piece": "ob", "is_special_or_byte": false}
+{"id": 646, "raw_piece": "irst", "piece": "irst", "is_special_or_byte": false}
+{"id": 647, "raw_piece": "▁need", "piece": " need", "is_special_or_byte": false}
+{"id": 648, "raw_piece": "▁said", "piece": " said", "is_special_or_byte": false}
+{"id": 649, "raw_piece": "ens", "piece": "ens", "is_special_or_byte": false}
+{"id": 650, "raw_piece": "ough", "piece": "ough", "is_special_or_byte": false}
+{"id": 651, "raw_piece": "▁pr", "piece": " pr", "is_special_or_byte": false}
+{"id": 652, "raw_piece": "ov", "piece": "ov", "is_special_or_byte": false}
+{"id": 653, "raw_piece": "▁pre", "piece": " pre", "is_special_or_byte": false}
+{"id": 654, "raw_piece": "▁just", "piece": " just", "is_special_or_byte": false}
+{"id": 655, "raw_piece": "ru", "piece": "ru", "is_special_or_byte": false}
+{"id": 656, "raw_piece": "▁spe", "piece": " spe", "is_special_or_byte": false}
+{"id": 657, "raw_piece": "wn", "piece": "wn", "is_special_or_byte": false}
+{"id": 658, "raw_piece": "▁acc", "piece": " acc", "is_special_or_byte": false}
+{"id": 659, "raw_piece": "▁what", "piece": " what", "is_special_or_byte": false}
+{"id": 660, "raw_piece": "ren", "piece": "ren", "is_special_or_byte": false}
+{"id": 661, "raw_piece": "▁there", "piece": " there", "is_special_or_byte": false}
+{"id": 662, "raw_piece": "▁if", "piece": " if", "is_special_or_byte": false}
+{"id": 663, "raw_piece": "▁Re", "piece": " Re", "is_special_or_byte": false}
+{"id": 664, "raw_piece": "▁than", "piece": " than", "is_special_or_byte": false}
+{"id": 665, "raw_piece": "▁its", "piece": " its", "is_special_or_byte": false}
+{"id": 666, "raw_piece": "day", "piece": "day", "is_special_or_byte": false}
+{"id": 667, "raw_piece": "vers", "piece": "vers", "is_special_or_byte": false}
+{"id": 668, "raw_piece": "▁would", "piece": " would", "is_special_or_byte": false}
+{"id": 669, "raw_piece": "fter", "piece": "fter", "is_special_or_byte": false}
+{"id": 670, "raw_piece": "▁had", "piece": " had", "is_special_or_byte": false}
+{"id": 671, "raw_piece": "ater", "piece": "ater", "is_special_or_byte": false}
+{"id": 672, "raw_piece": "ade", "piece": "ade", "is_special_or_byte": false}
+{"id": 673, "raw_piece": "ning", "piece": "ning", "is_special_or_byte": false}
+{"id": 674, "raw_piece": "lud", "piece": "lud", "is_special_or_byte": false}
+{"id": 675, "raw_piece": "▁were", "piece": " were", "is_special_or_byte": false}
+{"id": 676, "raw_piece": "▁am", "piece": " am", "is_special_or_byte": false}
+{"id": 677, "raw_piece": "lp", "piece": "lp", "is_special_or_byte": false}
+{"id": 678, "raw_piece": "▁–", "piece": " –", "is_special_or_byte": false}
+{"id": 679, "raw_piece": "rough", "piece": "rough", "is_special_or_byte": false}
+{"id": 680, "raw_piece": "▁into", "piece": " into", "is_special_or_byte": false}
+{"id": 681, "raw_piece": "old", "piece": "old", "is_special_or_byte": false}
+{"id": 682, "raw_piece": "▁des", "piece": " des", "is_special_or_byte": false}
+{"id": 683, "raw_piece": "ory", "piece": "ory", "is_special_or_byte": false}
+{"id": 684, "raw_piece": "ople", "piece": "ople", "is_special_or_byte": false}
+{"id": 685, "raw_piece": "itt", "piece": "itt", "is_special_or_byte": false}
+{"id": 686, "raw_piece": "ang", "piece": "ang", "is_special_or_byte": false}
+{"id": 687, "raw_piece": "▁tw", "piece": " tw", "is_special_or_byte": false}
+{"id": 688, "raw_piece": "▁how", "piece": " how", "is_special_or_byte": false}
+{"id": 689, "raw_piece": "▁help", "piece": " help", "is_special_or_byte": false}
+{"id": 690, "raw_piece": "use", "piece": "use", "is_special_or_byte": false}
+{"id": 691, "raw_piece": "anc", "piece": "anc", "is_special_or_byte": false}
+{"id": 692, "raw_piece": "lic", "piece": "lic", "is_special_or_byte": false}
+{"id": 693, "raw_piece": "ool", "piece": "ool", "is_special_or_byte": false}
+{"id": 694, "raw_piece": "▁bec", "piece": " bec", "is_special_or_byte": false}
+{"id": 695, "raw_piece": "▁first", "piece": " first", "is_special_or_byte": false}
+{"id": 696, "raw_piece": "▁add", "piece": " add", "is_special_or_byte": false}
+{"id": 697, "raw_piece": "ks", "piece": "ks", "is_special_or_byte": false}
+{"id": 698, "raw_piece": "▁make", "piece": " make", "is_special_or_byte": false}
+{"id": 699, "raw_piece": "▁comm", "piece": " comm", "is_special_or_byte": false}
+{"id": 700, "raw_piece": "amp", "piece": "amp", "is_special_or_byte": false}
+{"id": 701, "raw_piece": "ons", "piece": "ons", "is_special_or_byte": false}
+{"id": 702, "raw_piece": "...", "piece": "...", "is_special_or_byte": false}
+{"id": 703, "raw_piece": "hed", "piece": "hed", "is_special_or_byte": false}
+{"id": 704, "raw_piece": "▁Wh", "piece": " Wh", "is_special_or_byte": false}
+{"id": 705, "raw_piece": "▁prov", "piece": " prov", "is_special_or_byte": false}
+{"id": 706, "raw_piece": "▁look", "piece": " look", "is_special_or_byte": false}
+{"id": 707, "raw_piece": "ft", "piece": "ft", "is_special_or_byte": false}
+{"id": 708, "raw_piece": "▁You", "piece": " You", "is_special_or_byte": false}
+{"id": 709, "raw_piece": "▁people", "piece": " people", "is_special_or_byte": false}
+{"id": 710, "raw_piece": "▁includ", "piece": " includ", "is_special_or_byte": false}
+{"id": 711, "raw_piece": "ual", "piece": "ual", "is_special_or_byte": false}
+{"id": 712, "raw_piece": "les", "piece": "les", "is_special_or_byte": false}
+{"id": 713, "raw_piece": "▁bl", "piece": " bl", "is_special_or_byte": false}
+{"id": 714, "raw_piece": "▁serv", "piece": " serv", "is_special_or_byte": false}
+{"id": 715, "raw_piece": "gr", "piece": "gr", "is_special_or_byte": false}
+{"id": 716, "raw_piece": "ian", "piece": "ian", "is_special_or_byte": false}
+{"id": 717, "raw_piece": "▁col", "piece": " col", "is_special_or_byte": false}
+{"id": 718, "raw_piece": "ments", "piece": "ments", "is_special_or_byte": false}
+{"id": 719, "raw_piece": "ful", "piece": "ful", "is_special_or_byte": false}
+{"id": 720, "raw_piece": "▁know", "piece": " know", "is_special_or_byte": false}
+{"id": 721, "raw_piece": "▁produ", "piece": " produ", "is_special_or_byte": false}
+{"id": 722, "raw_piece": "iew", "piece": "iew", "is_special_or_byte": false}
+{"id": 723, "raw_piece": "ates", "piece": "ates", "is_special_or_byte": false}
+{"id": 724, "raw_piece": "▁Ne", "piece": " Ne", "is_special_or_byte": false}
+{"id": 725, "raw_piece": "ious", "piece": "ious", "is_special_or_byte": false}
+{"id": 726, "raw_piece": "rent", "piece": "rent", "is_special_or_byte": false}
+{"id": 727, "raw_piece": "▁em", "piece": " em", "is_special_or_byte": false}
+{"id": 728, "raw_piece": "tern", "piece": "tern", "is_special_or_byte": false}
+{"id": 729, "raw_piece": "▁she", "piece": " she", "is_special_or_byte": false}
+{"id": 730, "raw_piece": "round", "piece": "round", "is_special_or_byte": false}
+{"id": 731, "raw_piece": "▁every", "piece": " every", "is_special_or_byte": false}
+{"id": 732, "raw_piece": "▁through", "piece": " through", "is_special_or_byte": false}
+{"id": 733, "raw_piece": "▁may", "piece": " may", "is_special_or_byte": false}
+{"id": 734, "raw_piece": "▁no", "piece": " no", "is_special_or_byte": false}
+{"id": 735, "raw_piece": "ating", "piece": "ating", "is_special_or_byte": false}
+{"id": 736, "raw_piece": "▁only", "piece": " only", "is_special_or_byte": false}
+{"id": 737, "raw_piece": "▁back", "piece": " back", "is_special_or_byte": false}
+{"id": 738, "raw_piece": "pport", "piece": "pport", "is_special_or_byte": false}
+{"id": 739, "raw_piece": "▁most", "piece": " most", "is_special_or_byte": false}
+{"id": 740, "raw_piece": "▁bu", "piece": " bu", "is_special_or_byte": false}
+{"id": 741, "raw_piece": "▁want", "piece": " want", "is_special_or_byte": false}
+{"id": 742, "raw_piece": "ict", "piece": "ict", "is_special_or_byte": false}
+{"id": 743, "raw_piece": "ect", "piece": "ect", "is_special_or_byte": false}
+{"id": 744, "raw_piece": "▁As", "piece": " As", "is_special_or_byte": false}
+{"id": 745, "raw_piece": "ices", "piece": "ices", "is_special_or_byte": false}
+{"id": 746, "raw_piece": "▁If", "piece": " If", "is_special_or_byte": false}
+{"id": 747, "raw_piece": "▁well", "piece": " well", "is_special_or_byte": false}
+{"id": 748, "raw_piece": "▁see", "piece": " see", "is_special_or_byte": false}
+{"id": 749, "raw_piece": "we", "piece": "we", "is_special_or_byte": false}
+{"id": 750, "raw_piece": "▁ph", "piece": " ph", "is_special_or_byte": false}
+{"id": 751, "raw_piece": "ities", "piece": "ities", "is_special_or_byte": false}
+{"id": 752, "raw_piece": "▁bet", "piece": " bet", "is_special_or_byte": false}
+{"id": 753, "raw_piece": "▁ind", "piece": " ind", "is_special_or_byte": false}
+{"id": 754, "raw_piece": "ise", "piece": "ise", "is_special_or_byte": false}
+{"id": 755, "raw_piece": "▁use", "piece": " use", "is_special_or_byte": false}
+{"id": 756, "raw_piece": "▁two", "piece": " two", "is_special_or_byte": false}
+{"id": 757, "raw_piece": "xt", "piece": "xt", "is_special_or_byte": false}
+{"id": 758, "raw_piece": "com", "piece": "com", "is_special_or_byte": false}
+{"id": 759, "raw_piece": "ont", "piece": "ont", "is_special_or_byte": false}
+{"id": 760, "raw_piece": "▁act", "piece": " act", "is_special_or_byte": false}
+{"id": 761, "raw_piece": "▁und", "piece": " und", "is_special_or_byte": false}
+{"id": 762, "raw_piece": "iss", "piece": "iss", "is_special_or_byte": false}
+{"id": 763, "raw_piece": "iness", "piece": "iness", "is_special_or_byte": false}
+{"id": 764, "raw_piece": "lect", "piece": "lect", "is_special_or_byte": false}
+{"id": 765, "raw_piece": "▁after", "piece": " after", "is_special_or_byte": false}
+{"id": 766, "raw_piece": "▁Se", "piece": " Se", "is_special_or_byte": false}
+{"id": 767, "raw_piece": "ause", "piece": "ause", "is_special_or_byte": false}
+{"id": 768, "raw_piece": "ife", "piece": "ife", "is_special_or_byte": false}
+{"id": 769, "raw_piece": "ph", "piece": "ph", "is_special_or_byte": false}
+{"id": 770, "raw_piece": "▁play", "piece": " play", "is_special_or_byte": false}
+{"id": 771, "raw_piece": "fect", "piece": "fect", "is_special_or_byte": false}
+{"id": 772, "raw_piece": "▁|", "piece": " |", "is_special_or_byte": false}
+{"id": 773, "raw_piece": "▁co", "piece": " co", "is_special_or_byte": false}
+{"id": 774, "raw_piece": "oth", "piece": "oth", "is_special_or_byte": false}
+{"id": 775, "raw_piece": "▁&", "piece": " &", "is_special_or_byte": false}
+{"id": 776, "raw_piece": "row", "piece": "row", "is_special_or_byte": false}
+{"id": 777, "raw_piece": "ily", "piece": "ily", "is_special_or_byte": false}
+{"id": 778, "raw_piece": "enc", "piece": "enc", "is_special_or_byte": false}
+{"id": 779, "raw_piece": "ock", "piece": "ock", "is_special_or_byte": false}
+{"id": 780, "raw_piece": "▁exper", "piece": " exper", "is_special_or_byte": false}
+{"id": 781, "raw_piece": "ject", "piece": "ject", "is_special_or_byte": false}
+{"id": 782, "raw_piece": "▁cons", "piece": " cons", "is_special_or_byte": false}
+{"id": 783, "raw_piece": "hen", "piece": "hen", "is_special_or_byte": false}
+{"id": 784, "raw_piece": "urn", "piece": "urn", "is_special_or_byte": false}
+{"id": 785, "raw_piece": "▁fl", "piece": " fl", "is_special_or_byte": false}
+{"id": 786, "raw_piece": "▁years", "piece": " years", "is_special_or_byte": false}
+{"id": 787, "raw_piece": "ert", "piece": "ert", "is_special_or_byte": false}
+{"id": 788, "raw_piece": "als", "piece": "als", "is_special_or_byte": false}
+{"id": 789, "raw_piece": "▁tra", "piece": " tra", "is_special_or_byte": false}
+{"id": 790, "raw_piece": "▁these", "piece": " these", "is_special_or_byte": false}
+{"id": 791, "raw_piece": "ting", "piece": "ting", "is_special_or_byte": false}
+{"id": 792, "raw_piece": "cial", "piece": "cial", "is_special_or_byte": false}
+{"id": 793, "raw_piece": "▁$", "piece": " $", "is_special_or_byte": false}
+{"id": 794, "raw_piece": "aw", "piece": "aw", "is_special_or_byte": false}
+{"id": 795, "raw_piece": "▁Com", "piece": " Com", "is_special_or_byte": false}
+{"id": 796, "raw_piece": "▁An", "piece": " An", "is_special_or_byte": false}
+{"id": 797, "raw_piece": "▁bus", "piece": " bus", "is_special_or_byte": false}
+{"id": 798, "raw_piece": "▁Un", "piece": " Un", "is_special_or_byte": false}
+{"id": 799, "raw_piece": "▁For", "piece": " For", "is_special_or_byte": false}
+{"id": 800, "raw_piece": "▁stud", "piece": " stud", "is_special_or_byte": false}
+{"id": 801, "raw_piece": "ange", "piece": "ange", "is_special_or_byte": false}
+{"id": 802, "raw_piece": "▁good", "piece": " good", "is_special_or_byte": false}
+{"id": 803, "raw_piece": "any", "piece": "any", "is_special_or_byte": false}
+{"id": 804, "raw_piece": "bs", "piece": "bs", "is_special_or_byte": false}
+{"id": 805, "raw_piece": "vent", "piece": "vent", "is_special_or_byte": false}
+{"id": 806, "raw_piece": "ures", "piece": "ures", "is_special_or_byte": false}
+{"id": 807, "raw_piece": "aking", "piece": "aking", "is_special_or_byte": false}
+{"id": 808, "raw_piece": "ational", "piece": "ational", "is_special_or_byte": false}
+{"id": 809, "raw_piece": "ased", "piece": "ased", "is_special_or_byte": false}
+{"id": 810, "raw_piece": "▁ke", "piece": " ke", "is_special_or_byte": false}
+{"id": 811, "raw_piece": "ific", "piece": "ific", "is_special_or_byte": false}
+{"id": 812, "raw_piece": "▁now", "piece": " now", "is_special_or_byte": false}
+{"id": 813, "raw_piece": "▁Pro", "piece": " Pro", "is_special_or_byte": false}
+{"id": 814, "raw_piece": "▁under", "piece": " under", "is_special_or_byte": false}
+{"id": 815, "raw_piece": "fore", "piece": "fore", "is_special_or_byte": false}
+{"id": 816, "raw_piece": "▁very", "piece": " very", "is_special_or_byte": false}
+{"id": 817, "raw_piece": "▁many", "piece": " many", "is_special_or_byte": false}
+{"id": 818, "raw_piece": "▁sm", "piece": " sm", "is_special_or_byte": false}
+{"id": 819, "raw_piece": "▁reg", "piece": " reg", "is_special_or_byte": false}
+{"id": 820, "raw_piece": "hing", "piece": "hing", "is_special_or_byte": false}
+{"id": 821, "raw_piece": "ward", "piece": "ward", "is_special_or_byte": false}
+{"id": 822, "raw_piece": "▁imp", "piece": " imp", "is_special_or_byte": false}
+{"id": 823, "raw_piece": "get", "piece": "get", "is_special_or_byte": false}
+{"id": 824, "raw_piece": "oint", "piece": "oint", "is_special_or_byte": false}
+{"id": 825, "raw_piece": "▁way", "piece": " way", "is_special_or_byte": false}
+{"id": 826, "raw_piece": "▁dif", "piece": " dif", "is_special_or_byte": false}
+{"id": 827, "raw_piece": "erson", "piece": "erson", "is_special_or_byte": false}
+{"id": 828, "raw_piece": "▁start", "piece": " start", "is_special_or_byte": false}
+{"id": 829, "raw_piece": "ience", "piece": "ience", "is_special_or_byte": false}
+{"id": 830, "raw_piece": "ts", "piece": "ts", "is_special_or_byte": false}
+{"id": 831, "raw_piece": "pect", "piece": "pect", "is_special_or_byte": false}
+{"id": 832, "raw_piece": "▁wee", "piece": " wee", "is_special_or_byte": false}
+{"id": 833, "raw_piece": "▁fin", "piece": " fin", "is_special_or_byte": false}
+{"id": 834, "raw_piece": "▁De", "piece": " De", "is_special_or_byte": false}
+{"id": 835, "raw_piece": "▁great", "piece": " great", "is_special_or_byte": false}
+{"id": 836, "raw_piece": "▁And", "piece": " And", "is_special_or_byte": false}
+{"id": 837, "raw_piece": "▁rel", "piece": " rel", "is_special_or_byte": false}
+{"id": 838, "raw_piece": "uring", "piece": "uring", "is_special_or_byte": false}
+{"id": 839, "raw_piece": "yst", "piece": "yst", "is_special_or_byte": false}
+{"id": 840, "raw_piece": "formation", "piece": "formation", "is_special_or_byte": false}
+{"id": 841, "raw_piece": "▁gu", "piece": " gu", "is_special_or_byte": false}
+{"id": 842, "raw_piece": "▁could", "piece": " could", "is_special_or_byte": false}
+{"id": 843, "raw_piece": "ility", "piece": "ility", "is_special_or_byte": false}
+{"id": 844, "raw_piece": "▁rem", "piece": " rem", "is_special_or_byte": false}
+{"id": 845, "raw_piece": "ible", "piece": "ible", "is_special_or_byte": false}
+{"id": 846, "raw_piece": "▁dec", "piece": " dec", "is_special_or_byte": false}
+{"id": 847, "raw_piece": "oss", "piece": "oss", "is_special_or_byte": false}
+{"id": 848, "raw_piece": "uch", "piece": "uch", "is_special_or_byte": false}
+{"id": 849, "raw_piece": "▁even", "piece": " even", "is_special_or_byte": false}
+{"id": 850, "raw_piece": "hip", "piece": "hip", "is_special_or_byte": false}
+{"id": 851, "raw_piece": "ty", "piece": "ty", "is_special_or_byte": false}
+{"id": 852, "raw_piece": "▁inv", "piece": " inv", "is_special_or_byte": false}
+{"id": 853, "raw_piece": ").", "piece": ").", "is_special_or_byte": false}
+{"id": 854, "raw_piece": "ics", "piece": "ics", "is_special_or_byte": false}
+{"id": 855, "raw_piece": "▁loc", "piece": " loc", "is_special_or_byte": false}
+{"id": 856, "raw_piece": "rit", "piece": "rit", "is_special_or_byte": false}
+{"id": 857, "raw_piece": "ract", "piece": "ract", "is_special_or_byte": false}
+{"id": 858, "raw_piece": "▁sec", "piece": " sec", "is_special_or_byte": false}
+{"id": 859, "raw_piece": "▁day", "piece": " day", "is_special_or_byte": false}
+{"id": 860, "raw_piece": "▁own", "piece": " own", "is_special_or_byte": false}
+{"id": 861, "raw_piece": "cess", "piece": "cess", "is_special_or_byte": false}
+{"id": 862, "raw_piece": "velop", "piece": "velop", "is_special_or_byte": false}
+{"id": 863, "raw_piece": "▁where", "piece": " where", "is_special_or_byte": false}
+{"id": 864, "raw_piece": "▁show", "piece": " show", "is_special_or_byte": false}
+{"id": 865, "raw_piece": "ork", "piece": "ork", "is_special_or_byte": false}
+{"id": 866, "raw_piece": "ident", "piece": "ident", "is_special_or_byte": false}
+{"id": 867, "raw_piece": "elf", "piece": "elf", "is_special_or_byte": false}
+{"id": 868, "raw_piece": "alth", "piece": "alth", "is_special_or_byte": false}
+{"id": 869, "raw_piece": "hes", "piece": "hes", "is_special_or_byte": false}
+{"id": 870, "raw_piece": "its", "piece": "its", "is_special_or_byte": false}
+{"id": 871, "raw_piece": "▁high", "piece": " high", "is_special_or_byte": false}
+{"id": 872, "raw_piece": "▁find", "piece": " find", "is_special_or_byte": false}
+{"id": 873, "raw_piece": "air", "piece": "air", "is_special_or_byte": false}
+{"id": 874, "raw_piece": "ull", "piece": "ull", "is_special_or_byte": false}
+{"id": 875, "raw_piece": "nds", "piece": "nds", "is_special_or_byte": false}
+{"id": 876, "raw_piece": "▁don", "piece": " don", "is_special_or_byte": false}
+{"id": 877, "raw_piece": "olog", "piece": "olog", "is_special_or_byte": false}
+{"id": 878, "raw_piece": "▁home", "piece": " home", "is_special_or_byte": false}
+{"id": 879, "raw_piece": "▁ass", "piece": " ass", "is_special_or_byte": false}
+{"id": 880, "raw_piece": "▁should", "piece": " should", "is_special_or_byte": false}
+{"id": 881, "raw_piece": "ath", "piece": "ath", "is_special_or_byte": false}
+{"id": 882, "raw_piece": "line", "piece": "line", "is_special_or_byte": false}
+{"id": 883, "raw_piece": "▁here", "piece": " here", "is_special_or_byte": false}
+{"id": 884, "raw_piece": "▁ent", "piece": " ent", "is_special_or_byte": false}
+{"id": 885, "raw_piece": "▁down", "piece": " down", "is_special_or_byte": false}
+{"id": 886, "raw_piece": "▁best", "piece": " best", "is_special_or_byte": false}
+{"id": 887, "raw_piece": "▁then", "piece": " then", "is_special_or_byte": false}
+{"id": 888, "raw_piece": "lease", "piece": "lease", "is_special_or_byte": false}
+{"id": 889, "raw_piece": "▁Sh", "piece": " Sh", "is_special_or_byte": false}
+{"id": 890, "raw_piece": "ble", "piece": "ble", "is_special_or_byte": false}
+{"id": 891, "raw_piece": "ied", "piece": "ied", "is_special_or_byte": false}
+{"id": 892, "raw_piece": "ular", "piece": "ular", "is_special_or_byte": false}
+{"id": 893, "raw_piece": "▁br", "piece": " br", "is_special_or_byte": false}
+{"id": 894, "raw_piece": "▁Al", "piece": " Al", "is_special_or_byte": false}
+{"id": 895, "raw_piece": "▁right", "piece": " right", "is_special_or_byte": false}
+{"id": 896, "raw_piece": "The", "piece": "The", "is_special_or_byte": false}
+{"id": 897, "raw_piece": "arch", "piece": "arch", "is_special_or_byte": false}
+{"id": 898, "raw_piece": "chool", "piece": "chool", "is_special_or_byte": false}
+{"id": 899, "raw_piece": "||", "piece": "||", "is_special_or_byte": false}
+{"id": 900, "raw_piece": "▁ac", "piece": " ac", "is_special_or_byte": false}
+{"id": 901, "raw_piece": "▁set", "piece": " set", "is_special_or_byte": false}
+{"id": 902, "raw_piece": "ited", "piece": "ited", "is_special_or_byte": false}
+{"id": 903, "raw_piece": "▁car", "piece": " car", "is_special_or_byte": false}
+{"id": 904, "raw_piece": "▁New", "piece": " New", "is_special_or_byte": false}
+{"id": 905, "raw_piece": "▁read", "piece": " read", "is_special_or_byte": false}
+{"id": 906, "raw_piece": "▁av", "piece": " av", "is_special_or_byte": false}
+{"id": 907, "raw_piece": "▁mon", "piece": " mon", "is_special_or_byte": false}
+{"id": 908, "raw_piece": "▁min", "piece": " min", "is_special_or_byte": false}
+{"id": 909, "raw_piece": "▁take", "piece": " take", "is_special_or_byte": false}
+{"id": 910, "raw_piece": "gan", "piece": "gan", "is_special_or_byte": false}
+{"id": 911, "raw_piece": "erm", "piece": "erm", "is_special_or_byte": false}
+{"id": 912, "raw_piece": "▁business", "piece": " business", "is_special_or_byte": false}
+{"id": 913, "raw_piece": "▁fam", "piece": " fam", "is_special_or_byte": false}
+{"id": 914, "raw_piece": "ix", "piece": "ix", "is_special_or_byte": false}
+{"id": 915, "raw_piece": "ner", "piece": "ner", "is_special_or_byte": false}
+{"id": 916, "raw_piece": "▁ins", "piece": " ins", "is_special_or_byte": false}
+{"id": 917, "raw_piece": "▁inst", "piece": " inst", "is_special_or_byte": false}
+{"id": 918, "raw_piece": "▁att", "piece": " att", "is_special_or_byte": false}
+{"id": 919, "raw_piece": "▁design", "piece": " design", "is_special_or_byte": false}
+{"id": 920, "raw_piece": "▁too", "piece": " too", "is_special_or_byte": false}
+{"id": 921, "raw_piece": "ystem", "piece": "ystem", "is_special_or_byte": false}
+{"id": 922, "raw_piece": "ys", "piece": "ys", "is_special_or_byte": false}
+{"id": 923, "raw_piece": ".”", "piece": ".”", "is_special_or_byte": false}
+{"id": 924, "raw_piece": "▁che", "piece": " che", "is_special_or_byte": false}
+{"id": 925, "raw_piece": "▁much", "piece": " much", "is_special_or_byte": false}
+{"id": 926, "raw_piece": "▁long", "piece": " long", "is_special_or_byte": false}
+{"id": 927, "raw_piece": "io", "piece": "io", "is_special_or_byte": false}
+{"id": 928, "raw_piece": "ative", "piece": "ative", "is_special_or_byte": false}
+{"id": 929, "raw_piece": "▁Be", "piece": " Be", "is_special_or_byte": false}
+{"id": 930, "raw_piece": "▁information", "piece": " information", "is_special_or_byte": false}
+{"id": 931, "raw_piece": "▁Cl", "piece": " Cl", "is_special_or_byte": false}
+{"id": 932, "raw_piece": "▁made", "piece": " made", "is_special_or_byte": false}
+{"id": 933, "raw_piece": "▁last", "piece": " last", "is_special_or_byte": false}
+{"id": 934, "raw_piece": "ollow", "piece": "ollow", "is_special_or_byte": false}
+{"id": 935, "raw_piece": "ason", "piece": "ason", "is_special_or_byte": false}
+{"id": 936, "raw_piece": "other", "piece": "other", "is_special_or_byte": false}
+{"id": 937, "raw_piece": "ues", "piece": "ues", "is_special_or_byte": false}
+{"id": 938, "raw_piece": "▁because", "piece": " because", "is_special_or_byte": false}
+{"id": 939, "raw_piece": "▁", "piece": " ", "is_special_or_byte": false}
+{"id": 940, "raw_piece": "e", "piece": "e", "is_special_or_byte": false}
+{"id": 941, "raw_piece": "t", "piece": "t", "is_special_or_byte": false}
+{"id": 942, "raw_piece": "a", "piece": "a", "is_special_or_byte": false}
+{"id": 943, "raw_piece": "o", "piece": "o", "is_special_or_byte": false}
+{"id": 944, "raw_piece": "i", "piece": "i", "is_special_or_byte": false}
+{"id": 945, "raw_piece": "n", "piece": "n", "is_special_or_byte": false}
+{"id": 946, "raw_piece": "s", "piece": "s", "is_special_or_byte": false}
+{"id": 947, "raw_piece": "r", "piece": "r", "is_special_or_byte": false}
+{"id": 948, "raw_piece": "h", "piece": "h", "is_special_or_byte": false}
+{"id": 949, "raw_piece": "l", "piece": "l", "is_special_or_byte": false}
+{"id": 950, "raw_piece": "d", "piece": "d", "is_special_or_byte": false}
+{"id": 951, "raw_piece": "c", "piece": "c", "is_special_or_byte": false}
+{"id": 952, "raw_piece": "u", "piece": "u", "is_special_or_byte": false}
+{"id": 953, "raw_piece": "m", "piece": "m", "is_special_or_byte": false}
+{"id": 954, "raw_piece": "p", "piece": "p", "is_special_or_byte": false}
+{"id": 955, "raw_piece": "g", "piece": "g", "is_special_or_byte": false}
+{"id": 956, "raw_piece": "f", "piece": "f", "is_special_or_byte": false}
+{"id": 957, "raw_piece": "y", "piece": "y", "is_special_or_byte": false}
+{"id": 958, "raw_piece": "w", "piece": "w", "is_special_or_byte": false}
+{"id": 959, "raw_piece": "b", "piece": "b", "is_special_or_byte": false}
+{"id": 960, "raw_piece": ".", "piece": ".", "is_special_or_byte": false}
+{"id": 961, "raw_piece": "v", "piece": "v", "is_special_or_byte": false}
+{"id": 962, "raw_piece": ",", "piece": ",", "is_special_or_byte": false}
+{"id": 963, "raw_piece": "k", "piece": "k", "is_special_or_byte": false}
+{"id": 964, "raw_piece": "T", "piece": "T", "is_special_or_byte": false}
+{"id": 965, "raw_piece": "S", "piece": "S", "is_special_or_byte": false}
+{"id": 966, "raw_piece": "I", "piece": "I", "is_special_or_byte": false}
+{"id": 967, "raw_piece": "A", "piece": "A", "is_special_or_byte": false}
+{"id": 968, "raw_piece": "-", "piece": "-", "is_special_or_byte": false}
+{"id": 969, "raw_piece": "C", "piece": "C", "is_special_or_byte": false}
+{"id": 970, "raw_piece": "0", "piece": "0", "is_special_or_byte": false}
+{"id": 971, "raw_piece": "M", "piece": "M", "is_special_or_byte": false}
+{"id": 972, "raw_piece": "1", "piece": "1", "is_special_or_byte": false}
+{"id": 973, "raw_piece": "P", "piece": "P", "is_special_or_byte": false}
+{"id": 974, "raw_piece": "x", "piece": "x", "is_special_or_byte": false}
+{"id": 975, "raw_piece": "B", "piece": "B", "is_special_or_byte": false}
+{"id": 976, "raw_piece": "2", "piece": "2", "is_special_or_byte": false}
+{"id": 977, "raw_piece": "W", "piece": "W", "is_special_or_byte": false}
+{"id": 978, "raw_piece": "D", "piece": "D", "is_special_or_byte": false}
+{"id": 979, "raw_piece": "R", "piece": "R", "is_special_or_byte": false}
+{"id": 980, "raw_piece": "E", "piece": "E", "is_special_or_byte": false}
+{"id": 981, "raw_piece": "H", "piece": "H", "is_special_or_byte": false}
+{"id": 982, "raw_piece": "F", "piece": "F", "is_special_or_byte": false}
+{"id": 983, "raw_piece": "’", "piece": "’", "is_special_or_byte": false}
+{"id": 984, "raw_piece": "L", "piece": "L", "is_special_or_byte": false}
+{"id": 985, "raw_piece": "N", "piece": "N", "is_special_or_byte": false}
+{"id": 986, "raw_piece": "O", "piece": "O", "is_special_or_byte": false}
+{"id": 987, "raw_piece": ":", "piece": ":", "is_special_or_byte": false}
+{"id": 988, "raw_piece": "'", "piece": "'", "is_special_or_byte": false}
+{"id": 989, "raw_piece": "G", "piece": "G", "is_special_or_byte": false}
+{"id": 990, "raw_piece": "j", "piece": "j", "is_special_or_byte": false}
+{"id": 991, "raw_piece": ")", "piece": ")", "is_special_or_byte": false}
+{"id": 992, "raw_piece": "(", "piece": "(", "is_special_or_byte": false}
+{"id": 993, "raw_piece": "z", "piece": "z", "is_special_or_byte": false}
+{"id": 994, "raw_piece": "3", "piece": "3", "is_special_or_byte": false}
+{"id": 995, "raw_piece": "5", "piece": "5", "is_special_or_byte": false}
+{"id": 996, "raw_piece": "q", "piece": "q", "is_special_or_byte": false}
+{"id": 997, "raw_piece": "U", "piece": "U", "is_special_or_byte": false}
+{"id": 998, "raw_piece": "4", "piece": "4", "is_special_or_byte": false}
+{"id": 999, "raw_piece": "\"", "piece": "\"", "is_special_or_byte": false}
+{"id": 1000, "raw_piece": "9", "piece": "9", "is_special_or_byte": false}
+{"id": 1001, "raw_piece": "J", "piece": "J", "is_special_or_byte": false}
+{"id": 1002, "raw_piece": "8", "piece": "8", "is_special_or_byte": false}
+{"id": 1003, "raw_piece": "6", "piece": "6", "is_special_or_byte": false}
+{"id": 1004, "raw_piece": "V", "piece": "V", "is_special_or_byte": false}
+{"id": 1005, "raw_piece": "Y", "piece": "Y", "is_special_or_byte": false}
+{"id": 1006, "raw_piece": "K", "piece": "K", "is_special_or_byte": false}
+{"id": 1007, "raw_piece": "|", "piece": "|", "is_special_or_byte": false}
+{"id": 1008, "raw_piece": "7", "piece": "7", "is_special_or_byte": false}
+{"id": 1009, "raw_piece": "!", "piece": "!", "is_special_or_byte": false}
+{"id": 1010, "raw_piece": "/", "piece": "/", "is_special_or_byte": false}
+{"id": 1011, "raw_piece": "“", "piece": "“", "is_special_or_byte": false}
+{"id": 1012, "raw_piece": "”", "piece": "”", "is_special_or_byte": false}
+{"id": 1013, "raw_piece": "?", "piece": "?", "is_special_or_byte": false}
+{"id": 1014, "raw_piece": "–", "piece": "–", "is_special_or_byte": false}
+{"id": 1015, "raw_piece": ";", "piece": ";", "is_special_or_byte": false}
+{"id": 1016, "raw_piece": "&", "piece": "&", "is_special_or_byte": false}
+{"id": 1017, "raw_piece": "$", "piece": "$", "is_special_or_byte": false}
+{"id": 1018, "raw_piece": "Q", "piece": "Q", "is_special_or_byte": false}
+{"id": 1019, "raw_piece": "%", "piece": "%", "is_special_or_byte": false}
+{"id": 1020, "raw_piece": "—", "piece": "—", "is_special_or_byte": false}
+{"id": 1021, "raw_piece": "X", "piece": "X", "is_special_or_byte": false}
+{"id": 1022, "raw_piece": "Z", "piece": "Z", "is_special_or_byte": false}
+{"id": 1023, "raw_piece": "*", "piece": "*", "is_special_or_byte": false}

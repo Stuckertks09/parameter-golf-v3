@@ -1,0 +1,764 @@
+{"id": 260, "piece": " t", "priority": 764}
+{"id": 261, "piece": " a", "priority": 763}
+{"id": 262, "piece": "in", "priority": 762}
+{"id": 263, "piece": "he", "priority": 761}
+{"id": 264, "piece": "re", "priority": 760}
+{"id": 265, "piece": "on", "priority": 759}
+{"id": 266, "piece": "er", "priority": 758}
+{"id": 267, "piece": " the", "priority": 757}
+{"id": 268, "piece": " s", "priority": 756}
+{"id": 269, "piece": " w", "priority": 755}
+{"id": 270, "piece": "or", "priority": 754}
+{"id": 271, "piece": "at", "priority": 753}
+{"id": 272, "piece": "nd", "priority": 752}
+{"id": 273, "piece": "ou", "priority": 751}
+{"id": 274, "piece": " c", "priority": 750}
+{"id": 275, "piece": "it", "priority": 749}
+{"id": 276, "piece": "es", "priority": 748}
+{"id": 277, "piece": " f", "priority": 747}
+{"id": 278, "piece": "is", "priority": 746}
+{"id": 279, "piece": "en", "priority": 745}
+{"id": 280, "piece": "ing", "priority": 744}
+{"id": 281, "piece": " b", "priority": 743}
+{"id": 282, "piece": " p", "priority": 742}
+{"id": 283, "piece": " o", "priority": 741}
+{"id": 284, "piece": "an", "priority": 740}
+{"id": 285, "piece": "ed", "priority": 739}
+{"id": 286, "piece": "al", "priority": 738}
+{"id": 287, "piece": " to", "priority": 737}
+{"id": 288, "piece": " m", "priority": 736}
+{"id": 289, "piece": "ar", "priority": 735}
+{"id": 290, "piece": " and", "priority": 734}
+{"id": 291, "piece": " in", "priority": 733}
+{"id": 292, "piece": " of", "priority": 732}
+{"id": 293, "piece": " d", "priority": 731}
+{"id": 294, "piece": "le", "priority": 730}
+{"id": 295, "piece": "ic", "priority": 729}
+{"id": 296, "piece": "as", "priority": 728}
+{"id": 297, "piece": "om", "priority": 727}
+{"id": 298, "piece": " h", "priority": 726}
+{"id": 299, "piece": "ion", "priority": 725}
+{"id": 300, "piece": " th", "priority": 724}
+{"id": 301, "piece": "il", "priority": 723}
+{"id": 302, "piece": " T", "priority": 722}
+{"id": 303, "piece": "ent", "priority": 721}
+{"id": 304, "piece": " l", "priority": 720}
+{"id": 305, "piece": "ve", "priority": 719}
+{"id": 306, "piece": " y", "priority": 718}
+{"id": 307, "piece": "ro", "priority": 717}
+{"id": 308, "piece": "st", "priority": 716}
+{"id": 309, "piece": " I", "priority": 715}
+{"id": 310, "piece": " e", "priority": 714}
+{"id": 311, "piece": " re", "priority": 713}
+{"id": 312, "piece": " n", "priority": 712}
+{"id": 313, "piece": " S", "priority": 711}
+{"id": 314, "piece": " g", "priority": 710}
+{"id": 315, "piece": "et", "priority": 709}
+{"id": 316, "piece": "ct", "priority": 708}
+{"id": 317, "piece": " A", "priority": 707}
+{"id": 318, "piece": " you", "priority": 706}
+{"id": 319, "piece": " C", "priority": 705}
+{"id": 320, "piece": "ly", "priority": 704}
+{"id": 321, "piece": " for", "priority": 703}
+{"id": 322, "piece": "id", "priority": 702}
+{"id": 323, "piece": " is", "priority": 701}
+{"id": 324, "piece": "ay", "priority": 700}
+{"id": 325, "piece": " on", "priority": 699}
+{"id": 326, "piece": " be", "priority": 698}
+{"id": 327, "piece": "ot", "priority": 697}
+{"id": 328, "piece": "ow", "priority": 696}
+{"id": 329, "piece": "ol", "priority": 695}
+{"id": 330, "piece": "am", "priority": 694}
+{"id": 331, "piece": "ac", "priority": 693}
+{"id": 332, "piece": "ig", "priority": 692}
+{"id": 333, "piece": "us", "priority": 691}
+{"id": 334, "piece": "el", "priority": 690}
+{"id": 335, "piece": "ad", "priority": 689}
+{"id": 336, "piece": "im", "priority": 688}
+{"id": 337, "piece": " M", "priority": 687}
+{"id": 338, "piece": "ver", "priority": 686}
+{"id": 339, "piece": "ith", "priority": 685}
+{"id": 340, "piece": "ut", "priority": 684}
+{"id": 341, "piece": " st", "priority": 683}
+{"id": 342, "piece": "ation", "priority": 682}
+{"id": 343, "piece": "ur", "priority": 681}
+{"id": 344, "piece": " P", "priority": 680}
+{"id": 345, "piece": " with", "priority": 679}
+{"id": 346, "piece": " that", "priority": 678}
+{"id": 347, "piece": "ir", "priority": 677}
+{"id": 348, "piece": " B", "priority": 676}
+{"id": 349, "piece": " W", "priority": 675}
+{"id": 350, "piece": "ch", "priority": 674}
+{"id": 351, "piece": "ce", "priority": 673}
+{"id": 352, "piece": " The", "priority": 672}
+{"id": 353, "piece": " it", "priority": 671}
+{"id": 354, "piece": " he", "priority": 670}
+{"id": 355, "piece": "ill", "priority": 669}
+{"id": 356, "piece": "ers", "priority": 668}
+{"id": 357, "piece": " al", "priority": 667}
+{"id": 358, "piece": "un", "priority": 666}
+{"id": 359, "piece": "ul", "priority": 665}
+{"id": 360, "piece": " an", "priority": 664}
+{"id": 361, "piece": " D", "priority": 663}
+{"id": 362, "piece": " H", "priority": 662}
+{"id": 363, "piece": " F", "priority": 661}
+{"id": 364, "piece": "ra", "priority": 660}
+{"id": 365, "piece": "out", "priority": 659}
+{"id": 366, "piece": " as", "priority": 658}
+{"id": 367, "piece": " pro", "priority": 657}
+{"id": 368, "piece": " wh", "priority": 656}
+{"id": 369, "piece": "ke", "priority": 655}
+{"id": 370, "piece": " are", "priority": 654}
+{"id": 371, "piece": "se", "priority": 653}
+{"id": 372, "piece": "ter", "priority": 652}
+{"id": 373, "piece": " we", "priority": 651}
+{"id": 374, "piece": "if", "priority": 650}
+{"id": 375, "piece": "oo", "priority": 649}
+{"id": 376, "piece": "ge", "priority": 648}
+{"id": 377, "piece": " ha", "priority": 647}
+{"id": 378, "piece": "our", "priority": 646}
+{"id": 379, "piece": " R", "priority": 645}
+{"id": 380, "piece": "pp", "priority": 644}
+{"id": 381, "piece": "ate", "priority": 643}
+{"id": 382, "piece": "ess", "priority": 642}
+{"id": 383, "piece": " at", "priority": 641}
+{"id": 384, "piece": " con", "priority": 640}
+{"id": 385, "piece": " com", "priority": 639}
+{"id": 386, "piece": " or", "priority": 638}
+{"id": 387, "piece": " L", "priority": 637}
+{"id": 388, "piece": "est", "priority": 636}
+{"id": 389, "piece": "her", "priority": 635}
+{"id": 390, "piece": "ore", "priority": 634}
+{"id": 391, "piece": "ment", "priority": 633}
+{"id": 392, "piece": " fr", "priority": 632}
+{"id": 393, "piece": "ab", "priority": 631}
+{"id": 394, "piece": "igh", "priority": 630}
+{"id": 395, "piece": " -", "priority": 629}
+{"id": 396, "piece": " ne", "priority": 628}
+{"id": 397, "piece": " N", "priority": 627}
+{"id": 398, "piece": " se", "priority": 626}
+{"id": 399, "piece": "ort", "priority": 625}
+{"id": 400, "piece": " G", "priority": 624}
+{"id": 401, "piece": "ld", "priority": 623}
+{"id": 402, "piece": " your", "priority": 622}
+{"id": 403, "piece": " E", "priority": 621}
+{"id": 404, "piece": "ist", "priority": 620}
+{"id": 405, "piece": "ri", "priority": 619}
+{"id": 406, "piece": "op", "priority": 618}
+{"id": 407, "piece": " (", "priority": 617}
+{"id": 408, "piece": " ex", "priority": 616}
+{"id": 409, "piece": "ity", "priority": 615}
+{"id": 410, "piece": "ure", "priority": 614}
+{"id": 411, "piece": "em", "priority": 613}
+{"id": 412, "piece": " O", "priority": 612}
+{"id": 413, "piece": " v", "priority": 611}
+{"id": 414, "piece": "qu", "priority": 610}
+{"id": 415, "piece": "ant", "priority": 609}
+{"id": 416, "piece": "art", "priority": 608}
+{"id": 417, "piece": "ive", "priority": 607}
+{"id": 418, "piece": " r", "priority": 606}
+{"id": 419, "piece": "ust", "priority": 605}
+{"id": 420, "piece": " was", "priority": 604}
+{"id": 421, "piece": "um", "priority": 603}
+{"id": 422, "piece": " have", "priority": 602}
+{"id": 423, "piece": "pe", "priority": 601}
+{"id": 424, "piece": " from", "priority": 600}
+{"id": 425, "piece": " this", "priority": 599}
+{"id": 426, "piece": " de", "priority": 598}
+{"id": 427, "piece": "oc", "priority": 597}
+{"id": 428, "piece": " sh", "priority": 596}
+{"id": 429, "piece": "th", "priority": 595}
+{"id": 430, "piece": "ain", "priority": 594}
+{"id": 431, "piece": "ies", "priority": 593}
+{"id": 432, "piece": " can", "priority": 592}
+{"id": 433, "piece": "up", "priority": 591}
+{"id": 434, "piece": " will", "priority": 590}
+{"id": 435, "piece": " ch", "priority": 589}
+{"id": 436, "piece": "and", "priority": 588}
+{"id": 437, "piece": " by", "priority": 587}
+{"id": 438, "piece": "os", "priority": 586}
+{"id": 439, "piece": "ight", "priority": 585}
+{"id": 440, "piece": "nt", "priority": 584}
+{"id": 441, "piece": "ie", "priority": 583}
+{"id": 442, "piece": " us", "priority": 582}
+{"id": 443, "piece": "ome", "priority": 581}
+{"id": 444, "piece": "all", "priority": 580}
+{"id": 445, "piece": "ard", "priority": 579}
+{"id": 446, "piece": " not", "priority": 578}
+{"id": 447, "piece": "ud", "priority": 577}
+{"id": 448, "piece": "res", "priority": 576}
+{"id": 449, "piece": " le", "priority": 575}
+{"id": 450, "piece": " J", "priority": 574}
+{"id": 451, "piece": "ast", "priority": 573}
+{"id": 452, "piece": " pl", "priority": 572}
+{"id": 453, "piece": "ost", "priority": 571}
+{"id": 454, "piece": " su", "priority": 570}
+{"id": 455, "piece": " ab", "priority": 569}
+{"id": 456, "piece": "iv", "priority": 568}
+{"id": 457, "piece": "ear", "priority": 567}
+{"id": 458, "piece": " wor", "priority": 566}
+{"id": 459, "piece": "ide", "priority": 565}
+{"id": 460, "piece": "ack", "priority": 564}
+{"id": 461, "piece": "ial", "priority": 563}
+{"id": 462, "piece": "rou", "priority": 562}
+{"id": 463, "piece": " all", "priority": 561}
+{"id": 464, "piece": "gh", "priority": 560}
+{"id": 465, "piece": "ell", "priority": 559}
+{"id": 466, "piece": "od", "priority": 558}
+{"id": 467, "piece": "ak", "priority": 557}
+{"id": 468, "piece": "te", "priority": 556}
+{"id": 469, "piece": "ine", "priority": 555}
+{"id": 470, "piece": "ould", "priority": 554}
+{"id": 471, "piece": " j", "priority": 553}
+{"id": 472, "piece": "ag", "priority": 552}
+{"id": 473, "piece": "red", "priority": 551}
+{"id": 474, "piece": " has", "priority": 550}
+{"id": 475, "piece": "..", "priority": 549}
+{"id": 476, "piece": "ice", "priority": 548}
+{"id": 477, "piece": " Th", "priority": 547}
+{"id": 478, "piece": " U", "priority": 546}
+{"id": 479, "piece": "age", "priority": 545}
+{"id": 480, "piece": " do", "priority": 544}
+{"id": 481, "piece": " k", "priority": 543}
+{"id": 482, "piece": "fe", "priority": 542}
+{"id": 483, "piece": "ook", "priority": 541}
+{"id": 484, "piece": " ad", "priority": 540}
+{"id": 485, "piece": "per", "priority": 539}
+{"id": 486, "piece": " In", "priority": 538}
+{"id": 487, "piece": "ip", "priority": 537}
+{"id": 488, "piece": " comp", "priority": 536}
+{"id": 489, "piece": "ake", "priority": 535}
+{"id": 490, "piece": " out", "priority": 534}
+{"id": 491, "piece": "ally", "priority": 533}
+{"id": 492, "piece": "ions", "priority": 532}
+{"id": 493, "piece": " up", "priority": 531}
+{"id": 494, "piece": "are", "priority": 530}
+{"id": 495, "piece": " but", "priority": 529}
+{"id": 496, "piece": " me", "priority": 528}
+{"id": 497, "piece": " whe", "priority": 527}
+{"id": 498, "piece": "pt", "priority": 526}
+{"id": 499, "piece": "ry", "priority": 525}
+{"id": 500, "piece": " our", "priority": 524}
+{"id": 501, "piece": "able", "priority": 523}
+{"id": 502, "piece": " “", "priority": 522}
+{"id": 503, "piece": "one", "priority": 521}
+{"id": 504, "piece": "ind", "priority": 520}
+{"id": 505, "piece": "og", "priority": 519}
+{"id": 506, "piece": " en", "priority": 518}
+{"id": 507, "piece": " more", "priority": 517}
+{"id": 508, "piece": "ail", "priority": 516}
+{"id": 509, "piece": "ite", "priority": 515}
+{"id": 510, "piece": "ther", "priority": 514}
+{"id": 511, "piece": " their", "priority": 513}
+{"id": 512, "piece": " Y", "priority": 512}
+{"id": 513, "piece": "ich", "priority": 511}
+{"id": 514, "piece": "ime", "priority": 510}
+{"id": 515, "piece": "very", "priority": 509}
+{"id": 516, "piece": "cc", "priority": 508}
+{"id": 517, "piece": " so", "priority": 507}
+{"id": 518, "piece": " cl", "priority": 506}
+{"id": 519, "piece": "ood", "priority": 505}
+{"id": 520, "piece": "ong", "priority": 504}
+{"id": 521, "piece": "ated", "priority": 503}
+{"id": 522, "piece": " K", "priority": 502}
+{"id": 523, "piece": " my", "priority": 501}
+{"id": 524, "piece": " sa", "priority": 500}
+{"id": 525, "piece": "for", "priority": 499}
+{"id": 526, "piece": "ame", "priority": 498}
+{"id": 527, "piece": "iz", "priority": 497}
+{"id": 528, "piece": "ber", "priority": 496}
+{"id": 529, "piece": " they", "priority": 495}
+{"id": 530, "piece": " St", "priority": 494}
+{"id": 531, "piece": "ace", "priority": 493}
+{"id": 532, "piece": " te", "priority": 492}
+{"id": 533, "piece": " one", "priority": 491}
+{"id": 534, "piece": "so", "priority": 490}
+{"id": 535, "piece": "ous", "priority": 489}
+{"id": 536, "piece": "ans", "priority": 488}
+{"id": 537, "piece": "act", "priority": 487}
+{"id": 538, "piece": "pl", "priority": 486}
+{"id": 539, "piece": " about", "priority": 485}
+{"id": 540, "piece": "ike", "priority": 484}
+{"id": 541, "piece": "du", "priority": 483}
+{"id": 542, "piece": " cont", "priority": 482}
+{"id": 543, "piece": "ase", "priority": 481}
+{"id": 544, "piece": " V", "priority": 480}
+{"id": 545, "piece": " im", "priority": 479}
+{"id": 546, "piece": "ick", "priority": 478}
+{"id": 547, "piece": "ia", "priority": 477}
+{"id": 548, "piece": " work", "priority": 476}
+{"id": 549, "piece": " inc", "priority": 475}
+{"id": 550, "piece": "ign", "priority": 474}
+{"id": 551, "piece": "ance", "priority": 473}
+{"id": 552, "piece": " un", "priority": 472}
+{"id": 553, "piece": "ire", "priority": 471}
+{"id": 554, "piece": " off", "priority": 470}
+{"id": 555, "piece": "ree", "priority": 469}
+{"id": 556, "piece": " who", "priority": 468}
+{"id": 557, "piece": " fe", "priority": 467}
+{"id": 558, "piece": " man", "priority": 466}
+{"id": 559, "piece": "ue", "priority": 465}
+{"id": 560, "piece": "ach", "priority": 464}
+{"id": 561, "piece": " tr", "priority": 463}
+{"id": 562, "piece": "reat", "priority": 462}
+{"id": 563, "piece": "ub", "priority": 461}
+{"id": 564, "piece": " It", "priority": 460}
+{"id": 565, "piece": "ll", "priority": 459}
+{"id": 566, "piece": " go", "priority": 458}
+{"id": 567, "piece": "ction", "priority": 457}
+{"id": 568, "piece": "ne", "priority": 456}
+{"id": 569, "piece": " new", "priority": 455}
+{"id": 570, "piece": " year", "priority": 454}
+{"id": 571, "piece": " app", "priority": 453}
+{"id": 572, "piece": "ult", "priority": 452}
+{"id": 573, "piece": " his", "priority": 451}
+{"id": 574, "piece": "ib", "priority": 450}
+{"id": 575, "piece": "ays", "priority": 449}
+{"id": 576, "piece": " \"", "priority": 448}
+{"id": 577, "piece": " Ch", "priority": 447}
+{"id": 578, "piece": "erv", "priority": 446}
+{"id": 579, "piece": " We", "priority": 445}
+{"id": 580, "piece": "und", "priority": 444}
+{"id": 581, "piece": " res", "priority": 443}
+{"id": 582, "piece": "ap", "priority": 442}
+{"id": 583, "piece": "ass", "priority": 441}
+{"id": 584, "piece": "ark", "priority": 440}
+{"id": 585, "piece": "ep", "priority": 439}
+{"id": 586, "piece": "ff", "priority": 438}
+{"id": 587, "piece": " qu", "priority": 437}
+{"id": 588, "piece": "ations", "priority": 436}
+{"id": 589, "piece": "ary", "priority": 435}
+{"id": 590, "piece": " per", "priority": 434}
+{"id": 591, "piece": " also", "priority": 433}
+{"id": 592, "piece": " sp", "priority": 432}
+{"id": 593, "piece": "ile", "priority": 431}
+{"id": 594, "piece": "ove", "priority": 430}
+{"id": 595, "piece": " int", "priority": 429}
+{"id": 596, "piece": " which", "priority": 428}
+{"id": 597, "piece": " time", "priority": 427}
+{"id": 598, "piece": "ven", "priority": 426}
+{"id": 599, "piece": "form", "priority": 425}
+{"id": 600, "piece": " get", "priority": 424}
+{"id": 601, "piece": "ount", "priority": 423}
+{"id": 602, "piece": "own", "priority": 422}
+{"id": 603, "piece": " like", "priority": 421}
+{"id": 604, "piece": " some", "priority": 420}
+{"id": 605, "piece": " other", "priority": 419}
+{"id": 606, "piece": "ond", "priority": 418}
+{"id": 607, "piece": "ings", "priority": 417}
+{"id": 608, "piece": "ents", "priority": 416}
+{"id": 609, "piece": "vel", "priority": 415}
+{"id": 610, "piece": " any", "priority": 414}
+{"id": 611, "piece": "ical", "priority": 413}
+{"id": 612, "piece": "ence", "priority": 412}
+{"id": 613, "piece": " part", "priority": 411}
+{"id": 614, "piece": "av", "priority": 410}
+{"id": 615, "piece": " been", "priority": 409}
+{"id": 616, "piece": " dis", "priority": 408}
+{"id": 617, "piece": " This", "priority": 407}
+{"id": 618, "piece": " over", "priority": 406}
+{"id": 619, "piece": "ition", "priority": 405}
+{"id": 620, "piece": "ress", "priority": 404}
+{"id": 621, "piece": "ors", "priority": 403}
+{"id": 622, "piece": " rec", "priority": 402}
+{"id": 623, "piece": " them", "priority": 401}
+{"id": 624, "piece": "ck", "priority": 400}
+{"id": 625, "piece": " He", "priority": 399}
+{"id": 626, "piece": " ar", "priority": 398}
+{"id": 627, "piece": " sc", "priority": 397}
+{"id": 628, "piece": "ild", "priority": 396}
+{"id": 629, "piece": " pe", "priority": 395}
+{"id": 630, "piece": "ink", "priority": 394}
+{"id": 631, "piece": "port", "priority": 393}
+{"id": 632, "piece": " ag", "priority": 392}
+{"id": 633, "piece": "low", "priority": 391}
+{"id": 634, "piece": " ro", "priority": 390}
+{"id": 635, "piece": " her", "priority": 389}
+{"id": 636, "piece": " when", "priority": 388}
+{"id": 637, "piece": "ound", "priority": 387}
+{"id": 638, "piece": "ose", "priority": 386}
+{"id": 639, "piece": " kn", "priority": 385}
+{"id": 640, "piece": "mer", "priority": 384}
+{"id": 641, "piece": "int", "priority": 383}
+{"id": 642, "piece": "ord", "priority": 382}
+{"id": 643, "piece": "oy", "priority": 381}
+{"id": 644, "piece": "ish", "priority": 380}
+{"id": 645, "piece": "ob", "priority": 379}
+{"id": 646, "piece": "irst", "priority": 378}
+{"id": 647, "piece": " need", "priority": 377}
+{"id": 648, "piece": " said", "priority": 376}
+{"id": 649, "piece": "ens", "priority": 375}
+{"id": 650, "piece": "ough", "priority": 374}
+{"id": 651, "piece": " pr", "priority": 373}
+{"id": 652, "piece": "ov", "priority": 372}
+{"id": 653, "piece": " pre", "priority": 371}
+{"id": 654, "piece": " just", "priority": 370}
+{"id": 655, "piece": "ru", "priority": 369}
+{"id": 656, "piece": " spe", "priority": 368}
+{"id": 657, "piece": "wn", "priority": 367}
+{"id": 658, "piece": " acc", "priority": 366}
+{"id": 659, "piece": " what", "priority": 365}
+{"id": 660, "piece": "ren", "priority": 364}
+{"id": 661, "piece": " there", "priority": 363}
+{"id": 662, "piece": " if", "priority": 362}
+{"id": 663, "piece": " Re", "priority": 361}
+{"id": 664, "piece": " than", "priority": 360}
+{"id": 665, "piece": " its", "priority": 359}
+{"id": 666, "piece": "day", "priority": 358}
+{"id": 667, "piece": "vers", "priority": 357}
+{"id": 668, "piece": " would", "priority": 356}
+{"id": 669, "piece": "fter", "priority": 355}
+{"id": 670, "piece": " had", "priority": 354}
+{"id": 671, "piece": "ater", "priority": 353}
+{"id": 672, "piece": "ade", "priority": 352}
+{"id": 673, "piece": "ning", "priority": 351}
+{"id": 674, "piece": "lud", "priority": 350}
+{"id": 675, "piece": " were", "priority": 349}
+{"id": 676, "piece": " am", "priority": 348}
+{"id": 677, "piece": "lp", "priority": 347}
+{"id": 678, "piece": " –", "priority": 346}
+{"id": 679, "piece": "rough", "priority": 345}
+{"id": 680, "piece": " into", "priority": 344}
+{"id": 681, "piece": "old", "priority": 343}
+{"id": 682, "piece": " des", "priority": 342}
+{"id": 683, "piece": "ory", "priority": 341}
+{"id": 684, "piece": "ople", "priority": 340}
+{"id": 685, "piece": "itt", "priority": 339}
+{"id": 686, "piece": "ang", "priority": 338}
+{"id": 687, "piece": " tw", "priority": 337}
+{"id": 688, "piece": " how", "priority": 336}
+{"id": 689, "piece": " help", "priority": 335}
+{"id": 690, "piece": "use", "priority": 334}
+{"id": 691, "piece": "anc", "priority": 333}
+{"id": 692, "piece": "lic", "priority": 332}
+{"id": 693, "piece": "ool", "priority": 331}
+{"id": 694, "piece": " bec", "priority": 330}
+{"id": 695, "piece": " first", "priority": 329}
+{"id": 696, "piece": " add", "priority": 328}
+{"id": 697, "piece": "ks", "priority": 327}
+{"id": 698, "piece": " make", "priority": 326}
+{"id": 699, "piece": " comm", "priority": 325}
+{"id": 700, "piece": "amp", "priority": 324}
+{"id": 701, "piece": "ons", "priority": 323}
+{"id": 702, "piece": "...", "priority": 322}
+{"id": 703, "piece": "hed", "priority": 321}
+{"id": 704, "piece": " Wh", "priority": 320}
+{"id": 705, "piece": " prov", "priority": 319}
+{"id": 706, "piece": " look", "priority": 318}
+{"id": 707, "piece": "ft", "priority": 317}
+{"id": 708, "piece": " You", "priority": 316}
+{"id": 709, "piece": " people", "priority": 315}
+{"id": 710, "piece": " includ", "priority": 314}
+{"id": 711, "piece": "ual", "priority": 313}
+{"id": 712, "piece": "les", "priority": 312}
+{"id": 713, "piece": " bl", "priority": 311}
+{"id": 714, "piece": " serv", "priority": 310}
+{"id": 715, "piece": "gr", "priority": 309}
+{"id": 716, "piece": "ian", "priority": 308}
+{"id": 717, "piece": " col", "priority": 307}
+{"id": 718, "piece": "ments", "priority": 306}
+{"id": 719, "piece": "ful", "priority": 305}
+{"id": 720, "piece": " know", "priority": 304}
+{"id": 721, "piece": " produ", "priority": 303}
+{"id": 722, "piece": "iew", "priority": 302}
+{"id": 723, "piece": "ates", "priority": 301}
+{"id": 724, "piece": " Ne", "priority": 300}
+{"id": 725, "piece": "ious", "priority": 299}
+{"id": 726, "piece": "rent", "priority": 298}
+{"id": 727, "piece": " em", "priority": 297}
+{"id": 728, "piece": "tern", "priority": 296}
+{"id": 729, "piece": " she", "priority": 295}
+{"id": 730, "piece": "round", "priority": 294}
+{"id": 731, "piece": " every", "priority": 293}
+{"id": 732, "piece": " through", "priority": 292}
+{"id": 733, "piece": " may", "priority": 291}
+{"id": 734, "piece": " no", "priority": 290}
+{"id": 735, "piece": "ating", "priority": 289}
+{"id": 736, "piece": " only", "priority": 288}
+{"id": 737, "piece": " back", "priority": 287}
+{"id": 738, "piece": "pport", "priority": 286}
+{"id": 739, "piece": " most", "priority": 285}
+{"id": 740, "piece": " bu", "priority": 284}
+{"id": 741, "piece": " want", "priority": 283}
+{"id": 742, "piece": "ict", "priority": 282}
+{"id": 743, "piece": "ect", "priority": 281}
+{"id": 744, "piece": " As", "priority": 280}
+{"id": 745, "piece": "ices", "priority": 279}
+{"id": 746, "piece": " If", "priority": 278}
+{"id": 747, "piece": " well", "priority": 277}
+{"id": 748, "piece": " see", "priority": 276}
+{"id": 749, "piece": "we", "priority": 275}
+{"id": 750, "piece": " ph", "priority": 274}
+{"id": 751, "piece": "ities", "priority": 273}
+{"id": 752, "piece": " bet", "priority": 272}
+{"id": 753, "piece": " ind", "priority": 271}
+{"id": 754, "piece": "ise", "priority": 270}
+{"id": 755, "piece": " use", "priority": 269}
+{"id": 756, "piece": " two", "priority": 268}
+{"id": 757, "piece": "xt", "priority": 267}
+{"id": 758, "piece": "com", "priority": 266}
+{"id": 759, "piece": "ont", "priority": 265}
+{"id": 760, "piece": " act", "priority": 264}
+{"id": 761, "piece": " und", "priority": 263}
+{"id": 762, "piece": "iss", "priority": 262}
+{"id": 763, "piece": "iness", "priority": 261}
+{"id": 764, "piece": "lect", "priority": 260}
+{"id": 765, "piece": " after", "priority": 259}
+{"id": 766, "piece": " Se", "priority": 258}
+{"id": 767, "piece": "ause", "priority": 257}
+{"id": 768, "piece": "ife", "priority": 256}
+{"id": 769, "piece": "ph", "priority": 255}
+{"id": 770, "piece": " play", "priority": 254}
+{"id": 771, "piece": "fect", "priority": 253}
+{"id": 772, "piece": " |", "priority": 252}
+{"id": 773, "piece": " co", "priority": 251}
+{"id": 774, "piece": "oth", "priority": 250}
+{"id": 775, "piece": " &", "priority": 249}
+{"id": 776, "piece": "row", "priority": 248}
+{"id": 777, "piece": "ily", "priority": 247}
+{"id": 778, "piece": "enc", "priority": 246}
+{"id": 779, "piece": "ock", "priority": 245}
+{"id": 780, "piece": " exper", "priority": 244}
+{"id": 781, "piece": "ject", "priority": 243}
+{"id": 782, "piece": " cons", "priority": 242}
+{"id": 783, "piece": "hen", "priority": 241}
+{"id": 784, "piece": "urn", "priority": 240}
+{"id": 785, "piece": " fl", "priority": 239}
+{"id": 786, "piece": " years", "priority": 238}
+{"id": 787, "piece": "ert", "priority": 237}
+{"id": 788, "piece": "als", "priority": 236}
+{"id": 789, "piece": " tra", "priority": 235}
+{"id": 790, "piece": " these", "priority": 234}
+{"id": 791, "piece": "ting", "priority": 233}
+{"id": 792, "piece": "cial", "priority": 232}
+{"id": 793, "piece": " $", "priority": 231}
+{"id": 794, "piece": "aw", "priority": 230}
+{"id": 795, "piece": " Com", "priority": 229}
+{"id": 796, "piece": " An", "priority": 228}
+{"id": 797, "piece": " bus", "priority": 227}
+{"id": 798, "piece": " Un", "priority": 226}
+{"id": 799, "piece": " For", "priority": 225}
+{"id": 800, "piece": " stud", "priority": 224}
+{"id": 801, "piece": "ange", "priority": 223}
+{"id": 802, "piece": " good", "priority": 222}
+{"id": 803, "piece": "any", "priority": 221}
+{"id": 804, "piece": "bs", "priority": 220}
+{"id": 805, "piece": "vent", "priority": 219}
+{"id": 806, "piece": "ures", "priority": 218}
+{"id": 807, "piece": "aking", "priority": 217}
+{"id": 808, "piece": "ational", "priority": 216}
+{"id": 809, "piece": "ased", "priority": 215}
+{"id": 810, "piece": " ke", "priority": 214}
+{"id": 811, "piece": "ific", "priority": 213}
+{"id": 812, "piece": " now", "priority": 212}
+{"id": 813, "piece": " Pro", "priority": 211}
+{"id": 814, "piece": " under", "priority": 210}
+{"id": 815, "piece": "fore", "priority": 209}
+{"id": 816, "piece": " very", "priority": 208}
+{"id": 817, "piece": " many", "priority": 207}
+{"id": 818, "piece": " sm", "priority": 206}
+{"id": 819, "piece": " reg", "priority": 205}
+{"id": 820, "piece": "hing", "priority": 204}
+{"id": 821, "piece": "ward", "priority": 203}
+{"id": 822, "piece": " imp", "priority": 202}
+{"id": 823, "piece": "get", "priority": 201}
+{"id": 824, "piece": "oint", "priority": 200}
+{"id": 825, "piece": " way", "priority": 199}
+{"id": 826, "piece": " dif", "priority": 198}
+{"id": 827, "piece": "erson", "priority": 197}
+{"id": 828, "piece": " start", "priority": 196}
+{"id": 829, "piece": "ience", "priority": 195}
+{"id": 830, "piece": "ts", "priority": 194}
+{"id": 831, "piece": "pect", "priority": 193}
+{"id": 832, "piece": " wee", "priority": 192}
+{"id": 833, "piece": " fin", "priority": 191}
+{"id": 834, "piece": " De", "priority": 190}
+{"id": 835, "piece": " great", "priority": 189}
+{"id": 836, "piece": " And", "priority": 188}
+{"id": 837, "piece": " rel", "priority": 187}
+{"id": 838, "piece": "uring", "priority": 186}
+{"id": 839, "piece": "yst", "priority": 185}
+{"id": 840, "piece": "formation", "priority": 184}
+{"id": 841, "piece": " gu", "priority": 183}
+{"id": 842, "piece": " could", "priority": 182}
+{"id": 843, "piece": "ility", "priority": 181}
+{"id": 844, "piece": " rem", "priority": 180}
+{"id": 845, "piece": "ible", "priority": 179}
+{"id": 846, "piece": " dec", "priority": 178}
+{"id": 847, "piece": "oss", "priority": 177}
+{"id": 848, "piece": "uch", "priority": 176}
+{"id": 849, "piece": " even", "priority": 175}
+{"id": 850, "piece": "hip", "priority": 174}
+{"id": 851, "piece": "ty", "priority": 173}
+{"id": 852, "piece": " inv", "priority": 172}
+{"id": 853, "piece": ").", "priority": 171}
+{"id": 854, "piece": "ics", "priority": 170}
+{"id": 855, "piece": " loc", "priority": 169}
+{"id": 856, "piece": "rit", "priority": 168}
+{"id": 857, "piece": "ract", "priority": 167}
+{"id": 858, "piece": " sec", "priority": 166}
+{"id": 859, "piece": " day", "priority": 165}
+{"id": 860, "piece": " own", "priority": 164}
+{"id": 861, "piece": "cess", "priority": 163}
+{"id": 862, "piece": "velop", "priority": 162}
+{"id": 863, "piece": " where", "priority": 161}
+{"id": 864, "piece": " show", "priority": 160}
+{"id": 865, "piece": "ork", "priority": 159}
+{"id": 866, "piece": "ident", "priority": 158}
+{"id": 867, "piece": "elf", "priority": 157}
+{"id": 868, "piece": "alth", "priority": 156}
+{"id": 869, "piece": "hes", "priority": 155}
+{"id": 870, "piece": "its", "priority": 154}
+{"id": 871, "piece": " high", "priority": 153}
+{"id": 872, "piece": " find", "priority": 152}
+{"id": 873, "piece": "air", "priority": 151}
+{"id": 874, "piece": "ull", "priority": 150}
+{"id": 875, "piece": "nds", "priority": 149}
+{"id": 876, "piece": " don", "priority": 148}
+{"id": 877, "piece": "olog", "priority": 147}
+{"id": 878, "piece": " home", "priority": 146}
+{"id": 879, "piece": " ass", "priority": 145}
+{"id": 880, "piece": " should", "priority": 144}
+{"id": 881, "piece": "ath", "priority": 143}
+{"id": 882, "piece": "line", "priority": 142}
+{"id": 883, "piece": " here", "priority": 141}
+{"id": 884, "piece": " ent", "priority": 140}
+{"id": 885, "piece": " down", "priority": 139}
+{"id": 886, "piece": " best", "priority": 138}
+{"id": 887, "piece": " then", "priority": 137}
+{"id": 888, "piece": "lease", "priority": 136}
+{"id": 889, "piece": " Sh", "priority": 135}
+{"id": 890, "piece": "ble", "priority": 134}
+{"id": 891, "piece": "ied", "priority": 133}
+{"id": 892, "piece": "ular", "priority": 132}
+{"id": 893, "piece": " br", "priority": 131}
+{"id": 894, "piece": " Al", "priority": 130}
+{"id": 895, "piece": " right", "priority": 129}
+{"id": 896, "piece": "The", "priority": 128}
+{"id": 897, "piece": "arch", "priority": 127}
+{"id": 898, "piece": "chool", "priority": 126}
+{"id": 899, "piece": "||", "priority": 125}
+{"id": 900, "piece": " ac", "priority": 124}
+{"id": 901, "piece": " set", "priority": 123}
+{"id": 902, "piece": "ited", "priority": 122}
+{"id": 903, "piece": " car", "priority": 121}
+{"id": 904, "piece": " New", "priority": 120}
+{"id": 905, "piece": " read", "priority": 119}
+{"id": 906, "piece": " av", "priority": 118}
+{"id": 907, "piece": " mon", "priority": 117}
+{"id": 908, "piece": " min", "priority": 116}
+{"id": 909, "piece": " take", "priority": 115}
+{"id": 910, "piece": "gan", "priority": 114}
+{"id": 911, "piece": "erm", "priority": 113}
+{"id": 912, "piece": " business", "priority": 112}
+{"id": 913, "piece": " fam", "priority": 111}
+{"id": 914, "piece": "ix", "priority": 110}
+{"id": 915, "piece": "ner", "priority": 109}
+{"id": 916, "piece": " ins", "priority": 108}
+{"id": 917, "piece": " inst", "priority": 107}
+{"id": 918, "piece": " att", "priority": 106}
+{"id": 919, "piece": " design", "priority": 105}
+{"id": 920, "piece": " too", "priority": 104}
+{"id": 921, "piece": "ystem", "priority": 103}
+{"id": 922, "piece": "ys", "priority": 102}
+{"id": 923, "piece": ".”", "priority": 101}
+{"id": 924, "piece": " che", "priority": 100}
+{"id": 925, "piece": " much", "priority": 99}
+{"id": 926, "piece": " long", "priority": 98}
+{"id": 927, "piece": "io", "priority": 97}
+{"id": 928, "piece": "ative", "priority": 96}
+{"id": 929, "piece": " Be", "priority": 95}
+{"id": 930, "piece": " information", "priority": 94}
+{"id": 931, "piece": " Cl", "priority": 93}
+{"id": 932, "piece": " made", "priority": 92}
+{"id": 933, "piece": " last", "priority": 91}
+{"id": 934, "piece": "ollow", "priority": 90}
+{"id": 935, "piece": "ason", "priority": 89}
+{"id": 936, "piece": "other", "priority": 88}
+{"id": 937, "piece": "ues", "priority": 87}
+{"id": 938, "piece": " because", "priority": 86}
+{"id": 939, "piece": " ", "priority": 85}
+{"id": 940, "piece": "e", "priority": 84}
+{"id": 941, "piece": "t", "priority": 83}
+{"id": 942, "piece": "a", "priority": 82}
+{"id": 943, "piece": "o", "priority": 81}
+{"id": 944, "piece": "i", "priority": 80}
+{"id": 945, "piece": "n", "priority": 79}
+{"id": 946, "piece": "s", "priority": 78}
+{"id": 947, "piece": "r", "priority": 77}
+{"id": 948, "piece": "h", "priority": 76}
+{"id": 949, "piece": "l", "priority": 75}
+{"id": 950, "piece": "d", "priority": 74}
+{"id": 951, "piece": "c", "priority": 73}
+{"id": 952, "piece": "u", "priority": 72}
+{"id": 953, "piece": "m", "priority": 71}
+{"id": 954, "piece": "p", "priority": 70}
+{"id": 955, "piece": "g", "priority": 69}
+{"id": 956, "piece": "f", "priority": 68}
+{"id": 957, "piece": "y", "priority": 67}
+{"id": 958, "piece": "w", "priority": 66}
+{"id": 959, "piece": "b", "priority": 65}
+{"id": 960, "piece": ".", "priority": 64}
+{"id": 961, "piece": "v", "priority": 63}
+{"id": 962, "piece": ",", "priority": 62}
+{"id": 963, "piece": "k", "priority": 61}
+{"id": 964, "piece": "T", "priority": 60}
+{"id": 965, "piece": "S", "priority": 59}
+{"id": 966, "piece": "I", "priority": 58}
+{"id": 967, "piece": "A", "priority": 57}
+{"id": 968, "piece": "-", "priority": 56}
+{"id": 969, "piece": "C", "priority": 55}
+{"id": 970, "piece": "0", "priority": 54}
+{"id": 971, "piece": "M", "priority": 53}
+{"id": 972, "piece": "1", "priority": 52}
+{"id": 973, "piece": "P", "priority": 51}
+{"id": 974, "piece": "x", "priority": 50}
+{"id": 975, "piece": "B", "priority": 49}
+{"id": 976, "piece": "2", "priority": 48}
+{"id": 977, "piece": "W", "priority": 47}
+{"id": 978, "piece": "D", "priority": 46}
+{"id": 979, "piece": "R", "priority": 45}
+{"id": 980, "piece": "E", "priority": 44}
+{"id": 981, "piece": "H", "priority": 43}
+{"id": 982, "piece": "F", "priority": 42}
+{"id": 983, "piece": "’", "priority": 41}
+{"id": 984, "piece": "L", "priority": 40}
+{"id": 985, "piece": "N", "priority": 39}
+{"id": 986, "piece": "O", "priority": 38}
+{"id": 987, "piece": ":", "priority": 37}
+{"id": 988, "piece": "'", "priority": 36}
+{"id": 989, "piece": "G", "priority": 35}
+{"id": 990, "piece": "j", "priority": 34}
+{"id": 991, "piece": ")", "priority": 33}
+{"id": 992, "piece": "(", "priority": 32}
+{"id": 993, "piece": "z", "priority": 31}
+{"id": 994, "piece": "3", "priority": 30}
+{"id": 995, "piece": "5", "priority": 29}
+{"id": 996, "piece": "q", "priority": 28}
+{"id": 997, "piece": "U", "priority": 27}
+{"id": 998, "piece": "4", "priority": 26}
+{"id": 999, "piece": "\"", "priority": 25}
+{"id": 1000, "piece": "9", "priority": 24}
+{"id": 1001, "piece": "J", "priority": 23}
+{"id": 1002, "piece": "8", "priority": 22}
+{"id": 1003, "piece": "6", "priority": 21}
+{"id": 1004, "piece": "V", "priority": 20}
+{"id": 1005, "piece": "Y", "priority": 19}
+{"id": 1006, "piece": "K", "priority": 18}
+{"id": 1007, "piece": "|", "priority": 17}
+{"id": 1008, "piece": "7", "priority": 16}
+{"id": 1009, "piece": "!", "priority": 15}
+{"id": 1010, "piece": "/", "priority": 14}
+{"id": 1011, "piece": "“", "priority": 13}
+{"id": 1012, "piece": "”", "priority": 12}
+{"id": 1013, "piece": "?", "priority": 11}
+{"id": 1014, "piece": "–", "priority": 10}
+{"id": 1015, "piece": ";", "priority": 9}
+{"id": 1016, "piece": "&", "priority": 8}
+{"id": 1017, "piece": "$", "priority": 7}
+{"id": 1018, "piece": "Q", "priority": 6}
+{"id": 1019, "piece": "%", "priority": 5}
+{"id": 1020, "piece": "—", "priority": 4}
+{"id": 1021, "piece": "X", "priority": 3}
+{"id": 1022, "piece": "Z", "priority": 2}
+{"id": 1023, "piece": "*", "priority": 1}

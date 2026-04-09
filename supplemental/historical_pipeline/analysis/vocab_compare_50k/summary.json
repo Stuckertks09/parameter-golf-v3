@@ -1,0 +1,12 @@
+{
+  "num_docs": 50000,
+  "total_sp_tokens": 61971846,
+  "total_custom_tokens": 63764033,
+  "custom_vs_sp_ratio": 1.028919374129988,
+  "token_delta_sp_minus_custom": -1792187,
+  "overlap_piece_count": 911,
+  "sp_only_piece_count": 113,
+  "custom_only_piece_count": 113,
+  "sp_vocab_size": 1024,
+  "custom_vocab_size": 1024
+}

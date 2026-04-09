@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter junk
+.ipynb_checkpoints/
+*.swp
+
+# Env / secrets
+.env
+
+# Data (DO NOT PUSH)
+data/datasets/
+datasets/
+*.bin
+*.pt
+*.ptz
+
+# Logs
+logs/
+*.log
+
+# System
+.DS_Store
+.sfdx/
+records/

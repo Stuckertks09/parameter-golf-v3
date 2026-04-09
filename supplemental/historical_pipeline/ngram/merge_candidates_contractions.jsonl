@@ -1,0 +1,5 @@
+{"n": 3, "ids": [945, 983, 941], "freq": 2442714, "text": "n’t", "normalized_text": "n't", "class": "keep_contraction"}
+{"n": 3, "ids": [353, 983, 946], "freq": 1606051, "text": "it’s", "normalized_text": "it's", "class": "keep_full_word"}
+{"n": 3, "ids": [876, 983, 941], "freq": 1373216, "text": "don’t", "normalized_text": "don't", "class": "keep_full_word"}
+{"n": 3, "ids": [309, 983, 953], "freq": 958050, "text": "I’m", "normalized_text": "i'm", "class": "keep_contraction"}
+{"n": 3, "ids": [318, 983, 264], "freq": 835677, "text": "you’re", "normalized_text": "you're", "class": "keep_full_word"}

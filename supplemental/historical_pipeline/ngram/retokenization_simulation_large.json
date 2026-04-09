@@ -1,0 +1,56 @@
+{
+  "tokenizer": "data/tokenizers/fineweb_1024_bpe.model",
+  "candidates": "ngram/merge_candidates_final_v1.jsonl",
+  "num_candidates_loaded": 111,
+  "text_file": "sample_text_large.txt",
+  "num_samples": 2998,
+  "total_tokens_before": 150168,
+  "total_tokens_after": 146078,
+  "total_tokens_saved": 4090,
+  "percent_saved": 2.723616216504182,
+  "average_tokens_before": 50.08939292861908,
+  "average_tokens_after": 48.72515010006671,
+  "total_merge_hits": 2045,
+  "examples": [
+    {
+      "text": "ire. The brave shopkeeper grabbed a baseball bat and ran out of his newsagents to try and rescue the victim. However,",
+      "before_len": 50,
+      "after_len": 50,
+      "merge_hits": 0,
+      "before_preview": "ire. The brave shopkeeper grabbed a baseball bat and ran out of his newsagents to try and rescue",
+      "after_preview": "ire.Thebraveshopkeepergrabbedabaseballbatandranoutofhisnewsagentstotryandrescue"
+    },
+    {
+      "text": "ullion or coin as money or the basis of paper representatives of value. And the monetary systems of the peoples among whom com- m",
+      "before_len": 50,
+      "after_len": 46,
+      "merge_hits": 2,
+      "before_preview": "ullion or coin as money or the basis of paper representatives of value. And the monetary systems of the",
+      "after_preview": "ullionorcoinas[money]orthebasisofpaperrepresentativesofvalue.Andthemonetarysystem[s of the]peoplesam"
+    },
+    {
+      "text": "untary and based on the preferences of the parties. If the parties decide to form a retainer agreement, they should draft a written agreement.",
+      "before_len": 50,
+      "after_len": 50,
+      "merge_hits": 0,
+      "before_preview": "untary and based on the preferences of the parties. If the parties decide to form a retainer agreement, they should dra",
+      "after_preview": "untaryandbasedonthepreferencesoftheparties.Ifthepartiesdecidetoformaretaineragreement,theyshoulddra"
+    },
+    {
+      "text": "ate items of equipment or need to maintain the products clean and sterile at any kind of given moment. Naturally, the plastic stri",
+      "before_len": 50,
+      "after_len": 48,
+      "merge_hits": 1,
+      "before_preview": "ate items of equipment or need to maintain the products clean and sterile at any kind of given moment. N",
+      "after_preview": "ateitemsofequipmentorneedtomaintainthe[products]cleanandsterileatanykindofgivenmoment.Natur"
+    },
+    {
+      "text": "buy health insurance? Coke Gains Show Pop From Isdell’s Strategy See how earnings are looking for more than a dozen b",
+      "before_len": 51,
+      "after_len": 51,
+      "merge_hits": 0,
+      "before_preview": "buy health insurance? Coke Gains Show Pop From Isdell’s Strategy See how earnings",
+      "after_preview": "buyhealthinsurance?CokeGainsShowPopFromIsdell’sStrategySeehowearnings"
+    }
+  ]
+}

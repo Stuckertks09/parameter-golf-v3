@@ -1,0 +1,2840 @@
+{
+  "config": {
+    "docs_jsonl": "/workspace/parameter-golf/data/docs_selected.jsonl",
+    "vocab_jsonl": "/workspace/parameter-golf/vocab_variants/vocab_best_general_10_v3.jsonl",
+    "sp_model": "/workspace/parameter-golf/data/tokenizers/fineweb_1024_bpe.model",
+    "num_docs": 10000,
+    "top_docs": 50,
+    "top_spans": 100,
+    "top_chars": 100
+  },
+  "summary": {
+    "docs_analyzed": 10000,
+    "baseline_total_tokens": 12402473,
+    "custom_total_tokens": 12425632,
+    "token_ratio_custom_over_baseline": 1.00186728888666,
+    "token_delta_total": 23159,
+    "fallback_token_total": 3476027,
+    "fallback_char_total": 3464334,
+    "fallback_token_share_of_custom": 0.2797464949871363,
+    "improved_doc_count": 3724,
+    "worse_doc_count": 5801,
+    "same_doc_count": 475,
+    "improved_doc_share": 0.3724,
+    "worse_doc_share": 0.5801,
+    "mean_delta": 2.3159,
+    "median_delta": 2.0,
+    "p95_delta": 27.0,
+    "p99_delta": 69.0,
+    "worst100_mean_delta": 161.26,
+    "scalar_score_higher_is_better": -46269.28677384806
+  },
+  "top_docs_by_delta": [
+    {
+      "doc_id": 1455,
+      "baseline_len": 45797,
+      "custom_len": 47181,
+      "delta": 1384,
+      "ratio": 1.030220320108304,
+      "fallback_token_count": 15096,
+      "fallback_char_count": 15086,
+      "fallback_span_count": 7687,
+      "fallback_token_share": 0.3199593056526992,
+      "preview": "Santiago has run off, taking the lantern with him, leaving Nan in the darkness of the third floor hall, just outside the Sunset Room. The heavy, ragged breathing and shuffling footsteps have gone quiet. All that remains "
+    },
+    {
+      "doc_id": 4976,
+      "baseline_len": 19849,
+      "custom_len": 20850,
+      "delta": 1001,
+      "ratio": 1.050430752178951,
+      "fallback_token_count": 8612,
+      "fallback_char_count": 8612,
+      "fallback_span_count": 4147,
+      "fallback_token_share": 0.41304556354916067,
+      "preview": "Newspaper Page Text THE DAILY ARGUS I JOHN W. POTTER. Satcrdat. Jahcary 25, 18IK). The system of ballot reform advocated tj Got. Abbett. of New Jersey, provides for the registration of every voter; abso lute secrecy of t"
+    },
+    {
+      "doc_id": 4358,
+      "baseline_len": 10430,
+      "custom_len": 11062,
+      "delta": 632,
+      "ratio": 1.060594439117929,
+      "fallback_token_count": 4505,
+      "fallback_char_count": 4503,
+      "fallback_span_count": 2122,
+      "fallback_token_share": 0.40725004519978303,
+      "preview": "Newspaper Page Text S.ip and think (1f this a itlnne. ut waii t I l use I_ l best Iuainl that yoV can It y: I we vant i I soi[ y , I the I .I I int made. The Important Thing to You Is Who Made the Paint? I itl I t \\, Ilo"
+    },
+    {
+      "doc_id": 71,
+      "baseline_len": 12386,
+      "custom_len": 12872,
+      "delta": 486,
+      "ratio": 1.0392378491845633,
+      "fallback_token_count": 6191,
+      "fallback_char_count": 6188,
+      "fallback_span_count": 2206,
+      "fallback_token_share": 0.4809664387818521,
+      "preview": "THE JOCKEY CLUB’S TERMS AND CONDITIONS OF USE FOR REGISTRY.JOCKEYCLUB.COM PLEASE READ THIS DOCUMENT CAREFULLY BEFORE ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM. BY ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM OR THOROUGHBR"
+    },
+    {
+      "doc_id": 7255,
+      "baseline_len": 26647,
+      "custom_len": 27097,
+      "delta": 450,
+      "ratio": 1.016887454497692,
+      "fallback_token_count": 7210,
+      "fallback_char_count": 7206,
+      "fallback_span_count": 4203,
+      "fallback_token_share": 0.26608111599070006,
+      "preview": "Driven to Desire Challenge Genre: Romance/ Drama Word Count: 12,621 Pairing: Edward and Bella Summary: My only love sprung from my only hate, but this is no Romeo and Juliet story. I discover that with Edward, there is a"
+    },
+    {
+      "doc_id": 9217,
+      "baseline_len": 13407,
+      "custom_len": 13814,
+      "delta": 407,
+      "ratio": 1.0303572760498247,
+      "fallback_token_count": 5113,
+      "fallback_char_count": 5113,
+      "fallback_span_count": 2484,
+      "fallback_token_share": 0.37013175039814683,
+      "preview": "DUMA HOLDS SECOND HEARING ON CHECHNYA. The State Duma commission investigating the causes of the Chechen war examined Dzhokhar Dudaev's fall 1991 rise to power, Interfax reported on 20 March. Sergei Bekov, Chechnya's for"
+    },
+    {
+      "doc_id": 2478,
+      "baseline_len": 10823,
+      "custom_len": 11220,
+      "delta": 397,
+      "ratio": 1.036681142012381,
+      "fallback_token_count": 3646,
+      "fallback_char_count": 3641,
+      "fallback_span_count": 1804,
+      "fallback_token_share": 0.3249554367201426,
+      "preview": "1. Use of these Web Conditions 1.1. These general terms and conditions ('Web Conditions') set out Your rights and obligations, and those of the National Trust Group (as defined below) in relation to this website and its "
+    },
+    {
+      "doc_id": 5201,
+      "baseline_len": 6658,
+      "custom_len": 7017,
+      "delta": 359,
+      "ratio": 1.0539200961249624,
+      "fallback_token_count": 2388,
+      "fallback_char_count": 2388,
+      "fallback_span_count": 1305,
+      "fallback_token_share": 0.34031637451902524,
+      "preview": "This reference-like tutorial is aimed at Emacs beginners and probably others too. If you know how to do some basic editing and navigation in Emacs and want to quickly go through more of its capabilities, then this tutori"
+    },
+    {
+      "doc_id": 1979,
+      "baseline_len": 32096,
+      "custom_len": 32407,
+      "delta": 311,
+      "ratio": 1.0096896809571285,
+      "fallback_token_count": 11938,
+      "fallback_char_count": 11938,
+      "fallback_span_count": 5737,
+      "fallback_token_share": 0.36837720245625943,
+      "preview": "|Madhya-lila||Chapter 9: Lord Sri Caitanya Mahaprabhu's Travels to the Holy Places| Bhaktivedanta VedaBase: Sri Caitanya Caritamrita CC Madhya 9 Summary CC Madhya 9.1: Lord Sri Caitanya Mahaprabhu converted the inhabitan"
+    },
+    {
+      "doc_id": 6598,
+      "baseline_len": 7744,
+      "custom_len": 8005,
+      "delta": 261,
+      "ratio": 1.0337035123966942,
+      "fallback_token_count": 1783,
+      "fallback_char_count": 1783,
+      "fallback_span_count": 1257,
+      "fallback_token_share": 0.222735790131168,
+      "preview": "Steven and I had gone to a wedding on Saturday Dec. 10th where I was feeling very tired. I tried to have a drink but my stomach couldn’t take it. I felt “off”, so a couple days later on Dec. 12th we decided to do a pregn"
+    },
+    {
+      "doc_id": 6843,
+      "baseline_len": 14608,
+      "custom_len": 14862,
+      "delta": 254,
+      "ratio": 1.0173877327491785,
+      "fallback_token_count": 3790,
+      "fallback_char_count": 3789,
+      "fallback_span_count": 2372,
+      "fallback_token_share": 0.25501278428206164,
+      "preview": "Maintaining Irrigation Pumps, Motors, and Engines This publication explains how to maintain irrigation pumps, motors, and engines for peak efficiency. The publication includes descriptions and diagrams of recommended ins"
+    },
+    {
+      "doc_id": 5594,
+      "baseline_len": 13766,
+      "custom_len": 14019,
+      "delta": 253,
+      "ratio": 1.0183786139764637,
+      "fallback_token_count": 4651,
+      "fallback_char_count": 4625,
+      "fallback_span_count": 2276,
+      "fallback_token_share": 0.3317640345245738,
+      "preview": "John de Lancie (born March 20, 1948) is an American actor. He has been active in screen and television roles since 1977, though he is best known for his recurring role as Q on the various Star Trek series and as Frank Si"
+    },
+    {
+      "doc_id": 7078,
+      "baseline_len": 10947,
+      "custom_len": 11190,
+      "delta": 243,
+      "ratio": 1.0221978624280625,
+      "fallback_token_count": 4401,
+      "fallback_char_count": 4401,
+      "fallback_span_count": 2278,
+      "fallback_token_share": 0.3932975871313673,
+      "preview": "THE QUOTABLE FRED ASTAIRE Size: 16.82 x 26 cm 2000 Biographical Quotations by and about the world's greatest dancer: Dance Legend, Dancing Icon Ask George Balanchine. Ask Mikhail Baryshnikov. Ask James Cagney. Ask Bob Fo"
+    },
+    {
+      "doc_id": 286,
+      "baseline_len": 7676,
+      "custom_len": 7900,
+      "delta": 224,
+      "ratio": 1.0291818655549765,
+      "fallback_token_count": 2366,
+      "fallback_char_count": 2348,
+      "fallback_span_count": 1525,
+      "fallback_token_share": 0.2994936708860759,
+      "preview": "Sign Up | Log In BLUE SUN ROOM FAN FICTION - GENERAL Cameron explains things and begins to bond with River. CATEGORY: FICTION TIMES READ: 972 RATING: 9 SERIES: FIREFLY Fan fiction. Done for fun, not profit. The Plot Bunn"
+    },
+    {
+      "doc_id": 8211,
+      "baseline_len": 4967,
+      "custom_len": 5170,
+      "delta": 203,
+      "ratio": 1.0408697402858869,
+      "fallback_token_count": 1348,
+      "fallback_char_count": 1348,
+      "fallback_span_count": 925,
+      "fallback_token_share": 0.2607350096711799,
+      "preview": "far can a joke on Hip-Hop go? According to Ivan Matias, far enough. Matias is the wizard behind the invention and rhymes of Jason Caushun Herndon, Hip-Hops first openly gay rapper. Garnering media attention for an openly"
+    },
+    {
+      "doc_id": 2204,
+      "baseline_len": 3525,
+      "custom_len": 3726,
+      "delta": 201,
+      "ratio": 1.0570212765957447,
+      "fallback_token_count": 1016,
+      "fallback_char_count": 1015,
+      "fallback_span_count": 650,
+      "fallback_token_share": 0.2726784755770263,
+      "preview": "What is a veterinary dermatologist? Dermatological diseases are very commonplace accounting for many of the cases a small animal practitioner examines each day. Unfortunately, many of these dermatological disorders can l"
+    },
+    {
+      "doc_id": 3482,
+      "baseline_len": 5513,
+      "custom_len": 5709,
+      "delta": 196,
+      "ratio": 1.0355523308543442,
+      "fallback_token_count": 1521,
+      "fallback_char_count": 1521,
+      "fallback_span_count": 921,
+      "fallback_token_share": 0.26642143983184446,
+      "preview": "Police Internal Investigations Auditing Committee November 12, 1999 (Approved December 9, 1999) Citizen Advisors Present: Charles Ford, Presiding; Ric Alexander; Gene Bales; Leora Mahoney; Jose Martinez; Dapo Sobomehin; "
+    },
+    {
+      "doc_id": 281,
+      "baseline_len": 5643,
+      "custom_len": 5835,
+      "delta": 192,
+      "ratio": 1.0340244550770867,
+      "fallback_token_count": 3105,
+      "fallback_char_count": 3090,
+      "fallback_span_count": 1018,
+      "fallback_token_share": 0.532133676092545,
+      "preview": "|Navigation » Global Information Technology (UK) Ltd. » download EarthMediaCenter online music radio free| Multimedia > Video > Digital tv & radio EarthMediaCenter online music radio 1.0 EarthMediaCenter: 150 music radio"
+    },
+    {
+      "doc_id": 6222,
+      "baseline_len": 7333,
+      "custom_len": 7519,
+      "delta": 186,
+      "ratio": 1.0253647893086049,
+      "fallback_token_count": 3248,
+      "fallback_char_count": 3246,
+      "fallback_span_count": 1352,
+      "fallback_token_share": 0.4319723367469078,
+      "preview": "Senior Otaku+ | Posted 01/11/11 | Reply Hello, captain kuchiki. I'm Kyori. It's a pleasure to finally meet you. I'm a big fan of you and I hope that your squad is doing well. Love Always, Kyori. Otakuite+ | Posted 09/18/"
+    },
+    {
+      "doc_id": 4059,
+      "baseline_len": 4031,
+      "custom_len": 4211,
+      "delta": 180,
+      "ratio": 1.0446539320267925,
+      "fallback_token_count": 2148,
+      "fallback_char_count": 2077,
+      "fallback_span_count": 841,
+      "fallback_token_share": 0.5100926145808596,
+      "preview": "Sony 7.1 Channel Black 3D AV Receiver, Model STRDH720 Entertainment at its finest. Take full advantage of the STR-DH720's 7.1-channels of surround sound with a 3D A/V receiver capable of upscaling your media from analog "
+    },
+    {
+      "doc_id": 8275,
+      "baseline_len": 3408,
+      "custom_len": 3588,
+      "delta": 180,
+      "ratio": 1.0528169014084507,
+      "fallback_token_count": 1841,
+      "fallback_char_count": 1841,
+      "fallback_span_count": 626,
+      "fallback_token_share": 0.5130992196209587,
+      "preview": "To send in your Neopets related poems or to find out more about the poetry contest, click here! The best poems get put on the site and earn 1,000 Neopoints, a RARE ITEM, and a Trophy for the author's trophy cabinet. You "
+    },
+    {
+      "doc_id": 9839,
+      "baseline_len": 9820,
+      "custom_len": 9999,
+      "delta": 179,
+      "ratio": 1.0182281059063136,
+      "fallback_token_count": 2702,
+      "fallback_char_count": 2702,
+      "fallback_span_count": 1743,
+      "fallback_token_share": 0.2702270227022702,
+      "preview": "Stop and Reverse Hair Loss in Women Caused by Low Iron Levels vs Underactive Thyroid vs Insulin Resistance and Inflammation Edited by Donna, Eng, Doug Collins, Inukshuk - 1 Determine the Underlying Cause of Your Hair Los"
+    },
+    {
+      "doc_id": 8442,
+      "baseline_len": 7969,
+      "custom_len": 8140,
+      "delta": 171,
+      "ratio": 1.0214581503325386,
+      "fallback_token_count": 2898,
+      "fallback_char_count": 2823,
+      "fallback_span_count": 1572,
+      "fallback_token_share": 0.356019656019656,
+      "preview": "AGNES f English, German, Dutch, Swedish, Norwegian, Danish, Icelandic, Ancient Greek (Latinized) Latinized form of the Greek name ‘Αγνη (Hagne) , derived from Greek ‘αγνος (hagnos) meaning \"chaste\". Saint Agnes was a vir"
+    },
+    {
+      "doc_id": 4807,
+      "baseline_len": 4155,
+      "custom_len": 4326,
+      "delta": 171,
+      "ratio": 1.0411552346570396,
+      "fallback_token_count": 1170,
+      "fallback_char_count": 1167,
+      "fallback_span_count": 721,
+      "fallback_token_share": 0.27045769764216365,
+      "preview": "Interview With Jontho from Ragnarok Interview By Anders Sandvall Here is an interview with Jontho, the drummer from the Norwegian black metal band Ragnarok, about their new album, Blackdoor Miracle and about their plans "
+    },
+    {
+      "doc_id": 1860,
+      "baseline_len": 2790,
+      "custom_len": 2958,
+      "delta": 168,
+      "ratio": 1.060215053763441,
+      "fallback_token_count": 1015,
+      "fallback_char_count": 1011,
+      "fallback_span_count": 512,
+      "fallback_token_share": 0.3431372549019608,
+      "preview": "Clinic Set for May 12 6 CE Credits • Howard County Fairgrounds • West Friendship, MD If you are a practitioner of small animal or equine veterinary medicine, this is a premier opportunity for continuing education, busine"
+    },
+    {
+      "doc_id": 6979,
+      "baseline_len": 7807,
+      "custom_len": 7973,
+      "delta": 166,
+      "ratio": 1.0212629691302677,
+      "fallback_token_count": 2981,
+      "fallback_char_count": 2962,
+      "fallback_span_count": 1176,
+      "fallback_token_share": 0.37388686818010786,
+      "preview": "Pictured here is Blackrock Castle in Cork city, one of the most iconic and well known castles in Cork. It is built in an impressive position right on the banks of the River Lee a mere 2km from the city center. It dates b"
+    },
+    {
+      "doc_id": 1328,
+      "baseline_len": 1768,
+      "custom_len": 1933,
+      "delta": 165,
+      "ratio": 1.0933257918552035,
+      "fallback_token_count": 572,
+      "fallback_char_count": 572,
+      "fallback_span_count": 354,
+      "fallback_token_share": 0.2959130884635282,
+      "preview": "Mutual funds and other investment companies are often labeled by the objectives they hope to accomplish, such as current income or growth. Mutual fund families may have a number of different funds available to meet vario"
+    },
+    {
+      "doc_id": 6784,
+      "baseline_len": 18035,
+      "custom_len": 18196,
+      "delta": 161,
+      "ratio": 1.0089270862212365,
+      "fallback_token_count": 5582,
+      "fallback_char_count": 5582,
+      "fallback_span_count": 2977,
+      "fallback_token_share": 0.30677071883930535,
+      "preview": "Christian Church (Disciples of Christ) ||This article's lead section may not adequately summarize key points of its contents. (June 2015)| |Christian Church (Disciples of Christ)| Logo: The chalice with the Cross of St A"
+    },
+    {
+      "doc_id": 1679,
+      "baseline_len": 8181,
+      "custom_len": 8338,
+      "delta": 157,
+      "ratio": 1.0191908079696859,
+      "fallback_token_count": 2960,
+      "fallback_char_count": 2960,
+      "fallback_span_count": 1546,
+      "fallback_token_share": 0.3550011993283761,
+      "preview": "Information for Researchers Scope and Content Title: Ella Sterling Mighels papers Date (inclusive): 1870-1934 Collection Number: MS 1470 Mighels, Ella Sterling, 1853-1934 California Historical Society 678 Mission Street "
+    },
+    {
+      "doc_id": 3467,
+      "baseline_len": 3049,
+      "custom_len": 3193,
+      "delta": 144,
+      "ratio": 1.047228599540833,
+      "fallback_token_count": 809,
+      "fallback_char_count": 808,
+      "fallback_span_count": 525,
+      "fallback_token_share": 0.25336673974318824,
+      "preview": "Terms & Conditions These booking terms and conditions are applicable to Tailor Made Holidays Holiday Deals 2 Go is a trading name of Broadway Travel who is an ABTA retail travel agent and as such acts as an intermediary "
+    },
+    {
+      "doc_id": 6161,
+      "baseline_len": 11514,
+      "custom_len": 11655,
+      "delta": 141,
+      "ratio": 1.012245961438249,
+      "fallback_token_count": 3794,
+      "fallback_char_count": 3793,
+      "fallback_span_count": 1882,
+      "fallback_token_share": 0.32552552552552555,
+      "preview": "to beautiful Fernie, British Columbia and thank you for staying with Fernie Lodging Company. If there is anything we can do to make your stay more comfortable, please let us know. We invite you to enjoy our many amenitie"
+    },
+    {
+      "doc_id": 1908,
+      "baseline_len": 2013,
+      "custom_len": 2154,
+      "delta": 141,
+      "ratio": 1.0700447093889718,
+      "fallback_token_count": 645,
+      "fallback_char_count": 626,
+      "fallback_span_count": 348,
+      "fallback_token_share": 0.2994428969359331,
+      "preview": "| Rubén Darío -Lo fatal- | jueves, 14 de septiembre de 2006 A René Pérez Dichoso el árbol, que es apenas sensitivo, y más la piedra dura porque esa ya no siente, pues no hay dolor más grande que el dolor de ser vivo, ni "
+    },
+    {
+      "doc_id": 4424,
+      "baseline_len": 3552,
+      "custom_len": 3691,
+      "delta": 139,
+      "ratio": 1.039132882882883,
+      "fallback_token_count": 1246,
+      "fallback_char_count": 1243,
+      "fallback_span_count": 714,
+      "fallback_token_share": 0.3375778921701436,
+      "preview": "Book your room at Le Royal Meridien Beach Resort And Spa Please enter your travel dates. Dubai beach resort near The Emirates Golf Club With a stay at Le Royal Meridien Beach Resort And Spa in Dubai (Jumeirah Beach Resid"
+    },
+    {
+      "doc_id": 7708,
+      "baseline_len": 9315,
+      "custom_len": 9453,
+      "delta": 138,
+      "ratio": 1.0148148148148148,
+      "fallback_token_count": 3357,
+      "fallback_char_count": 3357,
+      "fallback_span_count": 1524,
+      "fallback_token_share": 0.3551253570295144,
+      "preview": "Welcome to the City of Shawnee Oklahoma Online City Hall. If you are a City of Shawnee Citizen, be sure to visit the Citizens Guide for quick access to information you need. If you are not a Shawnee Citizen check out the"
+    },
+    {
+      "doc_id": 4619,
+      "baseline_len": 4782,
+      "custom_len": 4917,
+      "delta": 135,
+      "ratio": 1.0282308657465495,
+      "fallback_token_count": 2196,
+      "fallback_char_count": 2196,
+      "fallback_span_count": 900,
+      "fallback_token_share": 0.4466137888956681,
+      "preview": "The Titanium Dog Tag is one of our best selling products because it is lightweight, durable, and hypoallergenic. Titanium Dog Tag Red with Oval Chain Number of Reviews: 310, Reviewer: Ron L. Thu Feb 26, 2015: Necklace is"
+    },
+    {
+      "doc_id": 7385,
+      "baseline_len": 6124,
+      "custom_len": 6253,
+      "delta": 129,
+      "ratio": 1.0210646636185499,
+      "fallback_token_count": 2234,
+      "fallback_char_count": 2233,
+      "fallback_span_count": 1046,
+      "fallback_token_share": 0.35726851111466496,
+      "preview": "- The report contains detailed information about Matrix Composites & Engineering Limited that gives an unrivalled in-depth knowledge about internal business-environment of the company: data about the owners, senior execu"
+    },
+    {
+      "doc_id": 2338,
+      "baseline_len": 3724,
+      "custom_len": 3853,
+      "delta": 129,
+      "ratio": 1.034640171858217,
+      "fallback_token_count": 1078,
+      "fallback_char_count": 1073,
+      "fallback_span_count": 712,
+      "fallback_token_share": 0.279781988061251,
+      "preview": "Disease surveillance and control of vector to protect climate The Daily Star climate change is caused by the accumulation of \"green-house\" gases in the lower atmosphere. The concentration of these gases is increasing mai"
+    },
+    {
+      "doc_id": 473,
+      "baseline_len": 3362,
+      "custom_len": 3490,
+      "delta": 128,
+      "ratio": 1.0380725758477096,
+      "fallback_token_count": 981,
+      "fallback_char_count": 976,
+      "fallback_span_count": 620,
+      "fallback_token_share": 0.2810888252148997,
+      "preview": "[ A.K.A SEKMINËS – Seventh Sunday after Easter In Lithuania and in neighboring countries, traditions of Pentecost are related with the end of sowing and the start of summer labors. This is a spring gathering and shepherd"
+    },
+    {
+      "doc_id": 29,
+      "baseline_len": 6079,
+      "custom_len": 6206,
+      "delta": 127,
+      "ratio": 1.020891594012173,
+      "fallback_token_count": 2055,
+      "fallback_char_count": 2055,
+      "fallback_span_count": 1146,
+      "fallback_token_share": 0.3311311633902675,
+      "preview": "Historic Sites in Journalism Postmark deadline for nominations: March 20 Download nomination form Click here to download the nomination form. Complete List of Historic Sites The Silverton Standard & the Miner Read press "
+    },
+    {
+      "doc_id": 4665,
+      "baseline_len": 6745,
+      "custom_len": 6871,
+      "delta": 126,
+      "ratio": 1.018680504077094,
+      "fallback_token_count": 2429,
+      "fallback_char_count": 2406,
+      "fallback_span_count": 1534,
+      "fallback_token_share": 0.35351477223111627,
+      "preview": "Food and Drink Food and Drink - 119 Pins Pumpkin Crunch Cake Desserts, Dump Cake, Recipe, Pumpkin Crunches Cake, Food, Yummy, Pumpkin Crunch Cake, Cake I, Pumpkin Pies Pumpkin Crunch Cake - Cook'n is Fun - Food Recipes, "
+    },
+    {
+      "doc_id": 8859,
+      "baseline_len": 1745,
+      "custom_len": 1870,
+      "delta": 125,
+      "ratio": 1.0716332378223496,
+      "fallback_token_count": 581,
+      "fallback_char_count": 579,
+      "fallback_span_count": 367,
+      "fallback_token_share": 0.3106951871657754,
+      "preview": "Who the Heck Was Columbus? Italians have him, but other ethnic groups may want to stake a claim. Or maybe not. By Michael Aaron Rockland Each October, we celebrate Co- lumbus Day. Children celebrate because they have no "
+    },
+    {
+      "doc_id": 5969,
+      "baseline_len": 23571,
+      "custom_len": 23694,
+      "delta": 123,
+      "ratio": 1.0052182766959399,
+      "fallback_token_count": 6793,
+      "fallback_char_count": 6793,
+      "fallback_span_count": 4276,
+      "fallback_token_share": 0.28669705410652485,
+      "preview": "The No. 10 player in the nation scheduled a visit to Akron's campus for April 18. Despite offers from the likes of Kentucky, Ohio State, Pitt and Tennessee, Akron's campus is Adriean Payne's only scheduled visit. Payne i"
+    },
+    {
+      "doc_id": 2998,
+      "baseline_len": 4851,
+      "custom_len": 4971,
+      "delta": 120,
+      "ratio": 1.0247371675943104,
+      "fallback_token_count": 1762,
+      "fallback_char_count": 1762,
+      "fallback_span_count": 885,
+      "fallback_token_share": 0.3544558438945886,
+      "preview": "Being Mrs. Bella Black Bella Black is married to a hunky, beautiful man named Jacob. What happens when mysterious things start to threaten their marriage? Rating 0/5 Word Count 2094 Review this Chapter It was midnight, a"
+    },
+    {
+      "doc_id": 2165,
+      "baseline_len": 11667,
+      "custom_len": 11784,
+      "delta": 117,
+      "ratio": 1.0100282849061455,
+      "fallback_token_count": 3541,
+      "fallback_char_count": 3539,
+      "fallback_span_count": 2050,
+      "fallback_token_share": 0.30049219280380174,
+      "preview": "Tuesday, December 30, 2008 With 2008 about to close, Road to 2010 turns its eyes to goal.com and African correspondent Samm Audu who lists the Top 10 African footballers of 2008 ... what do you think? Click above for the"
+    },
+    {
+      "doc_id": 7435,
+      "baseline_len": 3075,
+      "custom_len": 3190,
+      "delta": 115,
+      "ratio": 1.0373983739837398,
+      "fallback_token_count": 1061,
+      "fallback_char_count": 1061,
+      "fallback_span_count": 583,
+      "fallback_token_share": 0.33260188087774295,
+      "preview": "in the 1970's weren't told to wear seat belts, let alone have their own special car seats. Quite a few seventies vehicles did come with seat belts fitted, but state laws didn't require you to use them until the 1980's or"
+    },
+    {
+      "doc_id": 6863,
+      "baseline_len": 6306,
+      "custom_len": 6419,
+      "delta": 113,
+      "ratio": 1.017919441801459,
+      "fallback_token_count": 1568,
+      "fallback_char_count": 1568,
+      "fallback_span_count": 992,
+      "fallback_token_share": 0.24427480916030533,
+      "preview": "You yawn, sitting back in your chair and lazily contemplating finishing up the paperwork still due for the latest case you've been working on… and then instead you Accio the Daily Prophet, flip to the back page, and star"
+    },
+    {
+      "doc_id": 3010,
+      "baseline_len": 6217,
+      "custom_len": 6329,
+      "delta": 112,
+      "ratio": 1.0180151198327168,
+      "fallback_token_count": 2310,
+      "fallback_char_count": 2308,
+      "fallback_span_count": 1342,
+      "fallback_token_share": 0.36498656975825566,
+      "preview": "Places I’d Like to Go Places I’d Like to Go - 33 Pins Breckenridge HAS to be the prettiest place in Colorado in the winter! The village is so quaint and lovely to see!! Ski Resorts, Breckenridge Colorado, Mountain, Favor"
+    },
+    {
+      "doc_id": 2571,
+      "baseline_len": 19586,
+      "custom_len": 19695,
+      "delta": 109,
+      "ratio": 1.0055651996323904,
+      "fallback_token_count": 6214,
+      "fallback_char_count": 6192,
+      "fallback_span_count": 3469,
+      "fallback_token_share": 0.31551155115511553,
+      "preview": "Kimberley, Northern Cape City centre seen over the Big Hole |• Total||164.3 km2 (63.4 sq mi)| |Elevation||1,184 m (3,885 ft)| |• Density||1,400/km2 (3,500/sq mi)| |Racial makeup (2011)| |• Black African||63.1%| |First la"
+    },
+    {
+      "doc_id": 4055,
+      "baseline_len": 5686,
+      "custom_len": 5795,
+      "delta": 109,
+      "ratio": 1.0191698909602533,
+      "fallback_token_count": 1995,
+      "fallback_char_count": 1995,
+      "fallback_span_count": 1108,
+      "fallback_token_share": 0.3442622950819672,
+      "preview": "June 14, 2012 Two Tech teams honored by NCAA with APR Public Recognition Awards Tennessee Tech’s softball and women’s golf teams are among those who received Public Recognition Awards Thursday from the National Collegiat"
+    },
+    {
+      "doc_id": 7916,
+      "baseline_len": 7897,
+      "custom_len": 8005,
+      "delta": 108,
+      "ratio": 1.0136760795238697,
+      "fallback_token_count": 1904,
+      "fallback_char_count": 1904,
+      "fallback_span_count": 1388,
+      "fallback_token_share": 0.23785134291068083,
+      "preview": "Studies consider and fear the lot that visiting a canadian pharmacy viagra cheap den and pour out their allergen and easy cheap research can be cheap as one might have agreement not not the news but might run into some t"
+    }
+  ],
+  "top_docs_by_fallback": [
+    {
+      "doc_id": 9452,
+      "baseline_len": 115821,
+      "custom_len": 114492,
+      "delta": -1329,
+      "ratio": 0.9885253969487399,
+      "fallback_token_count": 46938,
+      "fallback_char_count": 46938,
+      "fallback_span_count": 19715,
+      "fallback_token_share": 0.40996750864689235,
+      "preview": "This item is only available as the following downloads: Serving Wakulla County For More Than A Century Our 118th Year, 28th Issue Thursday, July 11, 2013 T w o S e c t i o n s Two Sections 7 5 C e n t s 75 Cents kulla Co"
+    },
+    {
+      "doc_id": 1455,
+      "baseline_len": 45797,
+      "custom_len": 47181,
+      "delta": 1384,
+      "ratio": 1.030220320108304,
+      "fallback_token_count": 15096,
+      "fallback_char_count": 15086,
+      "fallback_span_count": 7687,
+      "fallback_token_share": 0.3199593056526992,
+      "preview": "Santiago has run off, taking the lantern with him, leaving Nan in the darkness of the third floor hall, just outside the Sunset Room. The heavy, ragged breathing and shuffling footsteps have gone quiet. All that remains "
+    },
+    {
+      "doc_id": 2974,
+      "baseline_len": 47156,
+      "custom_len": 47187,
+      "delta": 31,
+      "ratio": 1.0006573924845195,
+      "fallback_token_count": 13256,
+      "fallback_char_count": 13238,
+      "fallback_span_count": 7567,
+      "fallback_token_share": 0.28092483099158666,
+      "preview": "US 5396417 A A data collection device and method, particularly for point-of-sale systems used in the sales and rental of merchandise including video records, and more particularly for a revenue-sharing video record renta"
+    },
+    {
+      "doc_id": 2035,
+      "baseline_len": 42806,
+      "custom_len": 42253,
+      "delta": -553,
+      "ratio": 0.9870812502920151,
+      "fallback_token_count": 11968,
+      "fallback_char_count": 11968,
+      "fallback_span_count": 7063,
+      "fallback_token_share": 0.2832461600359738,
+      "preview": "PAYNE v. TENNESSEE CERTIORARI TO THE SUPREME COURT OF TENNESSEE Argued April 24, 1991 Decided June 27, 1991 Petitioner Payne was convicted by a Tennessee jury of the first-degree murders of Charisse Christopher and her 2"
+    },
+    {
+      "doc_id": 1979,
+      "baseline_len": 32096,
+      "custom_len": 32407,
+      "delta": 311,
+      "ratio": 1.0096896809571285,
+      "fallback_token_count": 11938,
+      "fallback_char_count": 11938,
+      "fallback_span_count": 5737,
+      "fallback_token_share": 0.36837720245625943,
+      "preview": "|Madhya-lila||Chapter 9: Lord Sri Caitanya Mahaprabhu's Travels to the Holy Places| Bhaktivedanta VedaBase: Sri Caitanya Caritamrita CC Madhya 9 Summary CC Madhya 9.1: Lord Sri Caitanya Mahaprabhu converted the inhabitan"
+    },
+    {
+      "doc_id": 954,
+      "baseline_len": 35583,
+      "custom_len": 35227,
+      "delta": -356,
+      "ratio": 0.9899952224376809,
+      "fallback_token_count": 10273,
+      "fallback_char_count": 10273,
+      "fallback_span_count": 5909,
+      "fallback_token_share": 0.2916229028869901,
+      "preview": "1 Wednesday, 15 December 2004 2 [Open session] 3 [The accused entered court] 4 --- Upon commencing at 2.53 p.m. 5 JUDGE ORIE: Madam Registrar, would you please call the case. 6 THE REGISTRAR: Case number IT-00-39-T, the "
+    },
+    {
+      "doc_id": 6893,
+      "baseline_len": 30619,
+      "custom_len": 30347,
+      "delta": -272,
+      "ratio": 0.9911166269309906,
+      "fallback_token_count": 9897,
+      "fallback_char_count": 9895,
+      "fallback_span_count": 4534,
+      "fallback_token_share": 0.3261277885787722,
+      "preview": "|Publication number||US7206844 B2| |Application number||US 10/875,905| |Publication date||Apr 17, 2007| |Filing date||Jun 24, 2004| |Priority date||Jun 29, 1998| |Also published as||US6446109, US6868448, US20010039565, U"
+    },
+    {
+      "doc_id": 6402,
+      "baseline_len": 31402,
+      "custom_len": 31131,
+      "delta": -271,
+      "ratio": 0.991369976434622,
+      "fallback_token_count": 9546,
+      "fallback_char_count": 9531,
+      "fallback_span_count": 5404,
+      "fallback_token_share": 0.3066396839163535,
+      "preview": "Modeling the electric field and images in electric fish contributes to a better understanding of the pre-receptor conditioning of electric images. Although the boundary element method has been very successful for calcula"
+    },
+    {
+      "doc_id": 2186,
+      "baseline_len": 27012,
+      "custom_len": 26952,
+      "delta": -60,
+      "ratio": 0.9977787649933363,
+      "fallback_token_count": 8868,
+      "fallback_char_count": 8763,
+      "fallback_span_count": 4902,
+      "fallback_token_share": 0.3290293855743544,
+      "preview": "Leah A. BILYEU, Plaintiff-counter-defendant Appellant, v. MORGAN STANLEY LONG TERM DISABILITY PLAN; Morgan Stanley Long Term Disability Plan Administrator, Defendants–Appellees, First Unum Life Insurance Company, Defenda"
+    },
+    {
+      "doc_id": 4976,
+      "baseline_len": 19849,
+      "custom_len": 20850,
+      "delta": 1001,
+      "ratio": 1.050430752178951,
+      "fallback_token_count": 8612,
+      "fallback_char_count": 8612,
+      "fallback_span_count": 4147,
+      "fallback_token_share": 0.41304556354916067,
+      "preview": "Newspaper Page Text THE DAILY ARGUS I JOHN W. POTTER. Satcrdat. Jahcary 25, 18IK). The system of ballot reform advocated tj Got. Abbett. of New Jersey, provides for the registration of every voter; abso lute secrecy of t"
+    },
+    {
+      "doc_id": 3986,
+      "baseline_len": 30711,
+      "custom_len": 30567,
+      "delta": -144,
+      "ratio": 0.9953111263065351,
+      "fallback_token_count": 8520,
+      "fallback_char_count": 8520,
+      "fallback_span_count": 5078,
+      "fallback_token_share": 0.2787319658455197,
+      "preview": "Welcome Comrades to the 25th Edition of the ConquerClub Dispatch! Well it's been 1 year since the newsletter started and 25 editions of the newsletter have been pumped out. It's been interesting watching the newsletter e"
+    },
+    {
+      "doc_id": 4500,
+      "baseline_len": 27465,
+      "custom_len": 27198,
+      "delta": -267,
+      "ratio": 0.9902785363189514,
+      "fallback_token_count": 8496,
+      "fallback_char_count": 8489,
+      "fallback_span_count": 4844,
+      "fallback_token_share": 0.3123759099933819,
+      "preview": "Please, post suggestions and improvements only. \"I can't understand line xxx could you improve it?\" is acceptable and will be addressed if pointed out. Just don't turn this into a Q&A thread. ----------------------------"
+    },
+    {
+      "doc_id": 321,
+      "baseline_len": 18742,
+      "custom_len": 18579,
+      "delta": -163,
+      "ratio": 0.9913029559278626,
+      "fallback_token_count": 8213,
+      "fallback_char_count": 8161,
+      "fallback_span_count": 3996,
+      "fallback_token_share": 0.44205823779536035,
+      "preview": "Larry Kim, Founder and Chief Technology Officer Larry Kim founded WordStream in 2007. He bootstrapped the company by providing internet consulting services while funding/managing a team of engineers and marketers to deve"
+    },
+    {
+      "doc_id": 632,
+      "baseline_len": 26773,
+      "custom_len": 26618,
+      "delta": -155,
+      "ratio": 0.9942105852911516,
+      "fallback_token_count": 7559,
+      "fallback_char_count": 7341,
+      "fallback_span_count": 4325,
+      "fallback_token_share": 0.2839807648959351,
+      "preview": "Visible Minorities under the Canadian Employment Equity Act, 1987-1999 Harish C. Jain MGD School of Business, John J. Lawler Institute of Labour and Industrial Relations, University of Illinois at Urbana-Champaign, This "
+    },
+    {
+      "doc_id": 8288,
+      "baseline_len": 32052,
+      "custom_len": 31958,
+      "delta": -94,
+      "ratio": 0.9970672656932484,
+      "fallback_token_count": 7326,
+      "fallback_char_count": 7326,
+      "fallback_span_count": 5146,
+      "fallback_token_share": 0.22923837536767006,
+      "preview": "Friday, December 22, 2006 Thursday, December 21, 2006 But after having a brief conversation with a fellow Catholic (who lives in Alberta), I feel compelled to tell the whole story. So here it is. When my friend was study"
+    },
+    {
+      "doc_id": 7255,
+      "baseline_len": 26647,
+      "custom_len": 27097,
+      "delta": 450,
+      "ratio": 1.016887454497692,
+      "fallback_token_count": 7210,
+      "fallback_char_count": 7206,
+      "fallback_span_count": 4203,
+      "fallback_token_share": 0.26608111599070006,
+      "preview": "Driven to Desire Challenge Genre: Romance/ Drama Word Count: 12,621 Pairing: Edward and Bella Summary: My only love sprung from my only hate, but this is no Romeo and Juliet story. I discover that with Edward, there is a"
+    },
+    {
+      "doc_id": 5969,
+      "baseline_len": 23571,
+      "custom_len": 23694,
+      "delta": 123,
+      "ratio": 1.0052182766959399,
+      "fallback_token_count": 6793,
+      "fallback_char_count": 6793,
+      "fallback_span_count": 4276,
+      "fallback_token_share": 0.28669705410652485,
+      "preview": "The No. 10 player in the nation scheduled a visit to Akron's campus for April 18. Despite offers from the likes of Kentucky, Ohio State, Pitt and Tennessee, Akron's campus is Adriean Payne's only scheduled visit. Payne i"
+    },
+    {
+      "doc_id": 1669,
+      "baseline_len": 28874,
+      "custom_len": 28898,
+      "delta": 24,
+      "ratio": 1.0008311976172335,
+      "fallback_token_count": 6763,
+      "fallback_char_count": 6761,
+      "fallback_span_count": 4908,
+      "fallback_token_share": 0.23403003668073916,
+      "preview": "A/N: AHHH!!! it's finally done! this monster of a chapter is FINALLY done! i am so so sorry that it took so long. i won't even list the excuses i could give. i'm tired of typing. 12,710 freaking words. i didn't think tha"
+    },
+    {
+      "doc_id": 3966,
+      "baseline_len": 24331,
+      "custom_len": 24126,
+      "delta": -205,
+      "ratio": 0.9915745345444084,
+      "fallback_token_count": 6513,
+      "fallback_char_count": 6505,
+      "fallback_span_count": 3980,
+      "fallback_token_share": 0.2699577219597115,
+      "preview": "Not Completely Worthless Reviewed by Barry R. Bickmore When Stephen Robinson and Craig Blomberg wrote How Wide the Divide? A Mormon and an Evangelical in Conversation, they covered a lot of ground and were obviously limi"
+    },
+    {
+      "doc_id": 1258,
+      "baseline_len": 16177,
+      "custom_len": 16236,
+      "delta": 59,
+      "ratio": 1.00364715336589,
+      "fallback_token_count": 6379,
+      "fallback_char_count": 6370,
+      "fallback_span_count": 2833,
+      "fallback_token_share": 0.39289233801428924,
+      "preview": "|1 ||A disgrace.| |Posted on Saturday May 11, 2013, 17:03 by Sir N.Paul Hills| |Er... a curious absence of Malle, Pasolini, Straub-Huillet, Carne, Rohmer, Rivette, Fassbinder, Hou, Kiarostami, Tarr... the list goes on. I"
+    },
+    {
+      "doc_id": 2571,
+      "baseline_len": 19586,
+      "custom_len": 19695,
+      "delta": 109,
+      "ratio": 1.0055651996323904,
+      "fallback_token_count": 6214,
+      "fallback_char_count": 6192,
+      "fallback_span_count": 3469,
+      "fallback_token_share": 0.31551155115511553,
+      "preview": "Kimberley, Northern Cape City centre seen over the Big Hole |• Total||164.3 km2 (63.4 sq mi)| |Elevation||1,184 m (3,885 ft)| |• Density||1,400/km2 (3,500/sq mi)| |Racial makeup (2011)| |• Black African||63.1%| |First la"
+    },
+    {
+      "doc_id": 71,
+      "baseline_len": 12386,
+      "custom_len": 12872,
+      "delta": 486,
+      "ratio": 1.0392378491845633,
+      "fallback_token_count": 6191,
+      "fallback_char_count": 6188,
+      "fallback_span_count": 2206,
+      "fallback_token_share": 0.4809664387818521,
+      "preview": "THE JOCKEY CLUB’S TERMS AND CONDITIONS OF USE FOR REGISTRY.JOCKEYCLUB.COM PLEASE READ THIS DOCUMENT CAREFULLY BEFORE ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM. BY ACCESSING OR USING REGISTRY.JOCKEYCLUB.COM OR THOROUGHBR"
+    },
+    {
+      "doc_id": 4414,
+      "baseline_len": 26661,
+      "custom_len": 26428,
+      "delta": -233,
+      "ratio": 0.9912606428866134,
+      "fallback_token_count": 5706,
+      "fallback_char_count": 5706,
+      "fallback_span_count": 3830,
+      "fallback_token_share": 0.21590737097018314,
+      "preview": "Part IV: Faster Than Light Travel--Concepts and Their \"Problems\" This is Part IV of the \"Relativity and FTL Travel\" FAQ. It discusses the various problems involved with FTL travel and how they apply to particular FTL con"
+    },
+    {
+      "doc_id": 6784,
+      "baseline_len": 18035,
+      "custom_len": 18196,
+      "delta": 161,
+      "ratio": 1.0089270862212365,
+      "fallback_token_count": 5582,
+      "fallback_char_count": 5582,
+      "fallback_span_count": 2977,
+      "fallback_token_share": 0.30677071883930535,
+      "preview": "Christian Church (Disciples of Christ) ||This article's lead section may not adequately summarize key points of its contents. (June 2015)| |Christian Church (Disciples of Christ)| Logo: The chalice with the Cross of St A"
+    },
+    {
+      "doc_id": 6266,
+      "baseline_len": 15334,
+      "custom_len": 15390,
+      "delta": 56,
+      "ratio": 1.003652015129777,
+      "fallback_token_count": 5537,
+      "fallback_char_count": 5393,
+      "fallback_span_count": 2786,
+      "fallback_token_share": 0.35977907732293696,
+      "preview": "Sociedade Esportiva Palmeiras |This article needs additional citations for verification. (January 2016) (Learn how and when to remove this template message)| |Full name||Sociedade Esportiva Palmeiras| |Nickname(s)||Alviv"
+    },
+    {
+      "doc_id": 4032,
+      "baseline_len": 24103,
+      "custom_len": 23949,
+      "delta": -154,
+      "ratio": 0.9936107538480687,
+      "fallback_token_count": 5450,
+      "fallback_char_count": 5431,
+      "fallback_span_count": 3784,
+      "fallback_token_share": 0.2275669130235083,
+      "preview": "Revolutionary History, Vol.1 No.2, Summer 1988. Used by permission. Commencing with a slander campaign the Stalinists did not hesitate to move into action for the physical destruction of the revolutionaries. We wish to t"
+    },
+    {
+      "doc_id": 3165,
+      "baseline_len": 10913,
+      "custom_len": 10928,
+      "delta": 15,
+      "ratio": 1.0013745074681573,
+      "fallback_token_count": 5372,
+      "fallback_char_count": 5370,
+      "fallback_span_count": 1821,
+      "fallback_token_share": 0.49158125915080525,
+      "preview": "Talk:Problems with SATA and Linux - 1 I did everything and system drive still does not respond to hdparm -i or hdparm -d1 - 2 updated libata_passthru.patch - 3 ATA_ENABLE_PATA PCI IDs - 4 DVD DMA with ide/sata as module "
+    },
+    {
+      "doc_id": 9217,
+      "baseline_len": 13407,
+      "custom_len": 13814,
+      "delta": 407,
+      "ratio": 1.0303572760498247,
+      "fallback_token_count": 5113,
+      "fallback_char_count": 5113,
+      "fallback_span_count": 2484,
+      "fallback_token_share": 0.37013175039814683,
+      "preview": "DUMA HOLDS SECOND HEARING ON CHECHNYA. The State Duma commission investigating the causes of the Chechen war examined Dzhokhar Dudaev's fall 1991 rise to power, Interfax reported on 20 March. Sergei Bekov, Chechnya's for"
+    },
+    {
+      "doc_id": 6341,
+      "baseline_len": 17666,
+      "custom_len": 17545,
+      "delta": -121,
+      "ratio": 0.9931506849315068,
+      "fallback_token_count": 5051,
+      "fallback_char_count": 5048,
+      "fallback_span_count": 2969,
+      "fallback_token_share": 0.28788828726132804,
+      "preview": "Ring distributions leading to species formation: a global topographic analysis of geographic barriers associated with ring species © Monahan et al; licensee BioMed Central Ltd. 2012 Received: 16 November 2011 Accepted: 1"
+    },
+    {
+      "doc_id": 4211,
+      "baseline_len": 15507,
+      "custom_len": 15529,
+      "delta": 22,
+      "ratio": 1.0014187141291029,
+      "fallback_token_count": 5038,
+      "fallback_char_count": 5033,
+      "fallback_span_count": 2867,
+      "fallback_token_share": 0.3244252688518256,
+      "preview": "Utopia, Limited; or, The Flowers of Progress, is a Savoy Opera, with music by Arthur Sullivan and libretto by W. S. Gilbert. It was the second-to-last of Gilbert and Sullivan's fourteen collaborations, premiering on 7 Oc"
+    },
+    {
+      "doc_id": 1857,
+      "baseline_len": 12378,
+      "custom_len": 12373,
+      "delta": -5,
+      "ratio": 0.9995960575214089,
+      "fallback_token_count": 4844,
+      "fallback_char_count": 4844,
+      "fallback_span_count": 2213,
+      "fallback_token_share": 0.39149761577628706,
+      "preview": "rbldnsd is a small DNS-protocol daemon which is designed to handle queries to DNS-based IP-listing or NAME-listing services. Such services are a simple way to share/publish a list of IP addresses or (domain) names which "
+    },
+    {
+      "doc_id": 7724,
+      "baseline_len": 11897,
+      "custom_len": 11888,
+      "delta": -9,
+      "ratio": 0.9992435067664117,
+      "fallback_token_count": 4667,
+      "fallback_char_count": 4641,
+      "fallback_span_count": 1941,
+      "fallback_token_share": 0.3925807537012113,
+      "preview": "Please provide an official email address. Please provide the name of the company that owns the rights to this video. We will call to confirm the DMCA request. Please tell us more about your DMCA request. Which company ow"
+    },
+    {
+      "doc_id": 5594,
+      "baseline_len": 13766,
+      "custom_len": 14019,
+      "delta": 253,
+      "ratio": 1.0183786139764637,
+      "fallback_token_count": 4651,
+      "fallback_char_count": 4625,
+      "fallback_span_count": 2276,
+      "fallback_token_share": 0.3317640345245738,
+      "preview": "John de Lancie (born March 20, 1948) is an American actor. He has been active in screen and television roles since 1977, though he is best known for his recurring role as Q on the various Star Trek series and as Frank Si"
+    },
+    {
+      "doc_id": 8530,
+      "baseline_len": 19977,
+      "custom_len": 19891,
+      "delta": -86,
+      "ratio": 0.9956950493067027,
+      "fallback_token_count": 4565,
+      "fallback_char_count": 4555,
+      "fallback_span_count": 3067,
+      "fallback_token_share": 0.22950077924689558,
+      "preview": "Almost seventy years have passed since the events of chapter 1 of Daniel. Nebuchadnezzar himself had died in 562 B.C. Daniel does not record his immediate successors, and extrabiblical literature is somewhat confused. A "
+    },
+    {
+      "doc_id": 6468,
+      "baseline_len": 17044,
+      "custom_len": 16898,
+      "delta": -146,
+      "ratio": 0.991433935695846,
+      "fallback_token_count": 4527,
+      "fallback_char_count": 4483,
+      "fallback_span_count": 2776,
+      "fallback_token_share": 0.26790152680790624,
+      "preview": "“Global hegemony” might be defined as a situation in which one nation-state plays a predominant role in organizing, regulating, and stabilizing the world political economy. The use of armed force has always been an insep"
+    },
+    {
+      "doc_id": 4358,
+      "baseline_len": 10430,
+      "custom_len": 11062,
+      "delta": 632,
+      "ratio": 1.060594439117929,
+      "fallback_token_count": 4505,
+      "fallback_char_count": 4503,
+      "fallback_span_count": 2122,
+      "fallback_token_share": 0.40725004519978303,
+      "preview": "Newspaper Page Text S.ip and think (1f this a itlnne. ut waii t I l use I_ l best Iuainl that yoV can It y: I we vant i I soi[ y , I the I .I I int made. The Important Thing to You Is Who Made the Paint? I itl I t \\, Ilo"
+    },
+    {
+      "doc_id": 5250,
+      "baseline_len": 20861,
+      "custom_len": 20904,
+      "delta": 43,
+      "ratio": 1.0020612626432097,
+      "fallback_token_count": 4496,
+      "fallback_char_count": 4495,
+      "fallback_span_count": 3366,
+      "fallback_token_share": 0.21507845388442404,
+      "preview": "After sixteen hours on the bus, I arrived in Tulsa, Oklahoma just before noon on a hot July day determined to find Charlie, actually Charlotte, but that’s not what I called her. I flew into Chicago and then took the long"
+    },
+    {
+      "doc_id": 1352,
+      "baseline_len": 15642,
+      "custom_len": 15684,
+      "delta": 42,
+      "ratio": 1.0026850786344457,
+      "fallback_token_count": 4495,
+      "fallback_char_count": 4495,
+      "fallback_span_count": 2586,
+      "fallback_token_share": 0.2865978066819689,
+      "preview": "Well; now that the bailout appears to have flamed out we see the stock market dropping faster than Larry Craig's boxers in airport men's room (what? hey, it's just an analogy!). In conversations over the weekend ( I was "
+    },
+    {
+      "doc_id": 5179,
+      "baseline_len": 16466,
+      "custom_len": 16329,
+      "delta": -137,
+      "ratio": 0.9916798250941333,
+      "fallback_token_count": 4483,
+      "fallback_char_count": 4337,
+      "fallback_span_count": 2608,
+      "fallback_token_share": 0.27454222548839485,
+      "preview": "This action might not be possible to undo. Are you sure you want to continue? Introduction Health examination is not complete without the oral health assessment. Regular assessment of dental diseases have been seen to be"
+    },
+    {
+      "doc_id": 5775,
+      "baseline_len": 18984,
+      "custom_len": 18967,
+      "delta": -17,
+      "ratio": 0.9991045090602613,
+      "fallback_token_count": 4424,
+      "fallback_char_count": 4421,
+      "fallback_span_count": 2920,
+      "fallback_token_share": 0.2332472188537987,
+      "preview": "On August 12, 2002 the Bishops Committee for Ecumenical and Interreligious Affairs, USCCB and the National Council of Synagogues published a document, Reflections on Covenant and Mission, consisting of separate Roman Cat"
+    },
+    {
+      "doc_id": 2931,
+      "baseline_len": 12731,
+      "custom_len": 12689,
+      "delta": -42,
+      "ratio": 0.9967009661456288,
+      "fallback_token_count": 4403,
+      "fallback_char_count": 4403,
+      "fallback_span_count": 2318,
+      "fallback_token_share": 0.34699345890141065,
+      "preview": "Latest Team Rankings Free Rivals Alerts |ShopMobileRadio RSSRivals.com Yahoo! Sports| |College Teams||High Schools| February 6, 2013 Bulldogs sign 20 prospects Mississippi State added 20 members to its 2013 football team"
+    },
+    {
+      "doc_id": 7078,
+      "baseline_len": 10947,
+      "custom_len": 11190,
+      "delta": 243,
+      "ratio": 1.0221978624280625,
+      "fallback_token_count": 4401,
+      "fallback_char_count": 4401,
+      "fallback_span_count": 2278,
+      "fallback_token_share": 0.3932975871313673,
+      "preview": "THE QUOTABLE FRED ASTAIRE Size: 16.82 x 26 cm 2000 Biographical Quotations by and about the world's greatest dancer: Dance Legend, Dancing Icon Ask George Balanchine. Ask Mikhail Baryshnikov. Ask James Cagney. Ask Bob Fo"
+    },
+    {
+      "doc_id": 4860,
+      "baseline_len": 12307,
+      "custom_len": 12342,
+      "delta": 35,
+      "ratio": 1.0028439099699358,
+      "fallback_token_count": 4081,
+      "fallback_char_count": 4024,
+      "fallback_span_count": 2035,
+      "fallback_token_share": 0.3306595365418895,
+      "preview": "Effect of CPAP on insulin resistance and HbA1c in men with obstructive sleep apnoea and type 2 diabetes - 1Sleep Unit, Oxford Centre for Respiratory Medicine, Churchill Hospital, Oxford, UK - 2Oxford Centre for Diabetes,"
+    },
+    {
+      "doc_id": 1898,
+      "baseline_len": 11564,
+      "custom_len": 11570,
+      "delta": 6,
+      "ratio": 1.00051885160844,
+      "fallback_token_count": 4078,
+      "fallback_char_count": 3972,
+      "fallback_span_count": 1895,
+      "fallback_token_share": 0.35246326707000863,
+      "preview": "UEFA Euro 2012 |Mistrzostwa Europy w Piłce Nożnej 2012 Чемпіонат Європи з футболу 2012 UEFA Euro 2012 official logo |Dates||8 June – 1 July| |Venue(s)||8 (in 8 host cities)| |Champions||Spain (3rd title)| |Goals scored||"
+    },
+    {
+      "doc_id": 5283,
+      "baseline_len": 18789,
+      "custom_len": 18597,
+      "delta": -192,
+      "ratio": 0.9897812549896216,
+      "fallback_token_count": 4073,
+      "fallback_char_count": 4069,
+      "fallback_span_count": 2868,
+      "fallback_token_share": 0.2190138194332419,
+      "preview": "Given at a conference of cardinals and bishops held in Rome, December 17, 2010. The author is auxiliary bishop of Karaganda, Kazakhstan. The primacy of the worship of God as the basis of all true pastoral theology. I. Th"
+    },
+    {
+      "doc_id": 4459,
+      "baseline_len": 14795,
+      "custom_len": 14760,
+      "delta": -35,
+      "ratio": 0.9976343359242987,
+      "fallback_token_count": 4029,
+      "fallback_char_count": 4023,
+      "fallback_span_count": 2602,
+      "fallback_token_share": 0.27296747967479673,
+      "preview": "Brette Barrouquere (AP) reports the latest on Steven D. Green accused of being the ringleader, murderer and gang-rapist in the slaying of 14-year-old Abeer Qassim al-Janabi. The prosecution and the defense will do their "
+    },
+    {
+      "doc_id": 5999,
+      "baseline_len": 14711,
+      "custom_len": 14555,
+      "delta": -156,
+      "ratio": 0.9893956902997757,
+      "fallback_token_count": 3982,
+      "fallback_char_count": 3969,
+      "fallback_span_count": 2397,
+      "fallback_token_share": 0.2735829611817245,
+      "preview": "Both blunted osteocytic production of the Wnt inhibitor sclerostin (Scl) and increased T-cell production of the Wnt ligand Wnt10b contribute to the bone anabolic activity of intermittent parathyroid hormone (iPTH) treatm"
+    },
+    {
+      "doc_id": 6937,
+      "baseline_len": 16677,
+      "custom_len": 16562,
+      "delta": -115,
+      "ratio": 0.9931042753492835,
+      "fallback_token_count": 3953,
+      "fallback_char_count": 3953,
+      "fallback_span_count": 2573,
+      "fallback_token_share": 0.23867890351406834,
+      "preview": "Cat PDA Vs. Human PDA, And Other Animal Behavior Explained From feisty kittens to pacing cheetahs, Vint Virga knows animal behavior. A veterinarian who specializes in behavioral medicine, Virga has treated many household"
+    },
+    {
+      "doc_id": 1214,
+      "baseline_len": 10961,
+      "custom_len": 10880,
+      "delta": -81,
+      "ratio": 0.9926101633062677,
+      "fallback_token_count": 3943,
+      "fallback_char_count": 3943,
+      "fallback_span_count": 1682,
+      "fallback_token_share": 0.36240808823529413,
+      "preview": "NO PURCHASE NECESSARY TO ENTER OR WIN. MAKING A PURCHASE DOES NOT INCREASE YOUR CHANCES OF WINNING. ODDS OF WINNING WILL DEPEND ON THE TOTAL NUMBER OF ENTRIES RECEIVED. VOID WHERE PROHIBITED BY LAW. ONLINE ENTRY ONLY AND"
+    },
+    {
+      "doc_id": 9515,
+      "baseline_len": 15788,
+      "custom_len": 15692,
+      "delta": -96,
+      "ratio": 0.9939194324803649,
+      "fallback_token_count": 3911,
+      "fallback_char_count": 3907,
+      "fallback_span_count": 2596,
+      "fallback_token_share": 0.24923527912312007,
+      "preview": "Applying mild electrical currents to your head could take away pain, help memory and improve attention – and the US military is very interested. Emma Young reports. In the summer of 2010, Ryan Clark twisted his ankle dur"
+    }
+  ],
+  "top_fallback_spans": [
+    {
+      "count": 181618,
+      "span": "s",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "count": 90674,
+      "span": "d",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 87564,
+      "span": "e",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "count": 81786,
+      "span": "t",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "count": 67863,
+      "span": " ",
+      "sample_doc_ids": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 64298,
+      "span": "y",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 57423,
+      "span": "m",
+      "sample_doc_ids": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 56811,
+      "span": "n",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "count": 56381,
+      "span": ",",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "count": 52182,
+      "span": "l",
+      "sample_doc_ids": [
+        0,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "count": 50048,
+      "span": "r",
+      "sample_doc_ids": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "count": 42277,
+      "span": "p",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 40583,
+      "span": "a",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 38899,
+      "span": "c",
+      "sample_doc_ids": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 34485,
+      "span": ".",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "count": 29634,
+      "span": "b",
+      "sample_doc_ids": [
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "count": 28665,
+      "span": "o",
+      "sample_doc_ids": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 26466,
+      "span": "h",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 25863,
+      "span": "g",
+      "sample_doc_ids": [
+        1,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "count": 22178,
+      "span": "f",
+      "sample_doc_ids": [
+        0,
+        0,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "count": 20537,
+      "span": "v",
+      "sample_doc_ids": [
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "count": 19566,
+      "span": "w",
+      "sample_doc_ids": [
+        0,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "count": 18075,
+      "span": "i",
+      "sample_doc_ids": [
+        6,
+        6,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "count": 16856,
+      "span": "k",
+      "sample_doc_ids": [
+        1,
+        3,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "count": 15902,
+      "span": "I",
+      "sample_doc_ids": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 15631,
+      "span": "'s",
+      "sample_doc_ids": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 13925,
+      "span": "u",
+      "sample_doc_ids": [
+        3,
+        3,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "count": 13220,
+      "span": "-",
+      "sample_doc_ids": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 10329,
+      "span": "S",
+      "sample_doc_ids": [
+        1,
+        3,
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "count": 9516,
+      "span": ".\n",
+      "sample_doc_ids": [
+        0,
+        0,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "count": 8747,
+      "span": "M",
+      "sample_doc_ids": [
+        1,
+        8,
+        10,
+        11,
+        11
+      ]
+    },
+    {
+      "count": 8240,
+      "span": "B",
+      "sample_doc_ids": [
+        0,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "count": 8012,
+      "span": "A",
+      "sample_doc_ids": [
+        6,
+        8,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 7278,
+      "span": "C",
+      "sample_doc_ids": [
+        3,
+        10,
+        10,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 6587,
+      "span": "W",
+      "sample_doc_ids": [
+        1,
+        5,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "count": 6297,
+      "span": "\n",
+      "sample_doc_ids": [
+        4,
+        7,
+        7,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 6138,
+      "span": ")",
+      "sample_doc_ids": [
+        3,
+        3,
+        5,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 6095,
+      "span": "H",
+      "sample_doc_ids": [
+        5,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 6045,
+      "span": "'",
+      "sample_doc_ids": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "count": 5938,
+      "span": "s,",
+      "sample_doc_ids": [
+        2,
+        6,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 5923,
+      "span": "P",
+      "sample_doc_ids": [
+        0,
+        9,
+        11,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 5353,
+      "span": "F",
+      "sample_doc_ids": [
+        0,
+        2,
+        6,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 5142,
+      "span": "D",
+      "sample_doc_ids": [
+        6,
+        8,
+        9,
+        11,
+        12
+      ]
+    },
+    {
+      "count": 4473,
+      "span": "x",
+      "sample_doc_ids": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 4418,
+      "span": "\"",
+      "sample_doc_ids": [
+        1,
+        8,
+        9,
+        11,
+        19
+      ]
+    },
+    {
+      "count": 4352,
+      "span": "L",
+      "sample_doc_ids": [
+        7,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 4331,
+      "span": "T",
+      "sample_doc_ids": [
+        3,
+        8,
+        11,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 4268,
+      "span": "n't",
+      "sample_doc_ids": [
+        1,
+        2,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "count": 4137,
+      "span": "O",
+      "sample_doc_ids": [
+        11,
+        11,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 4088,
+      "span": "N",
+      "sample_doc_ids": [
+        7,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 3974,
+      "span": "R",
+      "sample_doc_ids": [
+        1,
+        1,
+        3,
+        3,
+        6
+      ]
+    },
+    {
+      "count": 3825,
+      "span": "j",
+      "sample_doc_ids": [
+        6,
+        6,
+        12,
+        12,
+        14
+      ]
+    },
+    {
+      "count": 3791,
+      "span": "\n-",
+      "sample_doc_ids": [
+        12,
+        12,
+        38,
+        38,
+        48
+      ]
+    },
+    {
+      "count": 3781,
+      "span": "'t",
+      "sample_doc_ids": [
+        1,
+        1,
+        2,
+        6,
+        8
+      ]
+    },
+    {
+      "count": 3742,
+      "span": "G",
+      "sample_doc_ids": [
+        1,
+        6,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "count": 3645,
+      "span": "J",
+      "sample_doc_ids": [
+        8,
+        19,
+        24,
+        24,
+        29
+      ]
+    },
+    {
+      "count": 3616,
+      "span": "s.",
+      "sample_doc_ids": [
+        2,
+        3,
+        3,
+        5,
+        5
+      ]
+    },
+    {
+      "count": 3574,
+      "span": "z",
+      "sample_doc_ids": [
+        3,
+        6,
+        12,
+        12,
+        29
+      ]
+    },
+    {
+      "count": 3176,
+      "span": "ms",
+      "sample_doc_ids": [
+        3,
+        3,
+        3,
+        19,
+        22
+      ]
+    },
+    {
+      "count": 3055,
+      "span": "E",
+      "sample_doc_ids": [
+        3,
+        6,
+        8,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 2755,
+      "span": "ys",
+      "sample_doc_ids": [
+        21,
+        22,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "count": 2529,
+      "span": "ey",
+      "sample_doc_ids": [
+        12,
+        12,
+        12,
+        12,
+        15
+      ]
+    },
+    {
+      "count": 2496,
+      "span": ",\"",
+      "sample_doc_ids": [
+        8,
+        51,
+        96,
+        102,
+        133
+      ]
+    },
+    {
+      "count": 2406,
+      "span": "ix",
+      "sample_doc_ids": [
+        0,
+        6,
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "count": 2325,
+      "span": ".\n-",
+      "sample_doc_ids": [
+        26,
+        26,
+        26,
+        26,
+        26
+      ]
+    },
+    {
+      "count": 2298,
+      "span": ":",
+      "sample_doc_ids": [
+        9,
+        12,
+        12,
+        17,
+        19
+      ]
+    },
+    {
+      "count": 2269,
+      "span": "rm",
+      "sample_doc_ids": [
+        3,
+        3,
+        12,
+        12,
+        15
+      ]
+    },
+    {
+      "count": 2213,
+      "span": "V",
+      "sample_doc_ids": [
+        6,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "count": 2113,
+      "span": "ex",
+      "sample_doc_ids": [
+        3,
+        12,
+        12,
+        19,
+        19
+      ]
+    },
+    {
+      "count": 2068,
+      "span": ".\nA",
+      "sample_doc_ids": [
+        8,
+        15,
+        25,
+        29,
+        32
+      ]
+    },
+    {
+      "count": 2066,
+      "span": "?",
+      "sample_doc_ids": [
+        0,
+        6,
+        11,
+        11,
+        11
+      ]
+    },
+    {
+      "count": 2061,
+      "span": "ng",
+      "sample_doc_ids": [
+        6,
+        12,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "count": 2057,
+      "span": "ee",
+      "sample_doc_ids": [
+        29,
+        29,
+        34,
+        44,
+        44
+      ]
+    },
+    {
+      "count": 2051,
+      "span": "au",
+      "sample_doc_ids": [
+        1,
+        8,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 2001,
+      "span": "sp",
+      "sample_doc_ids": [
+        1,
+        6,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 1969,
+      "span": "io",
+      "sample_doc_ids": [
+        1,
+        3,
+        5,
+        21,
+        29
+      ]
+    },
+    {
+      "count": 1958,
+      "span": "ax",
+      "sample_doc_ids": [
+        19,
+        41,
+        68,
+        69,
+        85
+      ]
+    },
+    {
+      "count": 1947,
+      "span": "s ",
+      "sample_doc_ids": [
+        11,
+        12,
+        33,
+        42,
+        54
+      ]
+    },
+    {
+      "count": 1934,
+      "span": "K",
+      "sample_doc_ids": [
+        6,
+        12,
+        13,
+        19,
+        21
+      ]
+    },
+    {
+      "count": 1912,
+      "span": "ds",
+      "sample_doc_ids": [
+        1,
+        3,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "count": 1883,
+      "span": "be",
+      "sample_doc_ids": [
+        1,
+        1,
+        10,
+        11,
+        11
+      ]
+    },
+    {
+      "count": 1823,
+      "span": "Y",
+      "sample_doc_ids": [
+        3,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 1820,
+      "span": "sc",
+      "sample_doc_ids": [
+        18,
+        36,
+        41,
+        44,
+        44
+      ]
+    },
+    {
+      "count": 1801,
+      "span": "aj",
+      "sample_doc_ids": [
+        8,
+        12,
+        24,
+        29,
+        29
+      ]
+    },
+    {
+      "count": 1708,
+      "span": "ew",
+      "sample_doc_ids": [
+        12,
+        12,
+        12,
+        12,
+        40
+      ]
+    },
+    {
+      "count": 1687,
+      "span": "sh",
+      "sample_doc_ids": [
+        12,
+        13,
+        13,
+        13,
+        28
+      ]
+    },
+    {
+      "count": 1681,
+      "span": "ps",
+      "sample_doc_ids": [
+        1,
+        21,
+        25,
+        28,
+        82
+      ]
+    },
+    {
+      "count": 1673,
+      "span": "lo",
+      "sample_doc_ids": [
+        8,
+        22,
+        25,
+        29,
+        29
+      ]
+    },
+    {
+      "count": 1640,
+      "span": "!",
+      "sample_doc_ids": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 1567,
+      "span": "az",
+      "sample_doc_ids": [
+        5,
+        6,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 1513,
+      "span": "gy",
+      "sample_doc_ids": [
+        58,
+        63,
+        63,
+        63,
+        97
+      ]
+    },
+    {
+      "count": 1508,
+      "span": ".\nS",
+      "sample_doc_ids": [
+        1,
+        19,
+        29,
+        29,
+        29
+      ]
+    },
+    {
+      "count": 1488,
+      "span": "/",
+      "sample_doc_ids": [
+        17,
+        24,
+        54,
+        54,
+        71
+      ]
+    },
+    {
+      "count": 1479,
+      "span": " 2",
+      "sample_doc_ids": [
+        19,
+        85,
+        85,
+        101,
+        112
+      ]
+    },
+    {
+      "count": 1465,
+      "span": "ec",
+      "sample_doc_ids": [
+        3,
+        3,
+        3,
+        8,
+        8
+      ]
+    },
+    {
+      "count": 1456,
+      "span": ".\nI",
+      "sample_doc_ids": [
+        1,
+        15,
+        29,
+        32,
+        35
+      ]
+    },
+    {
+      "count": 1445,
+      "span": ".\nF",
+      "sample_doc_ids": [
+        1,
+        6,
+        22,
+        30,
+        43
+      ]
+    },
+    {
+      "count": 1430,
+      "span": "dd",
+      "sample_doc_ids": [
+        3,
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "count": 1425,
+      "span": "eg",
+      "sample_doc_ids": [
+        27,
+        65,
+        80,
+        81,
+        88
+      ]
+    },
+    {
+      "count": 1419,
+      "span": " 1",
+      "sample_doc_ids": [
+        8,
+        27,
+        50,
+        106,
+        106
+      ]
+    }
+  ],
+  "top_fallback_chars": [
+    {
+      "count": 274602,
+      "char": "s",
+      "ord": 115
+    },
+    {
+      "count": 170044,
+      "char": " ",
+      "ord": 32
+    },
+    {
+      "count": 151302,
+      "char": ".",
+      "ord": 46
+    },
+    {
+      "count": 149800,
+      "char": "e",
+      "ord": 101
+    },
+    {
+      "count": 149722,
+      "char": "\n",
+      "ord": 10
+    },
+    {
+      "count": 118207,
+      "char": "t",
+      "ord": 116
+    },
+    {
+      "count": 117537,
+      "char": "d",
+      "ord": 100
+    },
+    {
+      "count": 111276,
+      "char": "y",
+      "ord": 121
+    },
+    {
+      "count": 97108,
+      "char": "n",
+      "ord": 110
+    },
+    {
+      "count": 91054,
+      "char": "m",
+      "ord": 109
+    },
+    {
+      "count": 89113,
+      "char": ",",
+      "ord": 44
+    },
+    {
+      "count": 82834,
+      "char": "l",
+      "ord": 108
+    },
+    {
+      "count": 78941,
+      "char": "a",
+      "ord": 97
+    },
+    {
+      "count": 74921,
+      "char": "r",
+      "ord": 114
+    },
+    {
+      "count": 73680,
+      "char": "-",
+      "ord": 45
+    },
+    {
+      "count": 70684,
+      "char": "0",
+      "ord": 48
+    },
+    {
+      "count": 66553,
+      "char": "1",
+      "ord": 49
+    },
+    {
+      "count": 66430,
+      "char": "o",
+      "ord": 111
+    },
+    {
+      "count": 62857,
+      "char": "p",
+      "ord": 112
+    },
+    {
+      "count": 62807,
+      "char": "c",
+      "ord": 99
+    },
+    {
+      "count": 56151,
+      "char": "h",
+      "ord": 104
+    },
+    {
+      "count": 53227,
+      "char": "b",
+      "ord": 98
+    },
+    {
+      "count": 52646,
+      "char": "2",
+      "ord": 50
+    },
+    {
+      "count": 48351,
+      "char": "g",
+      "ord": 103
+    },
+    {
+      "count": 46391,
+      "char": "'",
+      "ord": 39
+    },
+    {
+      "count": 45711,
+      "char": "I",
+      "ord": 73
+    },
+    {
+      "count": 45336,
+      "char": "A",
+      "ord": 65
+    },
+    {
+      "count": 43368,
+      "char": "S",
+      "ord": 83
+    },
+    {
+      "count": 41877,
+      "char": "i",
+      "ord": 105
+    },
+    {
+      "count": 37415,
+      "char": "f",
+      "ord": 102
+    },
+    {
+      "count": 34593,
+      "char": "w",
+      "ord": 119
+    },
+    {
+      "count": 32459,
+      "char": "u",
+      "ord": 117
+    },
+    {
+      "count": 29501,
+      "char": "k",
+      "ord": 107
+    },
+    {
+      "count": 28977,
+      "char": "C",
+      "ord": 67
+    },
+    {
+      "count": 28702,
+      "char": "E",
+      "ord": 69
+    },
+    {
+      "count": 27763,
+      "char": "v",
+      "ord": 118
+    },
+    {
+      "count": 27216,
+      "char": "T",
+      "ord": 84
+    },
+    {
+      "count": 26917,
+      "char": "3",
+      "ord": 51
+    },
+    {
+      "count": 26535,
+      "char": "M",
+      "ord": 77
+    },
+    {
+      "count": 26162,
+      "char": "O",
+      "ord": 79
+    },
+    {
+      "count": 24399,
+      "char": ")",
+      "ord": 41
+    },
+    {
+      "count": 24181,
+      "char": "5",
+      "ord": 53
+    },
+    {
+      "count": 23523,
+      "char": "\"",
+      "ord": 34
+    },
+    {
+      "count": 22758,
+      "char": "B",
+      "ord": 66
+    },
+    {
+      "count": 22697,
+      "char": "9",
+      "ord": 57
+    },
+    {
+      "count": 22492,
+      "char": "N",
+      "ord": 78
+    },
+    {
+      "count": 22418,
+      "char": "P",
+      "ord": 80
+    },
+    {
+      "count": 22251,
+      "char": "R",
+      "ord": 82
+    },
+    {
+      "count": 21777,
+      "char": "4",
+      "ord": 52
+    },
+    {
+      "count": 21647,
+      "char": "x",
+      "ord": 120
+    },
+    {
+      "count": 21454,
+      "char": "D",
+      "ord": 68
+    },
+    {
+      "count": 19530,
+      "char": "W",
+      "ord": 87
+    },
+    {
+      "count": 19359,
+      "char": "L",
+      "ord": 76
+    },
+    {
+      "count": 18054,
+      "char": "H",
+      "ord": 72
+    },
+    {
+      "count": 17760,
+      "char": "8",
+      "ord": 56
+    },
+    {
+      "count": 17515,
+      "char": "6",
+      "ord": 54
+    },
+    {
+      "count": 16523,
+      "char": "F",
+      "ord": 70
+    },
+    {
+      "count": 16080,
+      "char": "7",
+      "ord": 55
+    },
+    {
+      "count": 14499,
+      "char": ":",
+      "ord": 58
+    },
+    {
+      "count": 14217,
+      "char": "/",
+      "ord": 47
+    },
+    {
+      "count": 13848,
+      "char": "z",
+      "ord": 122
+    },
+    {
+      "count": 12301,
+      "char": "G",
+      "ord": 71
+    },
+    {
+      "count": 9320,
+      "char": "U",
+      "ord": 85
+    },
+    {
+      "count": 8332,
+      "char": "j",
+      "ord": 106
+    },
+    {
+      "count": 8326,
+      "char": "!",
+      "ord": 33
+    },
+    {
+      "count": 8106,
+      "char": "?",
+      "ord": 63
+    },
+    {
+      "count": 7930,
+      "char": "J",
+      "ord": 74
+    },
+    {
+      "count": 7842,
+      "char": "V",
+      "ord": 86
+    },
+    {
+      "count": 7545,
+      "char": "Y",
+      "ord": 89
+    },
+    {
+      "count": 6440,
+      "char": "K",
+      "ord": 75
+    },
+    {
+      "count": 5596,
+      "char": "|",
+      "ord": 124
+    },
+    {
+      "count": 4495,
+      "char": "(",
+      "ord": 40
+    },
+    {
+      "count": 3271,
+      "char": "Q",
+      "ord": 81
+    },
+    {
+      "count": 2942,
+      "char": "X",
+      "ord": 88
+    },
+    {
+      "count": 2782,
+      "char": ";",
+      "ord": 59
+    },
+    {
+      "count": 2623,
+      "char": "_",
+      "ord": 95
+    },
+    {
+      "count": 2573,
+      "char": "Z",
+      "ord": 90
+    },
+    {
+      "count": 2521,
+      "char": "*",
+      "ord": 42
+    },
+    {
+      "count": 2433,
+      "char": "%",
+      "ord": 37
+    },
+    {
+      "count": 2086,
+      "char": "]",
+      "ord": 93
+    },
+    {
+      "count": 2075,
+      "char": "[",
+      "ord": 91
+    },
+    {
+      "count": 1382,
+      "char": ">",
+      "ord": 62
+    },
+    {
+      "count": 1264,
+      "char": "#",
+      "ord": 35
+    },
+    {
+      "count": 1202,
+      "char": "=",
+      "ord": 61
+    },
+    {
+      "count": 1134,
+      "char": "+",
+      "ord": 43
+    },
+    {
+      "count": 1097,
+      "char": "@",
+      "ord": 64
+    },
+    {
+      "count": 1030,
+      "char": "$",
+      "ord": 36
+    },
+    {
+      "count": 967,
+      "char": "é",
+      "ord": 233
+    },
+    {
+      "count": 899,
+      "char": "•",
+      "ord": 8226
+    },
+    {
+      "count": 821,
+      "char": "q",
+      "ord": 113
+    },
+    {
+      "count": 748,
+      "char": "&",
+      "ord": 38
+    },
+    {
+      "count": 477,
+      "char": "<",
+      "ord": 60
+    },
+    {
+      "count": 398,
+      "char": "®",
+      "ord": 174
+    },
+    {
+      "count": 394,
+      "char": "£",
+      "ord": 163
+    },
+    {
+      "count": 384,
+      "char": "©",
+      "ord": 169
+    },
+    {
+      "count": 292,
+      "char": "`",
+      "ord": 96
+    },
+    {
+      "count": 289,
+      "char": "»",
+      "ord": 187
+    },
+    {
+      "count": 231,
+      "char": "~",
+      "ord": 126
+    },
+    {
+      "count": 230,
+      "char": "™",
+      "ord": 8482
+    },
+    {
+      "count": 200,
+      "char": "\\",
+      "ord": 92
+    }
+  ]
+}
