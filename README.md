@@ -187,7 +187,7 @@ rsync -av --exclude='.git' parameter-golf-v3/ parameter-golf/
 ### 4. Export dataset
 
 ```bash
-python3 overlay/export_v3_dataset.py   --docs-jsonl data/docs_selected.jsonl   --vocab-jsonl overlay/vocab_best_v3.jsonl   --output-dir data/datasets/fineweb10B_customdp1024_v3   --num-val-docs 50000   --workers 16   --batch-docs 512   --max-shards 80
+python3 overlay/export_v3_dataset.py   --docs-jsonl data/docs_selected.jsonl   --vocab-jsonl overlay/vocab_best_v3.jsonl   --output-dir data/datasets/fineweb10B_customdp1024_v3   --num-val-docs 50000   --workers 16   --batch-docs 512   --max-shards 81
 ```
 
 ---
