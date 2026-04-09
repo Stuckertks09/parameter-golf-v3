@@ -1,6 +1,3 @@
-# 📘 `SYSTEM_INDEX.md` 
-
-````md
 # System Index
 ## Tokenizer system: generation → evaluation → refinement → training
 
@@ -356,7 +353,4 @@ Understanding the distinction between:
 
 is essential for using the system effectively.
 
-The tokenizer is now fixed. The system is ready for model-side exploration.
-
-```
 

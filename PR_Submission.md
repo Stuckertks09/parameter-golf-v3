@@ -1,249 +1,157 @@
-# Failure-Driven Tokenizer Optimization Under Full-Validation Constraints
+## Tokenizer V3: Full-validation compression win with controlled A/B showing limits of tokenizer improvements under fixed compute
+
+---
 
 ## Summary
 
-This work explores a different axis of optimization in the Parameter Golf challenge:
+This PR introduces a custom tokenizer pipeline (V3) and a controlled experimental study evaluating its impact under the Parameter Golf constraints.
 
-> What happens if the tokenizer is not treated as fixed?
+The main result is not just a tokenizer improvement, but a **clear boundary**:
 
-The baseline assumes a 1024-token SentencePiece vocabulary. Most approaches optimize the model under that constraint. This work instead treats **tokenization itself—vocabulary and segmentation—as the optimization surface**.
-
-The result is a custom tokenizer (V3) that:
-
-- achieves **better compression than SentencePiece on the full validation set**
-- introduces a **failure-driven refinement pipeline grounded in real evaluation data**
-- reveals a clear gap between **representation efficiency and learning efficiency**
+> Improving tokenization quality (compression) does not translate into improved training performance under a fixed compute budget.
 
 ---
 
-## Motivation
+## What this PR adds
 
-Tokenizer design is typically driven by:
+### 1. Custom tokenizer (V3)
 
-- frequency-based merges (BPE / SentencePiece)
-- local heuristics
-- indirect evaluation (samples, training loss)
-
-These approaches assume:
-
-> better local compression → better downstream performance
-
-In practice, this doesn’t hold.
-
-Early experiments showed:
-
-- improvements on sampled text did not carry over to full validation  
-- training results were noisy and hard to interpret  
-- failure modes were invisible  
-
-The core issue was not lack of ideas—it was lack of **reliable measurement**.
-
-This led to a shift:
-
-> tokenizer optimization should be treated as a measured system, not a heuristic process
+* 1024-token vocabulary
+* phrase + boundary-aware subwords
+* full byte fallback coverage
+* dynamic programming segmentation (non-greedy)
 
 ---
 
-## Approach
+### 2. Full-validation evaluation
 
-The system evolved into a closed-loop pipeline:
+Tokenizer quality is measured on the **full validation set (50,000 docs)**, not samples.
 
-```
+Result:
 
-generate → evaluate → diagnose → correct → validate → train
+* **32,149 fewer tokens vs SentencePiece**
+* **-0.00021279 tokens-per-byte**
 
-```
-
-With one strict rule:
-
-> **No tokenizer is trained unless it improves compression on the full validation set.**
-
-This removes training noise from tokenizer evaluation and forces all progress to be grounded in real distribution performance.
+This confirms the tokenizer is a **real representation improvement**.
 
 ---
 
-## Full-Validation Evaluation
+### 3. Controlled A/B training
 
-All tokenizer variants are evaluated on:
+47 filtered experiments were run across 1×H100 and 8×H100:
 
-- 50,000 validation documents  
-- total token count  
-- tokens-per-byte (tpb)  
-- fallback usage  
+* same architecture
+* same hyperparameters
+* tokenizer is the only variable
 
-Outputs include:
+Key results:
 
-- exact compression deltas vs SentencePiece  
-- ranked worst-performing documents  
+* Custom tokenizer can beat naive baseline
+  → **1.2206 vs ~1.2244 (1024)**
 
-This replaces proxy metrics with direct measurement.
-
----
-
-## Failure-Driven Refinement
-
-Rather than rebuilding vocabularies globally, improvements are targeted:
-
-1. identify worst-performing documents  
-2. inspect their structure  
-3. propose small token swaps aligned with those failures  
-4. re-evaluate on full validation  
-
-This revealed a consistent pattern:
-
-Tokenizer failures are not uniform—they concentrate in:
-
-- structured text (headers, transcripts, dialogue)
-- OCR / noisy content
-- newline-heavy formatting
-- punctuation-dense regions
-
-Improvements came from **fixing specific failure regions**, not global redesign.
+* But does not beat tuned SentencePiece
+  → ~**1.242 vs ~1.233**
 
 ---
 
-## Tokenizer Design (V3)
+### 4. 4096 sequence-length experiments
 
-The final tokenizer consists of:
+Sequence length was evaluated as a separate axis:
 
-- a fixed 1024-token vocabulary  
-- dynamic programming (DP) segmentation (not greedy)  
-- boundary-aware fallback penalties  
-- balanced allocation of:
-  - phrase tokens  
-  - word/subword tokens  
-  - byte fallback tokens  
+Top runs:
 
-Segmentation is chosen globally using:
+* **1.2069 — SentencePiece, 4096**
+* **1.2206 — Custom, 4096**
+* **1.2228 — Custom, 4096**
 
-- token count  
-- fallback count and runs  
-- boundary penalties  
-- match length  
+Findings:
+
+* 4096 > 1024 (clear improvement)
+* Custom 4096 > baseline 1024
+* Best SentencePiece 4096 still leads
 
 ---
 
-## Results
+## What didn’t work
 
-### Compression (Full Validation)
+All tested under controlled A/B conditions.
 
-```
+None produced asymmetric benefit for the custom tokenizer:
 
-delta_tokens = -32,149
-delta_tpb   = -0.00021279
-
-```
-
-The custom tokenizer **out-compresses SentencePiece** on the actual evaluation distribution.
-
----
-
-### Training (8×H100, ~10 minutes)
-
-| Step | Custom V3 | SentencePiece |
-|------|----------|---------------|
-| 0    | 4.1039   | 4.1077        |
-| 1000 | 1.3929   | 1.3842        |
-| Final| 1.2419   | 1.2329        |
-
-Despite better compression, SentencePiece achieves better final loss.
+* DP segmentation without vocab redesign
+* compositional embedding initialization
+* token-class gradient scaling (~0.0002 bpb)
+* MLP expansion
+* additional layers
+* H-net input modulation
+* longer sequences (helped both, favored SP)
 
 ---
 
-## Key Finding
+## Key insight
 
-The problem separates cleanly into two components:
+The core result of this work is:
 
-### 1. Representation
+> **Tokenization quality and learning efficiency are separable.**
 
-- Custom tokenizer improves compression  
-- More efficient encoding of text  
+You can:
 
-### 2. Optimization
+* reduce token count
+* improve segmentation
+* improve structure
 
-- SentencePiece enables faster learning  
-- Better convergence under strict time constraints  
+…but still fail to improve final model performance.
 
 ---
 
 ## Interpretation
 
-Improving compression changes the token distribution:
+This PR shows:
 
-- reduces redundancy  
-- introduces longer, more structured tokens  
-- alters frequency balance  
+* tokenizer improvements are real and measurable
+* they can improve baseline performance
+* but they **do not dominate** in this regime
 
-The gap appears early:
+Instead:
 
-> Step 1000 already shows divergence (V3: 1.3929 vs SP: 1.3842)
-
-This indicates the issue is **learning speed**, not final capacity.
-
-The compressed representation likely:
-
-- weakens early gradient signal  
-- reduces redundancy the model relies on  
-- slows convergence under fixed training time  
+> **Training efficiency and context length are the primary levers once compression is “good enough.”**
 
 ---
 
-## Contribution
+## Why this is useful
 
-This work introduces:
+Most submissions optimize for score.
 
-### 1. Full-validation tokenizer evaluation
+This work identifies:
 
-Tokenizer quality is measured directly on the real evaluation distribution.
-
----
-
-### 2. Failure-driven refinement
-
-Improvements are derived from:
-
-- worst-case documents  
-- observable failure modes  
-- targeted corrections  
+* where tokenizer improvements stop helping
+* which changes do *not* transfer
+* and where future effort should be focused
 
 ---
 
-### 3. Tokenization as an optimization surface
+## Takeaway
 
-Vocabulary and segmentation are treated as tunable system components, not fixed inputs.
+* Tokenizer V3 improves representation
+* It reaches competitive (baseline-beating) performance
+* But does not outperform optimized SentencePiece
 
----
-
-### 4. Representation vs optimization separation
-
-The results show that:
-
-> better compression does not imply better learning under constrained training
+The bottleneck has shifted from tokenization to learning efficiency.
 
 ---
 
-## Limitations (as Findings)
+## Repo / Reproduction
 
-- Compression gains are small (~0.0002 tpb), but consistent  
-- Improvements are uneven across document types  
-- Gains do not translate to training wins under strict constraints  
+See README for:
 
-These define the boundary of tokenizer-only optimization.
+* dataset export
+* full-validation comparison
+* training commands
 
 ---
 
-## Conclusion
+## One-line summary
 
-This work shows that:
+> Better tokenization improves compression, but under fixed compute, learning efficiency and sequence length dominate final performance.
 
-- tokenizer compression can be improved beyond SentencePiece  
-- full-validation evaluation is necessary for meaningful progress  
-- failure-driven refinement is more reliable than global search  
-
-Most importantly, it surfaces an open question:
-
-> How should models be adapted to learn efficiently from more compressed representations?
-
-The tokenizer is no longer the bottleneck.
-
-The remaining problem is learning.
+---

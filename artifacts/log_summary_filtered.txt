@@ -1,0 +1,52 @@
+Parameter Golf Log Summary
+
+Source CSV: log_summary.csv
+Parsed rows in CSV: 88
+Rows after de-duplicating checkpoint copies: 74
+Relevance filter:
+  8xH100: keep 1.18 <= score_bpb <= 1.30
+  1xH100: keep 1.25 <= score_bpb <= 1.45
+Rows after relevance filter: 47
+
+8xH100
+  runs: 30
+  avg score_bpb: 1.24082568
+  median score_bpb: 1.23837513
+  best score_bpb: 1.20692498
+  worst kept score_bpb: 1.29620000
+  by family:
+    SentencePiece: count=5, avg=1.22617199, best=1.20692498
+    Custom: count=3, avg=1.23984770, best=1.23770264
+    Unknown: count=22, avg=1.24428943, best=1.22059676
+  top kept runs:
+    1.20692498 | SentencePiece | seq=4096 | step_ms=74.99 | 2a342f81-9171-4d31-8976-aa55acec41bb.txt
+    1.22059676 | Unknown       | seq=4096 | step_ms=80.53 | 345618fb-40d9-4c86-9869-b319056a30b2.txt
+    1.22286486 | Unknown       | seq=4096 | step_ms=83.36 | eecf6797-03cb-44d4-b5b9-933631b66953.txt
+    1.23011520 | SentencePiece | seq=1024 | step_ms=52.59 | ab_baseline_sp1024_final.txt
+    1.23090468 | SentencePiece | seq=1024 | step_ms=52.20 | ab_baseline_sp1024_8gpu.txt
+    1.23109984 | SentencePiece | seq=1024 | step_ms=55.27 | 3c8bbfee-d1bc-412b-aa08-be1dd88823e5.txt
+    1.23181524 | SentencePiece | seq=1024 | step_ms=55.07 | efefeec7-9a7a-437a-92b0-23bc94727a5c.txt
+    1.23737278 | Unknown       | seq=1024 | step_ms=47.72 | 8e9cab0d-ca3b-4316-9149-d00a847db658.txt
+    1.23752045 | Unknown       | seq=1024 | step_ms=48.07 | 562bc6ca-ba76-43d1-b2bd-1b6b77c12951.txt
+    1.23770264 | Custom        | seq=1024 | step_ms=51.88 | ab_custom_v1_final.txt
+
+1xH100
+  runs: 17
+  avg score_bpb: 1.34389224
+  median score_bpb: 1.34603903
+  best score_bpb: 1.32812074
+  worst kept score_bpb: 1.36158658
+  by family:
+    SentencePiece: count=5, avg=1.33532945, best=1.32812074
+    Unknown: count=12, avg=1.34746006, best=1.33605352
+  top kept runs:
+    1.32812074 | SentencePiece | seq=2048 | step_ms=531.76 | 2aaed35a-5b4c-4ff4-8966-23108973b9c9.txt
+    1.33063197 | SentencePiece | seq=1024 | step_ms=452.01 | 006746a4-2971-44ba-8010-08aefe0a9043.txt
+    1.33276929 | SentencePiece | seq=1024 | step_ms=535.46 | fbf6b983-0289-426a-8d30-28aefa43ca2f.txt
+    1.33605352 | Unknown       | seq=4096 | step_ms=557.70 | 547ea058-0586-46b6-9611-80aee17c6ccb.txt
+    1.33710223 | SentencePiece | seq=1024 | step_ms=526.83 | d5f94ada-1298-4702-9123-6770eed68924.txt
+    1.33781484 | Unknown       | seq=1024 | step_ms=428.15 | 8cd5e256-9d46-4f4e-8682-28117ebe9144.txt
+    1.33869896 | Unknown       | seq=2048 | step_ms=535.25 | 5ca956b4-f82c-4b21-9678-18d3e9662dd7.txt
+    1.34126969 | Unknown       | seq=1024 | step_ms=532.57 | 03ee86eb-6e65-4941-bd40-20a3dfae9427.txt
+    1.34603903 | Unknown       | seq=1024 | step_ms=471.95 | a250fd80-1ca2-4cdf-aa62-5961fc2c1ebc.txt
+    1.34636835 | Unknown       | seq=1024 | step_ms=518.88 | c0d21719-a31c-4416-8a0c-bb3df795338b.txt
