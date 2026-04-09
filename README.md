@@ -8,7 +8,7 @@ A reproducible overlay for the OpenAI **Parameter Golf** challenge focused on a 
 
 ## 🔗 Quick Navigation
 
-- [Executive Summary](#executive-summary)
+- [Thesis](#thesis)
 - [Core Finding](#core-finding-of-the-project)
 - [Technical Contribution](#technical-contribution)
 - [Experiment Arc](#experiment-arc)
@@ -20,7 +20,7 @@ A reproducible overlay for the OpenAI **Parameter Golf** challenge focused on a 
 
 ---
 
-## Executive Summary
+## Thesis
 
 This project builds and validates a custom tokenizer pipeline on top of the OpenAI Parameter Golf baseline.
 
